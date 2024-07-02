@@ -1,0 +1,52 @@
+###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# Rhineland Militarisation
+news_event = {
+	id = news.25
+	title = news.25.t
+	desc = news.25.desc
+	picture = GFX_news_event_rhineland_remilitarisation
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.25.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = FRA
+				TAG = ENG
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = news.25.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.25.c
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.25.e
+		trigger = { TAG = ENG }
+	}
+	option = {
+		name = news.25.b
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = FRA
+				TAG = ENG
+			}
+			is_in_faction_with = GER
+		}
+	}
+}
