@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			desc= adolf_hitler_36_desc
+			desc= adolf_hitler_desc
 			ideology=national_socialism
 			traits={ dictator }
 			expire="1963.1.1.1"
@@ -43,44 +43,6 @@ characters={
 			id=-1
 		}
 	}
-
-	GER_wilhelm_ii={ #Empty Wilhelm II so he doesn't become ruler automatically if the neutrals are in power
-		name=GER_wilhelm_ii
-		portraits={
-			civilian={
-				large="GFX_portrait_ger_wilhelm_ii"
-			}	
-		}
-	}
-
-	GER_wilhelm_iii={ #Empty Wilhelm III so he doesn't become ruler automatically if the neutrals are in power
-		name=GER_wilhelm_iii
-		portraits={
-			civilian={
-				large="GFX_portrait_ger_wilhelm_iii"
-			}	
-		}
-	}
-
-	GER_victoria={ #Empty Vicky3 
-		name=GER_victoria
-		gender = female 
-		portraits={
-			civilian={
-				large="GFX_portrait_ger_victoria_louise"
-			}
-		}
-	}
-
-	GER_august_von_mackensen={
-		name=GER_august_von_mackensen
-		portraits={
-			civilian={
-				large="GFX_portrait_ger_august_von_mackensen"
-			}
-		}
-	}
-
 	GER_gerd_von_rundstedt={
 		name=GER_gerd_von_rundstedt
 		portraits={
@@ -1413,19 +1375,22 @@ characters={
 		name=GER_wilhelm_frick
 		portraits={
 			army={
-				small="GFX_idea_frickt"
+				small="GFX_idea_frick"
 			}
-			
 		}
 		advisor={
 			slot = security_minister
-			idea_token = wilhelm_frick
+			idea_token = wilhelm_frick_sec
+			desc = GER_wilhelm_frick_sec_desc
+			can_be_fired = no
+			cost = -1
 			allowed = {
 				original_tag = GER
 			}
 			available = {
 			}
 			traits = {
+				security_minister
 			}
 			ai_will_do = {
 				factor = 0.500
@@ -1488,6 +1453,8 @@ characters={
 		advisor={
 			slot = economy_minister
 			idea_token = GER_hjalmar_schacht_eco
+			desc = GER_hjalmar_schacht_eco_desc
+			can_be_fired = no
 			cost = -1
 			allowed = {
 				original_tag = GER
@@ -1495,6 +1462,7 @@ characters={
 			available = {
 			}
 			traits = {
+				economy_minister
 				captain_of_industry 
 			}
 			ai_will_do = {
@@ -1654,6 +1622,7 @@ characters={
 		advisor={
 			slot = head_of_government
 			idea_token = GER_rudolf_hess_hog
+			desc = GER_rudolf_hess_desc
 			can_be_fired = no
 			cost = -1
 			allowed = {
@@ -1668,7 +1637,7 @@ characters={
 				}
 			}
 			traits = {
-				amateur_aviator_hess
+				head_of_government
 			}
 		}
 	}
@@ -1730,6 +1699,7 @@ characters={
 				factor = 201.000
 			}
 			traits = {
+				head_of_government
 				silent_workhorse 
 			}
 		}		
@@ -1772,11 +1742,14 @@ characters={
 		advisor={
 			slot = foreign_minister
 			idea_token = GER_konstantin_von_neurath_for
+			desc = GER_konstantin_von_neurath_for_desc
+			can_be_fired = no
 			cost = -1
 			allowed = {
 				original_tag = GER
 			}
 			traits = {
+				foreign_minister
 				smooth_talking_charmer 
 			}
 			ai_will_do = { factor = 0 }
