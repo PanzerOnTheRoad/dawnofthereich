@@ -1,4 +1,6 @@
 GER_heim_ins_reich_category = {
+
+###ANCHLUSS
 	GER_anschluss_decision = {
 		icon = GFX_decision_generic_annexation
 		cost = 100
