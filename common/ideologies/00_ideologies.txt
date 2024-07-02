@@ -49,12 +49,12 @@ ideologies = {
 		types = {
 
 			fascism_ideology_subtype = {}
-			fascism__fascism_ideology_subtype = {}
-			fascism__falangism_subtype = {}
-			fascism__corporate_statism_subtype = {}
-			fascism__corporatism_subtype = {}
-			fascism__fascist_populism_subtype = {}
-			fascism__revolutionary_nationalism_subtype = {}			
+			fascism_fascism_ideology_subtype = {}
+			fascism_falangism_subtype = {}
+			fascism_corporate_statism_subtype = {}
+			fascism_corporatism_subtype = {}
+			fascism_fascist_populism_subtype = {}
+			fascism_revolutionary_nationalism_subtype = {}			
 
 		}
 
@@ -158,17 +158,17 @@ ideologies = {
 	despotism = {
 
 	types = {
-			despotism__absolute_monarchy_subtype = {}
-			despotism__military_junta_subtype = {}
-			despotism__civilian_dictatorship_subtype = {}
-			despotism__theocracy_subtype = {}
-			despotism__interim_government_subtype = {}
-			despotism__colonial_government_subtype = {}
-			despotism__corporatocracy_subtype = {}
-			despotism__aristocratic_conservatism_subtype = {}
-			despotism__warlordism_subtype = {}
-			despotism__personalistic_dictatorship_subtype = {}
-			despotism__partisan_movement_subtype = {}
+			despotism_absolute_monarchy_subtype = {}
+			despotism_military_junta_subtype = {}
+			despotism_civilian_dictatorship_subtype = {}
+			despotism_theocracy_subtype = {}
+			despotism_interim_government_subtype = {}
+			despotism_colonial_government_subtype = {}
+			despotism_corporatocracy_subtype = {}
+			despotism_aristocratic_conservatism_subtype = {}
+			despotism_warlordism_subtype = {}
+			despotism_personalistic_dictatorship_subtype = {}
+			despotism_partisan_movement_subtype = {}
 	}
 
 	dynamic_faction_names = {
@@ -203,19 +203,19 @@ ideologies = {
 	paternalism = {
 
 	types = {
-			paternalism__national_conservatism_subtype = {}
-			paternalism__social_nationalism_subtype = {}
-			paternalism__controlled_democracy_subtype = {}
-			paternalism__stratocracy_subtype = {}
-			paternalism__oligarchy_subtype = {}
-			paternalism__solidarism_subtype = {}
-			paternalism__military_mandate_subtype = {}
-			paternalism__corporate_paternalism_subtype = {}
-			paternalism__semi_constitutional_monarchy_subtype = {}
-			paternalism__dominant_party_democracy_subtype = {}
-			paternalism__provisional_government_subtype = {}
-			paternalism__right_wing_populism_subtype = {}
-			paternalism__left_wing_corporatism_subtype = {}
+			paternalism_national_conservatism_subtype = {}
+			paternalism_social_nationalism_subtype = {}
+			paternalism_controlled_democracy_subtype = {}
+			paternalism_stratocracy_subtype = {}
+			paternalism_oligarchy_subtype = {}
+			paternalism_solidarism_subtype = {}
+			paternalism_military_mandate_subtype = {}
+			paternalism_corporate_paternalism_subtype = {}
+			paternalism_semi_constitutional_monarchy_subtype = {}
+			paternalism_dominant_party_democracy_subtype = {}
+			paternalism_provisional_government_subtype = {}
+			paternalism_right_wing_populism_subtype = {}
+			paternalism_left_wing_corporatism_subtype = {}
 	}
 	dynamic_faction_names = {
 		"FACTION_NAME_PATERNALIST_1"
@@ -245,15 +245,15 @@ ideologies = {
 
 		types = {
 
-			conservatism__paternalistic_conservatism_subtype = {}
-			conservatism__populist_conservatism_subtype = {}
-			conservatism__christian_conservatism_subtype = {}
-			conservatism__progressive_conservatism_subtype = {}
-			conservatism__free_market_conservatism_subtype = {}
-			conservatism__silent_conservatism_subtype = {}
-			conservatism__natural_conservatism_subtype = {}
-			conservatism__prairie_populism_subtype = {}
-			conservatism__liberal_corporatism_subtype = {}
+			conservatism_paternalistic_conservatism_subtype = {}
+			conservatism_populist_conservatism_subtype = {}
+			conservatism_christian_conservatism_subtype = {}
+			conservatism_progressive_conservatism_subtype = {}
+			conservatism_free_market_conservatism_subtype = {}
+			conservatism_silent_conservatism_subtype = {}
+			conservatism_natural_conservatism_subtype = {}
+			conservatism_prairie_populism_subtype = {}
+			conservatism_liberal_corporatism_subtype = {}
 		}
 
 		dynamic_faction_names = {
@@ -308,10 +308,10 @@ ideologies = {
 	liberal_conservatism = {
 
 		types = {
-			liberal_conservatism__liberal_conservatism_subtype = {}
-			liberal_conservatism__market_liberalism_subtype = {}
-			liberal_conservatism__christian_democracy_subtype = {}
-			liberal_conservatism__oligarchic_liberalism_subtype = {}
+			liberal_conservatism_subtype = {}
+			liberal_conservatism_market_liberalism_subtype = {}
+			liberal_conservatism_christian_democracy_subtype = {}
+			liberal_conservatism_oligarchic_liberalism_subtype = {}
 		}
 
 		dynamic_faction_names = {
@@ -336,13 +336,13 @@ ideologies = {
 	liberalism = {
 
 		types = {
-			liberalism__liberalism_subtype = {}
-			liberalism__national_liberalism_subtype = {}
-			liberalism__liberal_radicalism_subtype = {}
-			liberalism__christian_liberalism_subtype = {}
-			liberalism__liberal_agrarianism_subtype = {}
-			liberalism__progressive_liberalism_subtype = {}
-			liberalism__classical_liberalism_subtype = {}
+			liberalism_liberalism_subtype = {}
+			liberalism_national_liberalism_subtype = {}
+			liberalism_liberal_radicalism_subtype = {}
+			liberalism_christian_liberalism_subtype = {}
+			liberalism_liberal_agrarianism_subtype = {}
+			liberalism_progressive_liberalism_subtype = {}
+			liberalism_classical_liberalism_subtype = {}
 		}
 
 		dynamic_faction_names = {
@@ -367,17 +367,17 @@ ideologies = {
 	progressivism = {
 
 		types = {
-			progressivism__progressivism_subtype = {}
-			progressivism__social_democracy_subtype = {}
-			progressivism__democratic_socialism_subtype = {}
-			progressivism__left_wing_populism_subtype = {}
-			progressivism__labor_zionism_subtype = {}
-			progressivism__popular_front_subtype = {}
-			progressivism__left_wing_agrarianism_subtype = {}
-			progressivism__christian_progressivism_subtype = {}
-			progressivism__liberal_socialism_subtype = {}
-			progressivism__eastern_progressivism_subtype = {}
-			progressivism__western_progressivism_subtype = {}
+			progressivism_subtype = {}
+			progressivism_social_democracy_subtype = {}
+			progressivism_democratic_socialism_subtype = {}
+			progressivism_left_wing_populism_subtype = {}
+			progressivism_labor_zionism_subtype = {}
+			progressivism_popular_front_subtype = {}
+			progressivism_left_wing_agrarianism_subtype = {}
+			progressivism_christian_progressivism_subtype = {}
+			progressivism_liberal_socialism_subtype = {}
+			progressivism_eastern_progressivism_subtype = {}
+			progressivism_western_progressivism_subtype = {}
 		}
 
 		dynamic_faction_names = {
@@ -429,16 +429,16 @@ ideologies = {
 	communism = {
 
 		types = {
-			communism__communism_subtype = {}
-			communism__bolshevism_subtype = {}
-			communism__marxism_leninism_subtype = {}
-			communism__left_communism_subtype = {}
-			communism__stratocratic_communism_subtype = {}
-			communism__mao_zedong_thought_subtype = {}
-			communism__arab_communism_subtype = {}
-			communism__national_communism_subtype = {}
-			communism__workerism_subtype = {}
-			communism__revolutionary_baathism_subtype = {}
+			communism_communism_subtype = {}
+			communism_bolshevism_subtype = {}
+			communism_marxism_leninism_subtype = {}
+			communism_left_communism_subtype = {}
+			communism_stratocratic_communism_subtype = {}
+			communism_mao_zedong_thought_subtype = {}
+			communism_arab_communism_subtype = {}
+			communism_national_communism_subtype = {}
+			communism_workerism_subtype = {}
+			communism_revolutionary_baathism_subtype = {}
 		}
 
 		dynamic_faction_names = {
