@@ -1,0 +1,267 @@
+ideas = {
+
+country = {
+    GER_wirtschaftwunder = {
+        picture =
+        
+        allowed = { 
+            tag = GER
+        }
+        
+        available = { 
+        }
+        
+        cancel = {
+        }
+
+        allowed_civil_war = {
+            always = yes
+        }
+
+        removal_cost = -1
+        
+        modifier = {
+            consumer_goods_factor = 0.1
+            production_speed_industrial_complex_factor = 0.075
+        }
+
+        on_remove = {
+            add_stability = 0.05
+        }
+    }
+}
+
+country = {
+    GER_an_autarkic_industry = {
+        picture = 
+        
+        allowed = {
+            tag = GER
+        }
+        
+        available = {
+        }
+        
+        cancel = {
+        }
+
+        allowed_civil_war = {
+            always = yes
+        }
+
+        removal_cost = -1
+        
+        modifier = {
+            production_speed_arms_factory_factor	 = 0.10
+            production_speed_dockyard_factor = 0.10
+            local_resources_factor = 0.12
+            consumer_goods_factor = 0.02
+        }
+    }
+}
+
+country = {
+ GER_reaching_out_to_corporate_giants = {
+        picture = 
+        allowed = { 
+            tag = GER
+        }
+		
+		available = {
+        }
+        
+        cancel = {
+        }
+
+        allowed_civil_war = {
+            always = yes
+        }
+		
+		removal_cost = -1
+		
+        modifier = {
+            research_speed_factor = 0.05
+            production_speed_buildings_factor = 0.05
+            consumer_goods_factor = -0.02
+        }
+	}
+}
+
+country = {
+    GER_transitioning_to_a_state_owned_market = {
+        picture = "GFX_idea_generic_industry"
+        allowed = { 
+            tag = GER
+        }
+		
+		available = {
+        }
+        
+        cancel = {
+        }
+
+        allowed_civil_war = {
+            always = yes
+        }
+		
+        modifier = {
+            production_factory_max_efficiency_factor = 0.05 
+            political_power_factor = -0.05
+        }
+    }
+}
+
+country = {
+    GER_volksgemeinschaft = {
+        picture = 
+        
+        allowed = {
+            tag = GER
+        }
+        
+        available = {
+        }
+        
+        cancel = {
+        }
+
+        allowed_civil_war = {
+            always = yes
+        }
+
+        removal_cost = -1
+        
+        modifier = {
+           drift_defence_factor = 0.05
+		   political_power_gain = 0.25
+		   war_support_weekly = 0.001
+			}
+		}
+	}
+	
+country = {
+    GER_collaboration_with_ig_farben = {
+        picture = 
+        
+        allowed = {
+            tag = GER
+        }
+        
+        available = {
+        }
+        
+        cancel = {
+        }
+
+        allowed_civil_war = {
+            always = yes
+        }
+
+        removal_cost = -1
+        
+        modifier = {
+           fuel_gain_factor = 0.1
+		   local_resources_factor = 0.05
+		   production_speed_industrial_complex_factor = -0.025
+			}
+		}
+	}
+	
+country = {
+    GER_the_mittelstand = {
+        picture = 
+        
+        allowed = {
+            tag = GER
+        }
+        
+        available = {
+        }
+        
+        cancel = {
+        }
+
+        allowed_civil_war = {
+            always = yes
+        }
+
+        removal_cost = -1
+        
+        modifier = {
+            production_speed_industrial_complex_factor = 0.05
+            consumer_goods_factor = -0.02
+            political_power_gain = -0.03
+            industrial_capacity_factory = -0.03
+			}
+		}
+	}
+country = {
+	GER_a_man = {
+        picture = GFX_idea_GER_a_man
+        allowed = { 
+            tag = GER
+        }
+		
+		available = {
+        }
+        
+        cancel = {
+        }
+
+        allowed_civil_war = {
+            always = yes
+        }
+		
+		removal_cost = -1
+		
+        modifier = {
+            political_power_gain = 0.10
+            offensive_war_stability_factor = 0.075
+        }
+	}
+}
+country = {
+    GER_a_problem = {
+        picture =
+        allowed = { 
+            tag = GER
+        }
+        available = { 
+        }
+        cancel = {
+			has_war = yes
+        }
+        allowed_civil_war = {
+            always = yes
+        }
+        removal_cost = -1
+        modifier = {
+            stability_factor = -0.10
+            consumer_goods_factor = 0.12
+			ai_join_ally_desire_factor = 0.5
+			conscription_factor = -0.55
+        }
+    }
+}
+country = {	
+    GER_a_solution = {
+        picture = 
+        allowed = { 
+            tag = GER
+        }
+        available = { 
+        }
+        cancel = {
+        }
+        allowed_civil_war = {
+            always = yes
+        }
+        removal_cost = -1
+        modifier = {
+            production_speed_arms_factory_factor = 0.10
+			army_attack_factor = 0.05
+			}
+		}
+	}
+	
+}
