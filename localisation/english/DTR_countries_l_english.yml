@@ -1,0 +1,25 @@
+﻿l_english:
+ GER_national_socialism:0 "German Reich"
+ GER_national_socialism_DEF:0 "the German Reich"
+ 
+ ENG_conservatism:0 "United Kingdom"
+ ENG_conservatism_DEF:0 "the United Kingdom"
+ 
+ SOV_communism:0 "Union of Soviet Socialist Republics"
+ SOV_communism_DEF:0 "the Union of Soviet Socialist Republics" 
+ 
+ USA_liberalism:0 "United States of America"
+ USA_liberalism_DEF:0 "the United States of America" 
+ USA_conservatism:0 "United States of America"  
+ USA_conservatism_DEF:0 "the United States of America" 
+ 
+ SWE_progressivism:0 "Kingdom of Sweden"
+ SWE_progressivism_DEF:0 "the Kingdom of Sweden" 
+ 
+ FRA_conservatism:0 "French Republic"
+ FRA_conservatism:0 "the French Republic" 
+ FRA_liberalism:0 "French Republic"  
+ FRA_liberalism_DEF:0 "the French Republic"  
+ 
+ AUS_paternalism:0 "Federal State of Austria"
+ AUS_paternalism_DEF:0 "the Federal State of Austria"
