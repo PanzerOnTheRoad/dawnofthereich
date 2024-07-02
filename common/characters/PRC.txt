@@ -21,7 +21,7 @@ characters={
 			legacy_id=-1
 		}
 		country_leader={
-			ideology=mao_zedong_thought
+			ideology=communism_mao_zedong_thought_subtype
 			traits={ cornered_fox }
 			expire="1965.1.1.1"
 			id=-1

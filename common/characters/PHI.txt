@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_liberalism
+			ideology=liberalism_national_liberalism_subtype 
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism_leninism
+			ideology=communism_marxism_leninism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -33,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazism
+			ideology=national_socialism
 			expire="1941.1.1.12"
 			id=-1
 		}

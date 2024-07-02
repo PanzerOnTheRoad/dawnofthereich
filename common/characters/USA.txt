@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=progressive_liberalism
+			ideology=liberalism_progressive_liberalism_subtype
 			traits={ dislikes_germany }
 			expire="1947.1.1.1"
 			id=-1

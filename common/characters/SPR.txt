@@ -12,7 +12,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=liberal_conservatism_subideology
+				ideology=liberal_conservatism_market_liberalism_subtype
 				traits={ indecisive }
 				expire="1965.1.1.1"
 				id=-1
@@ -29,7 +29,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=liberal_conservatism_subideology
+				ideology=liberal_conservatism_market_liberalism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -48,7 +48,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=marxism_leninism
+				ideology=communism_marxism_leninism_subideology
 				traits={ veteran_communist }
 				expire="1965.1.1.1"
 				id=-1
@@ -632,7 +632,7 @@ characters={
 			}
 	
 			country_leader={
-				ideology=falangism
+				ideology=fascism_falangism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}

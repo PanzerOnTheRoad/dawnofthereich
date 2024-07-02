@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=paternalistic_conservatism
+			ideology=conservatism_paternalistic_conservatism_subtype
 			traits={ stout_defender }
 			expire="1965.1.1.1"
 			id=-1
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberal_radicalism
+			ideology=liberalism_liberal_radicalism_subtype
 			traits={ stout_defender }
 			expire="1965.1.1.1"
 			id=-1

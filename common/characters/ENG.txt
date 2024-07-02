@@ -13,7 +13,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_winston_churchill
 			available  = {
-				has_government  = neutrality 
+				has_government  = despotism 
 				has_completed_focus  = ENG_the_kings_party 
 				if  = {
 					limit  = {
@@ -37,7 +37,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=conservatism
+			ideology=conservatism_paternalistic_conservatism_subtype
 			traits = {
 				british_bulldog
 			}
@@ -54,7 +54,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=paternalistic_conservatism
+			ideology=conservatism_paternalistic_conservatism_subtype
 			traits={ conservative_grandee }
 			expire="1938.1.1.1"
 			id=-1
@@ -91,7 +91,7 @@ characters={
 		}
 		
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_ideology_subtype
 			traits={ champion_of_peace_1 economic_reformer }
 			expire="1965.1.1.1"
 			id=-1
@@ -159,7 +159,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=conservatism_paternalistic_conservatism_subtype
 			traits = { chamberlain_appeaser rearmer }
 			expire="1965.1.1.1"
 			id=-1

@@ -18,7 +18,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_conservatism
+			ideology = paternalism_national_conservatism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { member_of_the_suojeluskunta conservative_nationalist personal_agenda_svinhufvud }
@@ -33,7 +33,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = Agrarianism
+			ideology = conservatism_paternalistic_conservatism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { anti_communist backed_by_political_coalition personal_agenda_kallio }
@@ -1508,7 +1508,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology =  liberal_agrarianism
+			ideology =  liberalism_liberal_agrarianism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = { white_liberal_leader personal_agenda_ryti }

@@ -21,7 +21,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = social_democracy
+				ideology = progressivism_social_democracy_subtype
 				traits = { DEN_socialdemokrat }
 				expire = "1965.1.1.1"
 				id = -1
@@ -88,7 +88,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = oligarchism
+				ideology = oligarchy
 				traits = { DEN_rightwing_populist}
 				expire = "1965.1.1.1"
 				id = -1
@@ -343,7 +343,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_absolute_monarchy_subtype
 			traits = { DEN_the_king }
 			expire = "1965.1.1.1"
 			id = -1

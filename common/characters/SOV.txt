@@ -25,7 +25,7 @@ characters = {
 
 			country_leader = {
 			desc= POLITICS_NIKOLAI_BUKHARIN_DESC
-			ideology = bolshevism
+			ideology = communism_bolshevism_subtype
 			traits = { defender_of_the_peasantry }
 			expire = "1953.3.1.1"
 			}
