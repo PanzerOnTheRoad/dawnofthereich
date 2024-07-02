@@ -1,0 +1,30 @@
+GER_heim_ins_reich_category = {
+	GER_anschluss_decision = {
+		icon = GFX_decision_generic_annexation
+		cost = 100
+		days_remove = 30
+		fire_only_once = yes
+		allowed = {
+			tag = GER
+        }
+		available = {
+			has_army_manpower = {
+					size > 600000
+				}
+			}
+		visible = {
+			tag = GER
+		}
+		remove_effect = {
+			hidden_effect = {
+
+			annex_country = {
+				target = AUS
+				transfer_troops = yes
+				}
+			set_country_flag = anschluss_flag
+			}
+				custom_effect_tooltip = anschluss_decision_tt
+		}		        
+	}
+}	
