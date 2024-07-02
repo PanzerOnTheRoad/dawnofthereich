@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_GER_a_man"
+		texturefile = "gfx\interface\ideas\GER\GER_a_man.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_GER_a_problem"
+		texturefile = "gfx\interface\ideas\GER\GER_a_problem.dds"
+	}
