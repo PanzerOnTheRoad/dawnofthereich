@@ -1,0 +1,8 @@
+leader_traits = { 
+	#### minister 
+		head_of_government = {}
+		foreign_minister = { }
+		economy_minister = {}
+		security_minister = {}
+		
+ }
