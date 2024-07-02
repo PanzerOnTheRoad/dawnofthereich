@@ -21,7 +21,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/ultranationalism_ultramilitarism_subtype.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_communist_marxism_leninism_subtype"
+		name = "GFX_ideology_communism_marxism_leninism_subtype"
 		texturefile = "gfx/interface/ideologies/communist_marxism_leninism_subtype.dds"
 	}
 	spriteType = {
@@ -74,7 +74,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/socialist_syndicalism_subtype.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_communist_bolshevism_subtype"
+		name = "GFX_ideology_communism_bolshevism_subtype"
 		texturefile = "gfx/interface/ideologies/communist_bolshevism_subtype.dds"
 	}
 	spriteType = {
@@ -333,11 +333,8 @@ spriteTypes = {
 		name = "GFX_ideology_conservatism_liberal_corporatism_subtype"
 		texturefile = "gfx/interface/ideologies/conservatism_liberal_corporatism_subtype.dds"  
 	}
-
-	# --- Main Ideologies --- #
-
 	spriteType = {
-		name = "GFX_ideology_communist_group"
+		name = "GFX_ideology_communism_group"
 		texturefile = "gfx/interface/ideologies/communist_group.dds"
 	}
 
