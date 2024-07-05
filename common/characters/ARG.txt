@@ -462,7 +462,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_ideology_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -503,7 +503,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_ideology_subtype
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -640,7 +640,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_bolshevism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -709,7 +709,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_bolshevism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -768,7 +768,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_bolshevism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -789,7 +789,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_marxism_leninism_subtype 
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -851,7 +851,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = anarchist_communism
+			ideology = anarcho_communism
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
