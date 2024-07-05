@@ -20,7 +20,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_marxism_leninism_subtype
 			traits = { staunch_stalinist }
 			expire = "1965.1.1.1"
 			id = -1
@@ -48,7 +48,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_ideology_subtype
 			traits = { BBA_ALB_fascist_lawyer }
 			expire = "1956.1.1.12"
 			id = -1
