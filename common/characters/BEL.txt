@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=conservatism_christian_conservatism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anarchist_communism
+			ideology=socialism_anarcho_communism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
