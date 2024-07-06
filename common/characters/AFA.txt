@@ -11,7 +11,7 @@ characters = {
 			
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_absolute_monarchy_subtype
 			traits = { rich_sultan }
 			expire = "1944.1.1.1"
 			id = -1
