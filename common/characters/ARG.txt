@@ -19,7 +19,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = moderatism
+			ideology = conservatism_progressive_conservatism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -81,7 +81,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = conservatism_progressive_conservatism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -120,7 +120,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = moderatism
+			ideology = conservatism_free_market_conservatism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -171,7 +171,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = moderatism
+			ideology = conservatism_free_market_conservatism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -194,7 +194,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = moderatism
+			ideology = conservatism_paternalistic_conservatism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -271,7 +271,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_military_junta_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -364,7 +364,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_military_junta_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -462,7 +462,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology_subtype
+			ideology = fascism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -503,7 +503,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology_subtype
+			ideology = fascism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 		}
@@ -529,7 +529,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = socialism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
@@ -590,7 +590,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = socialism_subtype
 			expire = "1965.1.1.1"
 			id = -1
 			traits = {
