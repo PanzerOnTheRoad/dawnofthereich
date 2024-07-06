@@ -48,8 +48,7 @@ ideologies = {
 
 		types = {
 
-			fascism_ideology_subtype = {}
-			fascism_fascism_ideology_subtype = {}
+			fascism_subtype = {}
 			fascism_falangism_subtype = {}
 			fascism_corporate_statism_subtype = {}
 			fascism_corporatism_subtype = {}
@@ -93,7 +92,9 @@ ideologies = {
 	
 	despotism = {
 
-	types = {
+	types = {	
+			despotism_subtype = {}
+
 			despotism_absolute_monarchy_subtype = {}
 			despotism_military_junta_subtype = {}
 			despotism_civilian_dictatorship_subtype = {}
@@ -138,7 +139,8 @@ ideologies = {
 	
 	paternalism = {
 
-	types = {
+	types = {	paternalism_subtype = {}
+
 			paternalism_national_conservatism_subtype = {}
 			paternalism_social_nationalism_subtype = {}
 			paternalism_controlled_democracy_subtype = {}
@@ -180,6 +182,7 @@ ideologies = {
 	conservatism = {
 
 		types = {
+			conservatism_subtype = {}
 
 			conservatism_paternalistic_conservatism_subtype = {}
 			conservatism_populist_conservatism_subtype = {}
@@ -272,7 +275,7 @@ ideologies = {
 	liberalism = {
 
 		types = {
-			liberalism_liberalism_subtype = {}
+			liberalism_subtype = {}
 			liberalism_national_liberalism_subtype = {}
 			liberalism_liberal_radicalism_subtype = {}
 			liberalism_christian_liberalism_subtype = {}
@@ -335,15 +338,15 @@ ideologies = {
 	socialism = {
 
 		types = {
-			revolutionary_gaitanismo = {}
-			anarcho_communism = {}
-			christian_socialism = {}
-			revolution_frontism = {}
-			agrarian_socialism = {}
-			syndicalism = {}
-			pan_africanism = {}
-			reformist_socialism = {}
-			left_wing_nationalism = {}
+			socialism_revolutionary_gaitanismo_subtype = {}
+			socialism_anarcho_communism_subtype = {}
+			socialism_christian_socialism_subtype = {}
+			socialism_revolution_frontism_subtype = {}
+			socialism_agrarian_socialism_subtype = {}
+			socialism_syndicalism_subtype = {}
+			socialism_pan_africanism_subtype = {}
+			socialism_reformist_socialism_subtype = {}
+			socialism_left_wing_nationalism_subtype = {}
 		}
 
 		dynamic_faction_names = {
