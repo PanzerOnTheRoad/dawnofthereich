@@ -30,7 +30,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = conservatism_progressive_conservatism_subtype
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -60,7 +60,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = falangism
+				ideology = fascism_falangism_subtype
 				traits = { JUNO_bolivian_falange }
 				expire = "1965.1.1.1"
 				id = -1
@@ -79,7 +79,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = falangism
+				ideology = fascism_falangism_subtype
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -94,7 +94,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_bolshevism_subtype
 			traits = { JUNO_revolutionary_writer }
 			expire = "1965.1.1.1"
 			id = -1
@@ -110,7 +110,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = socialism_subtype
 			traits = { ideological_crusader }
 			expire = "1944.1.1.12"
 			id = -1
@@ -126,7 +126,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_marxism_leninism_subtype
 			traits = { financial_expert }
 			expire = "1946.1.1.12"
 			id = -1
