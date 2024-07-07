@@ -35,14 +35,18 @@ recruit_character = ALB_jocelyn_percy
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	fascism = 10
+	despotism = 30
+	paternalism = 50
+	socialism = 6
+	communism = 4
 }
 
 set_convoys = 5
