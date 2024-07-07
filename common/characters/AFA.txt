@@ -27,7 +27,9 @@ characters = {
 			visible = {
 				NOT = {
 					has_government = communism
-					has_government = democratic
+					has_government = conservatism
+					has_government = liberalism
+					has_government = socialism
 					has_government = fascism
 				}
 			}
