@@ -18,7 +18,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology_subtype
+			ideology = fascism_subtype
 			traits = { il_duce }
 			expire = "1965.1.1.1"
 			id = -1
@@ -47,7 +47,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_subtype
 			traits = { the_grand_council }
 			expire = "1965.1.1.1"
 			id = -1
