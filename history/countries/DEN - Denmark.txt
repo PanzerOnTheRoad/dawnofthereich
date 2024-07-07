@@ -400,10 +400,15 @@ if = {
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = DEN_democratic_popularity
-		fascism = DEN_fascism_popularity
-		communism = DEN_communism_popularity
-		neutrality = DEN_neutrality_popularity
+		communism = 1
+		progressivism = 46
+		progressivism_1 = 9
+		liberalism = 2
+		liberal_conservatism = 17
+		conservatism = 17
+		conservatism_1 = 3
+		paternalism = 1
+		national_socialism = 1
 	}
 
 	store_core_states_on_game_start = yes
