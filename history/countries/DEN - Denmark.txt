@@ -396,10 +396,10 @@ if = {
 		communism = 1
 		progressivism = 46
 		progressivism_1 = 9
-		liberalism = 2
+		liberalism = 3
 		liberal_conservatism = 17
-		conservatism = 17
-		conservatism_1 = 3
+		conservatism = 18
+		conservatism_1 = 4
 		paternalism = 1
 		national_socialism = 1
 	}
