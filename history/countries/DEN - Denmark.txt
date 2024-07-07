@@ -1,4 +1,4 @@
-﻿capital = 37
+capital = 37
 
 if = {
 	limit = { has_dlc = "Arms Against Tyranny" }
@@ -186,6 +186,18 @@ if = {
 		set_default = no  # whether or not to reset the power balance to the initial value, default = no
 		set_value = -0.1
 	}
+
+	#PARY POPULARITY
+	set_variable = { DEN_communism_popularity = 1 }
+	set_variable = { DEN_progressivism_popularity = 46 }
+	set_variable = { DEN_progressivism_1_popularity = 9 }
+	set_variable = { DEN_liberalism_popularity = 3 }
+	set_variable = { DEN_liberal_conservatism_popularity = 17 }
+	set_variable = { DEN_conservatism_popularity = 18 }
+	set_variable = { DEN_conservatism_1_popularity = 4 }
+	set_variable = { DEN_paternalism_popularity = 1 }
+	set_variable = { DEN_national_socialism_popularity = 1 }
+	
 	#NEGLECTED MILITARY
 	set_variable = { DEN_neglected_military_mobilization_speed = -0.2 }
 	set_variable = { DEN_neglected_military_surrender_limit = -0.2}
@@ -393,15 +405,10 @@ if = {
 		elections_allowed = yes
 	}
 	set_popularities = {
-		communism = 1
-		progressivism = 46
-		progressivism_1 = 9
-		liberalism = 3
-		liberal_conservatism = 17
-		conservatism = 18
-		conservatism_1 = 4
-		paternalism = 1
-		national_socialism = 1
+		democratic = DEN_democratic_popularity
+		fascism = DEN_fascism_popularity
+		communism = DEN_communism_popularity
+		neutrality = DEN_neutrality_popularity
 	}
 
 	store_core_states_on_game_start = yes
@@ -411,10 +418,20 @@ if = {
 		NOT = { has_dlc = "Arms Against Tyranny" }
 	}
 	set_popularities = {
-		democratic = 94
-		fascism = 1
-		communism = 2
-		neutrality = 3
+		democratic = 
+		fascism = 
+		communism = 
+		neutrality = 
+		
+		communism = DEN_communism_popularity
+		progressivism = DEN_progressivism_popularity 
+		progressivism_1 = DEN_progressivism_1_popularity 
+		liberalism = DEN_liberalism_popularity
+		liberal_conservatism = DEN_liberal_conservatism_popularity
+		conservatism = DEN_conservatism_popularity
+		conservatism_1 = DEN_conservatism_1_popularity
+		paternalism = DEN_paternalism_popularity
+		national_socialism = DEN_national_socialism_popularity = 1
 	}
 	set_politics = {
 		ruling_party = democratic
