@@ -326,16 +326,19 @@ set_country_flag = monroe_doctrine
 set_convoys = 120
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = conservatism
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 25
-	neutrality = 30
+	communism = 12
+	socialism = 13
+	liberalism = 10
+	conservatism = 20
+	paternalism = 15
+	despotism = 12
+	fascism = 18
 }
 
 1939.1.1 = {
