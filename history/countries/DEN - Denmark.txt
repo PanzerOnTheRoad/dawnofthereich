@@ -186,13 +186,6 @@ if = {
 		set_default = no  # whether or not to reset the power balance to the initial value, default = no
 		set_value = -0.1
 	}
-
-	#PARY POPULARITY
-	set_variable = { DEN_democratic_popularity = 94 }
-	set_variable = { DEN_communism_popularity = 2 }
-	set_variable = { DEN_neutrality_popularity = 3 }
-	set_variable = { DEN_fascism_popularity = 1 }
-
 	#NEGLECTED MILITARY
 	set_variable = { DEN_neglected_military_mobilization_speed = -0.2 }
 	set_variable = { DEN_neglected_military_surrender_limit = -0.2}
