@@ -122,16 +122,18 @@ recruit_character = BEL_paul_van_zeeland
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
 	communism = 6
+	liberalism = 37
+	conservatism = 46
+	fascism = 11
+	
 }
 
 1939.1.1 = {
