@@ -434,7 +434,7 @@ if = {
 		national_socialism = DEN_national_socialism_popularity = 1
 	}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = progressivism
 		last_election = "1935.10.22"
 		election_frequency = 48
 		elections_allowed = yes
@@ -447,7 +447,7 @@ if = {
 			has_dlc = "Arms Against Tyranny"
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = progressivism
 			last_election = "1939.4.3"
 			election_frequency = 42
 			elections_allowed = yes
@@ -458,7 +458,7 @@ if = {
 			NOT = { has_dlc = "Arms Against Tyranny" }
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = progressivism
 			last_election = "1939.10.22"
 			election_frequency = 48
 			elections_allowed = yes
@@ -469,7 +469,8 @@ if = {
 	add_ideas = {
 		volunteer_only
 	}
-	
+
+
 
 	set_power_balance = {
 		id = DEN_balance_of_power
