@@ -11,7 +11,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = liberalism
+				ideology = conservatism_progressive_conservatism_subtype
 				traits = { JUNO_unpopular_economist }
 				expire = "1965.1.1.1"
 				id = -1
