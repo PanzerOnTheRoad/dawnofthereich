@@ -13,7 +13,7 @@ characters={
 		#	id=-1
 		#}
 		country_leader = {
-			ideology = populism
+			ideology = progressivism_left_wing_populism_subtype
 			expire = "1965.1.1"
 			id=-1
 			traits = {
@@ -31,7 +31,7 @@ characters={
 		}
 		country_leader = {
 			expire = "1954.8.24"
-			ideology = despotism
+			ideology = paternalism_semi_constitutional_monarchy_subtype
 			id=-1
 			traits = {
 				staunch_monarchist
@@ -52,7 +52,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_subtype
 				expire="1965.1.1.1"
 				id=-1
 				traits = {
@@ -339,6 +339,10 @@ characters={
 					small="GFX_portrait_BRA_eduardo_gomes_military_small"
 					large="GFX_portrait_BRA_eduardo_gomes"
 				}
+			}
+			country_leader = { 
+				ideology = liberalism_national_liberalism_subtype
+				expire = 1960.1.1
 			}
 			advisor={
 				cost = 100
@@ -1661,6 +1665,10 @@ characters={
 				large=GFX_portrait_BRA_henrique_teixeira_lott
 				small=GFX_portrait_BRA_henrique_teixeira_lott_small
 			}
+		}
+		country_leader = { 
+			ideology = liberalism_national_liberalism_subtype
+			expire = 1960.1.1
 		}
 		corps_commander={
 			traits={ }
