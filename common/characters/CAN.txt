@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=liberalism_progressive_liberalism_subtype
 			expire="1965.1.1.1"
 			traits = { CAN_liberal_corporatist }
 			id=-1
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazism
+			ideology=national_socialism_subtype 
 			expire="1965.1.1.1"
 			traits = { CAN_canadian_fuhrer }
 			id=-1
@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_marxism_leninism_subtype 
 			expire="1965.1.1.1"
 			traits = { veteran_communist }
 			id=-1
@@ -52,7 +52,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=progressivism_social_democracy_subtype
 			expire="1965.1.1.1"
 			traits = { CAN_social_gospel }
 			id=-1
