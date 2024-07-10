@@ -286,17 +286,17 @@ if = {
 		}
 	}
 }
-USA = {
+ENG = {
     if = {
         limit = {
             has_dlc = "Together for Victory"
         }
         set_autonomy = {
-            target = PHI
-            autonomous_state = autonomy_puppet
+            target = CAN
+            autonomous_state = autonomy_dominion
         }
         else = {
-            puppet = PHI
+            puppet = CAN
         }
     }
 }
@@ -308,9 +308,12 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 98
+	communism = 2
+	progressivism = 14
+	liberalism = 40
+	conservatism = 30
+	paternalism = 10
 	fascism = 1
-	communism = 1
 }
 
 set_convoys = 100
