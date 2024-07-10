@@ -318,14 +318,19 @@ set_convoys = 40
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	paternalism_1 = 19 #CC clique
+	paternalism = 27 #left KMT
+	despotism = 43 #Right KMT, Chai-shek faction
+	fascism = 11 #blue shirt society
+	
+	
 }
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }
