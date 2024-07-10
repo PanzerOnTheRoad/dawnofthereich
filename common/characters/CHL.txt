@@ -13,7 +13,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = liberalism
+				ideology = liberalism_national_liberalism_subtype
 				traits = { JUNO_the_lion_of_tarapaca }
 				expire = "1965.1.1.1"
 				id = -1
@@ -33,7 +33,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = liberalism
+				ideology = liberalism_national_liberalism_subtype
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -56,7 +56,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = nazism
+				ideology = conservatism_paternalistic_conservatism_subtype
 				traits = { JUNO_el_jefe }
 				expire = "1965.1.1.1"
 				id = -1
@@ -122,7 +122,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = nazism
+				ideology = conservatism_paternalistic_conservatism_subtype
 				expire = "1965.1.1.1"
 				id = -1
 			}
