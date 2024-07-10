@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_civilian_dictatorship_subtype
 			traits={ generallissimo }
 			expire="1965.1.1.1"
 			id=-1
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=communism_communism_subtype
 			traits={ cornered_fox }
 			expire="1965.1.1.1"
 			id=-1
@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=despotism_civilian_dictatorship_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -51,7 +51,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=socialism_left_wing_nationalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
