@@ -15,7 +15,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = despotism_absolute_monarchy_subtype
 				traits = { tsar_unifier }
 				expire = "1965.1.1"
 				id = -1
@@ -32,7 +32,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = despotism_absolute_monarchy_subtype
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -69,7 +69,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = stalinism
+				ideology = communism_marxism_leninism_subtype
 				traits = { the_hero_of_the_leipzig_trials }
 				expire = "1965.1.1"
 				id = -1
@@ -86,7 +86,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = leninism
+				ideology = communism_marxism_leninism_subtype
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -102,7 +102,7 @@ characters = {
 		}
 
 		country_leader={
-			ideology=liberalism
+			ideology=liberalism_classical_liberalism_subtype 
 			traits={ appeaser }
 			expire="1965.1.1"
 			id=-1
@@ -121,7 +121,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = fascism_subtype
 				traits = { hardened_officer }
 				expire = "1966.1.1.1"
 				id = -1
@@ -158,7 +158,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = fascism_subtype
 				expire = "1965.1.1.1"
 				id = -1
 			}
