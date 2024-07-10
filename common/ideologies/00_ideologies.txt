@@ -4,8 +4,8 @@ ideologies = {
 
 		types = {
 
-			national_socialism = {}
-			burgundian_system = {}
+			national_socialism_subtype = {}
+			national_socialism_burgundian_system_subtype = {}
 
 		}
 
