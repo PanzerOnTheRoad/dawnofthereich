@@ -104,9 +104,12 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 40
-	communism = 25
-	neutrality = 35
+	communism = 6
+	socialism = 8
+	conservatism = 15
+	paternalism = 28
+	despotism = 24
+	fascism = 19
 }
 
 create_country_leader = {
