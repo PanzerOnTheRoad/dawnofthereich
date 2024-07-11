@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=paternalism_right_wing_populism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=liberalism_subtype
 			traits={ captain_of_industry appeaser }
 			expire="1947.1.1.12"
 			id=-1
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_bolshevism_subtype
 			traits={ eager_collaborator }
 			expire="1945.1.1.12"
 			id=-1
@@ -48,7 +48,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_subtype
 			traits={ economist quartermaster_general }
 			expire="1944.1.1.12"
 			id=-1
@@ -62,7 +62,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
