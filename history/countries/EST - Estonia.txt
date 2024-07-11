@@ -215,11 +215,11 @@ set_politics = {
 }
 set_popularities = {
 	communism = 8
-	progressivism = 17
-	liberalism = 17
-	conservatism = 14
+	progressivism = 18
+	liberalism = 16
+	conservatism = 17
 	paternalism = 36
-	despotism = 3
+	despotism = 5
 }
 
 1939.1.1 = {
