@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=paternalism_right_wing_populism_subtype
+			ideology=despotism_personalistic_dictatorship_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
