@@ -217,9 +217,9 @@ set_popularities = {
 	communism = 8
 	progressivism = 17
 	liberalism = 17
-	conservatism = 12
+	conservatism = 14
 	paternalism = 36
-	despotism = 5
+	despotism = 3
 }
 
 1939.1.1 = {
