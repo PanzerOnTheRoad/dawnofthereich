@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=progressivism_liberal_socialism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_bolshevism_subtype
 			traits={ silent_workhorse }
 			expire="1946.1.1.12"
 			id=-1
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazism
+			ideology=fascism_fascist_populism_subtype
 			traits={ eager_collaborator war_industrialist }
 			expire="1955.1.1.12"
 			id=-1
@@ -48,7 +48,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=paternalism_subtype 
 			traits={ war_industrialist fortification_engineer }
 			expire="1948.1.1.12"
 			id=-1
@@ -62,7 +62,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=liberalism_liberal_radicalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
