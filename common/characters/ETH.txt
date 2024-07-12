@@ -13,7 +13,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_absolute_monarchy_subtype 
 			expire = "1965.1.1.1"
 			traits = { king_of_kings }
 			id = -1
@@ -68,10 +68,10 @@ characters = {
 				}
 			}
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascism_subtype
 			}
 			country_leader = {
-				ideology = fascism_ideology 
+				ideology = fascism_subtype
 				expire = "1965.1.1.1"
 				traits = { crowned_adder }
 				id = -1
@@ -105,7 +105,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = fascism_ideology 
+				ideology = fascism_subtype
 				expire = "1965.1.1.1"
 				traits = { }
 				id = -1
@@ -126,13 +126,13 @@ characters = {
 		}
 		### Country leader role to be added via event
 		# country_leader = {
-		# 	ideology = fascism_ideology 
+		# 	ideology = fascism_subtype
 		# 	expire = "1965.1.1.1"
 		# 	traits = { tainted_ras }
 		# 	id = -1
 		# }
 		allowed_civil_war = {
-			has_government = fascism
+			has_government = fascism_subtype
 		}
 
 		field_marshal = {
@@ -165,12 +165,12 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = fascism
+			has_government = fascism_subtype
 		}
 
 		### Country leader role to be added via event
 		# country_leader = {
-		# 	ideology = fascism_ideology 
+		# 	ideology = fascism_subtype
 		# 	expire = "1965.1.1.1"
 		# 	traits = { tainted_ras }
 		# 	id = -1
@@ -210,7 +210,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = anarchist_communism  
+				ideology = socialism_anarcho_communism_subtype  
 				expire = "1965.1.1.1"
 				traits = { gallant_doctor }
 				id = -1
@@ -228,7 +228,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = anarchist_communism  
+				ideology = socialism_anarcho_communism_subtype  
 				expire = "1965.1.1.1"
 				traits = { }
 				id = -1
@@ -245,7 +245,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = anarchist_communism  
+			ideology = socialism_anarcho_communism_subtype  
 			expire = "1965.1.1.1"
 			traits = { anarcho_communist_council }
 			id = -1
@@ -262,7 +262,7 @@ characters = {
 		}
 
 		country_leader = {
-			ideology = stalinism
+			ideology = communism_bolshevism_subtype
 			expire = "1965.1.1.1"
 			traits = { revolutionary_council }
 			id = -1
@@ -285,7 +285,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = socialism  
+				ideology = socialism_revolution_frontism_subtype  
 				expire = "1965.1.1.1"
 				traits = { the_red_ras }
 				id = -1
@@ -387,7 +387,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = socialism  
+				ideology = socialism_revolution_frontism_subtype  
 				expire = "1965.1.1.1"
 				traits = { the_red_ras }
 				id = -1
@@ -543,7 +543,7 @@ characters = {
 	ETH_mulugeta_yeggazu_of_illubabor = {
 		name = ETH_mulugeta_yeggazu_of_illubabor
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		portraits = {
 			army = {
