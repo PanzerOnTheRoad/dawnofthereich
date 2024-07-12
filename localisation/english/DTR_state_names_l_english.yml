@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  STATE_1:0 "Corsica"
  STATE_2:1 "Lazio"
  STATE_3:1 "Swiss Plateau"
@@ -990,3 +990,5 @@
  STATE_972: "Hesse-Nassau"
  STATE_973: "Berlin"
  STATE_974: "Eupen-Malmedy"
+ STATE_975: "Ardennen-Maas"
+ STATE_976: "Somme"
