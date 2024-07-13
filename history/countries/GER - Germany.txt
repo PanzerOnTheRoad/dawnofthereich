@@ -1,4 +1,4 @@
-﻿capital = 973
+capital = 973
 if = {
 	limit = {
 		NOT = {
