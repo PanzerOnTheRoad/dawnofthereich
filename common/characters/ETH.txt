@@ -68,7 +68,7 @@ characters = {
 				}
 			}
 			allowed_civil_war = {
-				has_government = fascism_subtype
+				has_government = fascism
 			}
 			country_leader = {
 				ideology = fascism_subtype
@@ -132,7 +132,7 @@ characters = {
 		# 	id = -1
 		# }
 		allowed_civil_war = {
-			has_government = fascism_subtype
+			has_government = fascism
 		}
 
 		field_marshal = {
@@ -165,7 +165,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = fascism_subtype
+			has_government = fascism
 		}
 
 		### Country leader role to be added via event
@@ -443,7 +443,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				OR = {
-					has_government = neutrality
+					has_government = despotism
 					has_completed_focus = ETH_amedeos_feast_of_maskal
 					ROOT = { original_tag = ITA }
 				}
@@ -593,7 +593,7 @@ characters = {
 				has_dlc = "By Blood Alone"
 			}
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			name = ETH_ras_kassa
 			portraits = {
@@ -610,7 +610,7 @@ characters = {
 					original_tag  = ETH
 				}
 				available = {
-					has_government = neutrality
+					has_government = despotism
 					NOT = { has_idea = ETH_ras_kassa_army_chief }
 					NOT = { has_idea = ETH_ras_kassa_high_command }		
 					IF = {
@@ -774,7 +774,7 @@ characters = {
 	ETH_ayalew_birru = {
 		name = ETH_ayalew_birru
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		portraits = {
 			army = {
@@ -801,8 +801,8 @@ characters = {
 		name = ETH_beyene_merid
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				has_government = despotism
+				has_government = conservatism
 			}
 		}
 		portraits = {
@@ -829,8 +829,8 @@ characters = {
 		name = ETH_nasibu_zeamanuel
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				has_government = despotism
+				has_government = conservatism
 			}	
 		}
 		portraits = {
@@ -849,8 +849,8 @@ characters = {
 			legacy_id = -1
 			visible = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = conservatism
 				}	
 			}
 		}
@@ -860,7 +860,7 @@ characters = {
 		name = ETH_balcho_safo
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality
+				has_government = despotism
 				AND = {
 					has_government = fascism
 					has_cosmetic_tag = jimma
@@ -885,7 +885,7 @@ characters = {
 			visible = {
 				has_character_flag = safo_active_flag
 				OR = {
-					has_government = neutrality
+					has_government = despotism
 					AND = {
 						has_cosmetic_tag = jimma
 						has_completed_focus = ETH_assertiveness
@@ -898,8 +898,8 @@ characters = {
 		name = ETH_abuna_qerellos_iv
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				has_government = despotism
+				has_government = conservatism
 			}
 		}
 		portraits = {
@@ -914,7 +914,7 @@ characters = {
 				original_tag  = ETH
 			}
 			available = {
-				has_government = neutrality
+				has_government = despotism
 				has_completed_focus = ETH_the_abuna		
 			}
 			traits = {
@@ -940,8 +940,8 @@ characters = {
 			}
 			allowed_civil_war = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = conservatism
+					has_government = despotism
 				}
 			}
 			name = ETH_makonnen_endelkatchew
@@ -958,8 +958,8 @@ characters = {
 				}
 				available = {
 					OR = {
-						has_government = neutrality
-						has_government = democratic
+						has_government = despotism
+						has_government = conservatism
 					}
 				}
 				traits  = {
@@ -995,8 +995,8 @@ characters = {
 		name = ETH_heruy_wolde_selassie
 		allowed_civil_war = {
 			OR = { 
-				has_government = neutrality
-				has_government = democratic
+				has_government = despotism
+				has_government = conservatism
 			}
 		}
 		portraits = {
@@ -1012,8 +1012,8 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = conservatism
 				}
 			}
 			traits  = {
@@ -1038,7 +1038,7 @@ characters = {
 			OR = {
 				has_government = fascism
 				has_government = communism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		portraits = {
@@ -1053,7 +1053,7 @@ characters = {
 				original_tag  = ETH
 			}
 			available = {
-				NOT = { has_government = democratic }
+				NOT = { has_government = conservatism}
 				NOT = { has_idea_with_trait = minister_of_the_interior_aregai }
 				NOT = { has_completed_focus = ETH_boarding_the_train }
 			}
@@ -1078,8 +1078,8 @@ characters = {
 			allowed = { has_dlc = "La Resistance" }
 			allowed_civil_war = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = despotism
+					has_government = conservatism
 					AND = {
 						has_government = fascism
 						has_cosmetic_tag = jimma
@@ -1110,8 +1110,8 @@ characters = {
 					}
 					has_completed_focus = ETH_the_fetno-derash
 					OR = {
-						has_government = neutrality
-						has_government = democratic
+						has_government = despotism
+						has_government = conservatism
 						has_government = communism
 						AND = {
 							has_country_leader = {
@@ -1172,8 +1172,8 @@ characters = {
 		name = ETH_workneh_eshete
 		allowed_civil_war = {
 			OR = {
-				has_government = democratic
-				has_government = neutrality
+				has_government = despotism
+				has_government = conservatism
 			}
 		}
 		portraits = {
@@ -1188,7 +1188,7 @@ characters = {
 				original_tag = ETH
 			}
 			available = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			traits  = {
 				modernizer_and_diplomat
@@ -1200,8 +1200,8 @@ characters = {
 		name = ETH_yilma_deressa
 		allowed_civil_war = {
 			OR = {
-				has_government = democratic
-				has_government = neutrality
+				has_government = despotism
+				has_government = conservatism
 				has_government = communism
 			}
 		}
@@ -1241,9 +1241,9 @@ characters = {
 		name = ETH_tekle_hawariat_tekle_mariyam
 		allowed_civil_war = {
 			OR = {
-				has_government = democratic
+				has_government = conservatism
 				has_government = communism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		portraits = {
@@ -1259,7 +1259,7 @@ characters = {
 			}
 			available = {
 				OR = { 
-					has_government = democratic 
+					has_government = conservatism 
 					has_government = communism 
 				}
 				NOT = { has_idea_with_trait = minister_of_finance_deressa }
@@ -1283,7 +1283,7 @@ characters = {
 	ETH_menen_asfaw  = {
 		name = ETH_menen_asfaw
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		portraits = {
 			army = {
@@ -1359,8 +1359,8 @@ characters = {
 		name = ETH_viking_tamm
 		allowed_civil_war = {
 			OR = {
-				has_government = democratic
-				has_government = neutrality
+				has_government = despotism
+				has_government = conservatism
 			}
 		}
 		portraits = {
@@ -1402,8 +1402,8 @@ characters = {
 			name = ETH_john_robinson
 			allowed_civil_war = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = conservatism
+					has_government = despotism
 					has_government = communism
 				}
 			}
@@ -1462,8 +1462,8 @@ characters = {
 		name = ETH_carl_gustav_von_rosen
 		allowed_civil_war = {
 			OR = {
-				has_government = democratic
-				has_government = neutrality
+				has_government = despotism
+				has_government = conservatism
 			}
 		}
 		portraits = {
@@ -1568,7 +1568,7 @@ characters = {
 	ETH_wehib_pasha  = {
 		name = ETH_wehib_pasha
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		portraits = {
 			army = {
@@ -1583,7 +1583,7 @@ characters = {
 				original_tag = ETH
 			}
 			available = {
-				has_government = neutrality 
+				has_government = despotism 
 				IF = {
 					limit = { original_tag = ETH }
 					NOT = { has_country_flag = ETH_selassie_left_flag }
@@ -1600,7 +1600,7 @@ characters = {
 		allowed_civil_war = {
 			OR = {
 				has_government = fascism
-				has_government = neutrality
+				has_government = despotism
 			}
 		}
 		portraits = {
@@ -1617,7 +1617,7 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = neutrality 
+					has_government = despotism 
 					has_government = fascism 
 				}
 				IF = {
@@ -1646,7 +1646,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology = socialism
+			ideology = socialism_agrarian_socialism_subtype
 			expire = "1965.1.1.1"
 			id=-1
 		}
@@ -1660,7 +1660,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_bolshevism_subtype
 			expire="1942.1.1.12"
 			id=-1
 		}
@@ -1673,7 +1673,7 @@ characters = {
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_subtype
 			traits={ captain_of_industry }
 			expire="1942.1.1.12"
 			id=-1
