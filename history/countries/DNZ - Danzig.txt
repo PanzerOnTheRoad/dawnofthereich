@@ -88,17 +88,18 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1935.4.7"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
-set_popularities = { #popularities based on 1933 election statistics.
-	democratic = 22
-	fascism = 62
-	communism = 6
-	neutrality = 10
+set_popularities = { #popularities based on 1935 election statistics.
+	communism = 3 #communist party
+	progressivism = 16 #SPD
+	conservatism = 13 #Zentrum
+	paternalism = 6 #DNVP
+	national_socialism = 62 
 }
 
 create_country_leader = {
@@ -106,7 +107,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_DNZ_Albert_Forster"
 	expire = "1953.3.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		
 	}
@@ -117,7 +118,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Arthur_Brill #TODO
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = progressivism_social_democracy_subtype
 	traits = {
 		
 	}
@@ -128,7 +129,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Anton_Plenikowski #TODO
 	expire = "1953.3.1"
-	ideology = stalinism
+	ideology = communism_bolshevism_subtype 
 	traits = {
 		
 	}
