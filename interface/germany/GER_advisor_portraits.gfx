@@ -7,4 +7,8 @@ spriteTypes = {
 			name = "GFX_GER_minister_rudolf_hess"
 			texturefile = gfx/interface/ideas/ministers/GER/GER_minister_rudolf_hess.dds
 		}
+	spriteType = {
+			name = "GFX_GER_minister_hjalmar_schacht"
+			texturefile = gfx/interface/ideas/ministers/GER/GER_minister_hjalmar_schacht.dds
+		}
 }
