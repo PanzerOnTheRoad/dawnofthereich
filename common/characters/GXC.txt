@@ -22,7 +22,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=despotism
+			ideology=despotism_military_junta_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -69,7 +69,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=conservatism_subtype
 			traits={ editor ideological_crusader }
 			expire="1943.1.1.12"
 			id=-1
@@ -84,7 +84,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=communism_bolshevism_subtype
 			traits={ dealbroker }
 			expire="1948.1.1.12"
 			id=-1
@@ -99,7 +99,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=fascism_fascist_populism_subtype
 			traits={ compassionate_gentleman }
 			expire="1953.1.1.12"
 			id=-1
