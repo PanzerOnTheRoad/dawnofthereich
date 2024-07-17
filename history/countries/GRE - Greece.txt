@@ -314,16 +314,21 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	democratic = 43
-	fascism = 2
-	communism = 17
-	neutrality = 38
+
+	communism = 5 #All People Front
+	progressivism = 3 #Democratic Coalition
+	liberalism = 13 #Liberal
+	conservatism = 19 #Peoples party
+	paternalism = 15 #General Popular Radical Union
+	despotism = 43 #Metaxas Clique
+	national_socialism = 2 #Greek NS party
+	
 }
 
 set_stability = 0.72
