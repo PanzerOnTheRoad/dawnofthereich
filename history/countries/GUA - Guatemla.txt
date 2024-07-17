@@ -89,12 +89,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = liberalism 
 	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	neutrality = 70
+	communism = 5
+	progressivism = 38 #Revolutionary Action
+	liberalism = 45 #Progressive Liberal Party
+	fascism = 12
 }
