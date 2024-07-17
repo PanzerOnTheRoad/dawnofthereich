@@ -1736,7 +1736,7 @@ characters={
 		name=GER_konstantin_von_neurath
 		portraits={
 			army={
-				small="GFX_idea_konstantin_von_neurath"
+				small="GFX_GER_minister_konstantin_von_neurath"
 			}
 		}
 		advisor={
