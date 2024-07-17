@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			desc= adolf_hitler_desc
-			ideology=national_socialism
+			ideology=national_socialism_subtype
 			traits={ dictator }
 			expire="1963.1.1.1"
 			id=-1
