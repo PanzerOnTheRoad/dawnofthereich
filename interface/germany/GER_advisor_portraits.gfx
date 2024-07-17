@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+			name = "GFX_GER_minister_wilhelm_frick"
+			texturefile = gfx/interface/ideas/ministers/GER/GER_minister_wilhelm_frick.dds
+		}
+	spriteType = {
+			name = "GFX_GER_minister_rudolf_hess"
+			texturefile = gfx/interface/ideas/ministers/GER/GER_minister_rudolf_hess.dds
+		}
+}
