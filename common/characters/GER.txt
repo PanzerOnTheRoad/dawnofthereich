@@ -1375,7 +1375,7 @@ characters={
 		name=GER_wilhelm_frick
 		portraits={
 			army={
-				small="GFX_idea_frick"
+				small="GFX_GER_minister_wilhelm_frick"
 			}
 		}
 		advisor={
