@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=liberalism_national_liberalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=progressivism_social_democracy_subtype
 			expire="1943.1.1.12"
 			id=-1
 		}
@@ -33,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anti_revisionism
+			ideology=communism_marxism_leninism_subtype
 			traits={ dealbroker smooth_talking_charmer }
 			expire="1946.1.1.12"
 			id=-1
@@ -47,7 +47,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=fascism_revolutionary_nationalism_subtype
 			traits={ national_integralist }
 			expire="1949.1.1.12"
 			id=-1
