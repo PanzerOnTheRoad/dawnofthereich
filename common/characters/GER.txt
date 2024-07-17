@@ -1447,7 +1447,7 @@ characters={
 		name=GER_hjalmar_schacht
 		portraits={
 			army={
-				small="GFX_idea_hjalmar_schacht"
+				small="GFX_GER_minister_hjalmar_schacht"
 			}
 		}
 		advisor={
