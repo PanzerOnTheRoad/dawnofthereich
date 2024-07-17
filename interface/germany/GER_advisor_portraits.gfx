@@ -11,4 +11,8 @@ spriteTypes = {
 			name = "GFX_GER_minister_hjalmar_schacht"
 			texturefile = gfx/interface/ideas/ministers/GER/GER_minister_hjalmar_schacht.dds
 		}
+	spriteType = {
+			name = "GFX_GER_minister_konstantin_von_neurath"
+			texturefile = gfx/interface/ideas/ministers/GER/GER_minister_konstantin_von_neurath.dds
+		}		
 }
