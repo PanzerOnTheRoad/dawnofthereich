@@ -1,4 +1,4 @@
-﻿capital = 319
+capital = 319
 
 oob = "DOM_1936"
 
@@ -83,13 +83,13 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = fascism
 	last_election = "1934.5.16"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	despotism = 100
+	fascism = 100
 }
 
 1939.1.1 = {
