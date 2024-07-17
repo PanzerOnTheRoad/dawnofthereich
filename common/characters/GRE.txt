@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=paternalism_national_conservatism_subtype
 			traits={ monarchist_puppet }
 			expire="1965.1.1.1"
 			id=-1
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_marxism_leninism_subtype
 			traits={ reluctant_stalinist }
 			expire="1965.1.1.1"
 			id=-1
@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=gen_nazism
+			ideology=national_socialism_subtype
 			traits={ polemarch likes_turkey }
 			expire="1965.1.1.1"
 			id=-1
@@ -54,7 +54,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=despotism_civilian_dictatorship_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -111,7 +111,7 @@ characters={
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = despotism_civilian_dictatorship_subtype
 				expire="1965.1.1.1"
 				traits = { 
 					arkhigos
@@ -119,7 +119,7 @@ characters={
 			}
 			country_leader = {
 				expire = "1965.1.1"
-				ideology = fascism_ideology
+				ideology = fascism_subtype
 				traits = {
 					arkhigos
 				}
@@ -181,7 +181,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=marxism
+				ideology=communism_marxism_leninism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -228,7 +228,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=conservatism_paternalistic_conservatism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -243,7 +243,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazism
+			ideology=national_socialism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
