@@ -215,7 +215,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = -3620 y = -110 }
+				position = { x = 3620 y = -110 }
 				font = "hoi_18mbs"
 				text = "ideology"
 				maxWidth = 160
@@ -746,34 +746,32 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "title"
-			position = { x = 0 y = 4 }
+			position = { x = 9 y = 1 }
 			font = "hoi_20b"
 			text = "Economic Laws"
 			maxWidth = 450
 			maxHeight = 20
-			format = center
+			format = left
 		}
 		instantTextboxType = {
 			name = "switch"
-			position = { x = 0 y = 26 }
+			position = { x = 10 y = 37 }
 			font = "hoi_18b"
 			text = "Switch out Henschel"
 			maxWidth = 450
 			maxHeight = 20
-			format = center
+			format = left
 		}
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 50 }
-			size = { width=500 height=100%% }	
+			position = { x = 6 y = 50 }
+			size = { width=500 height=100%% }
 			
 			containerWindowType = {
 				name = "grid"
-				position = { x = 0 y = -8 }
-				size = { width=500 height=-4 }
+				position = { x = 0 y = 0 }
+				size = { width=725 height=100% }
 				verticalScrollbar = "right_vertical_slider"
-				scroll_wheel_factor = 37
-				smooth_scrolling = yes
 				margin = { top = 4 bottom = 12}	
 
 				background = {
@@ -781,19 +779,18 @@ guiTypes = {
 					quadTextureSprite ="GFX_tiled_window2_1b_border"
 				}
 
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
-					position = { x = -1 y = 0 }					
-				}
+				#background = {
+				#	name = "Background"
+				#	quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+				#	position = { x = -1 y = 0 }					
+				#}
 
 				gridBoxType = {
-					name = "box_grid"
+					name = "box_list"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 74 }
-					max_slots_horizontal = 2
-					add_horizontal = yes
+					slotsize = { width = 462 height = 148 }
+					add_horizontal = no
 					format = "UPPER_LEFT"
 				}
 
@@ -810,7 +807,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close"
-			position = { x = -50 y = 5 }
+			position = { x = -37 y = 7 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"

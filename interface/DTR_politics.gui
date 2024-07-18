@@ -1,0 +1,29 @@
+guiTypes = { 
+		containerWindowType = {
+		name = "DTR_politics_faction_leader_container"
+		position = { x = 230 y = 270 }
+		size = { width = 193 height = 20 }
+
+		instantTextboxType = {
+			name = "party_name"
+			position = {x = 153 y = -17}
+			font = "hoi_18mbs"
+			text = "[This.GetRulingParty]"
+			fixedsize = yes
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "DTR_subideology"
+			position = { x = 153 y = 0 }
+			font = "hoi_18mbs"
+			text = [?country_leader.GetIdeologyGroup]
+			maxWidth = 160
+			maxHeight = 20
+		}
+	}
+
+}
+
