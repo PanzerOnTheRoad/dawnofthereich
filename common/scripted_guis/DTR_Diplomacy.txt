@@ -1,0 +1,13 @@
+scripted_gui = {
+
+	DTR_Diplomacy_Ideology = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "DTR_Diplomacy_Ideology"
+
+		visible = { 
+		}
+	}
+
+
+}
