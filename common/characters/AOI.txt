@@ -16,12 +16,7 @@ characters = {
 			expire = "1943.1.1.1"
 			id = -1
 		}
-		country_leader = {
-			ideology = despotism_civilian_dictatorship_subtype
-			traits = { duke_of_aosta viceroy_of_aoi }
-			expire = "1943.1.1.1"
-			id = -1
-		}
+
 
 		field_marshal = {
 			traits = { politically_connected inflexible_strategist }
