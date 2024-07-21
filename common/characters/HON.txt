@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=conservatism_free_market_conservatism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_bolshevism_subtype 
 			traits={ armaments_organizer quartermaster_general }
 			expire="1947.1.1.12"
 			id=-1
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_fascist_populism_subtype
 			traits={ financial_expert }
 			expire="1953.1.1.12"
 			id=-1
@@ -48,7 +48,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_subtype
 			expire="1943.1.1.12"
 			id=-1
 		}
