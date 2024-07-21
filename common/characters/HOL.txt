@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=conservatism_christian_conservatism_subtype
 			traits={ strict_austerity_adherent }
 			expire="1965.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=ultranationalism_fundamentalism_subtype 
 			traits={ leider }
 			expire="1965.1.1.1"
 			id=-1
@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=communism_bolshevism_subtype 
 			traits={ veteran_communist }
 			expire="1965.1.1.1"
 			id=-1
@@ -45,7 +45,7 @@ characters={
 		name=HOL_dirk_jan_de_geer
 		country_leader={
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = conservatism_christian_conservatism_subtype
 			traits = {
 				defeatist
 			}
@@ -60,7 +60,7 @@ characters={
 		name=HOL_pieter_sjoerds_gerbrandy
 		country_leader={
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = conservatism_christian_conservatism_subtype
 			traits = {
 				little_churchill
 			}
@@ -76,7 +76,7 @@ characters={
 		gender = female 
 		country_leader={
 			expire = "1965.1.1"
-			ideology = centrism
+			ideology = paternalism_semi_constitutional_monarchy_subtype
 			traits = {
 				wilhelmina
 				disdain_for_politicians_1
@@ -127,7 +127,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=liberalism_progressive_liberalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
