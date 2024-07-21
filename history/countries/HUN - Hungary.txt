@@ -260,15 +260,20 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 31
-	neutrality = 44
+	Communism = 10
+	socialism = 22 #Social Democratic Party of Hungary
+	liberalism = 5 #Liberal Party
+	conservatism = 5 #Independent Smallholders, Agrarian Workers and Civic Party
+	paternalism = 38 #Egységes Párt
+	fascism = 20 #Arrow Cross Party
+	
+	
 }
 
 #Start Horty as neutral if DOD
