@@ -1,4 +1,4 @@
-﻿capital = 100 #Iceland
+capital = 100 #Iceland
 
 set_oob = "ICE_1936"
 
@@ -245,7 +245,20 @@ set_popularities = {
 	paternalism = 8 #Farmers party
 	fascism = 1 #Nationalist Party
 }
-
+DEN = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = ICE
+            autonomous_state = autonomy_puppet
+        }
+        else = {
+            puppet = ICE
+        }
+    }
+}
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic
