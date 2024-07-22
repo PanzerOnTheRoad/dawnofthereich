@@ -9,7 +9,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = liberalism_liberal_agrarianism_subtype
 			traits = { ICE_hot_tempered_reformer }
 			expire = "1965.1.1"
 			id = -1
@@ -24,8 +24,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = conservatism
+					has_government = liberalism
 				}
 				has_completed_focus = ICE_the_kingdom_of_iceland
 			}
@@ -55,7 +55,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = gen_nazism
+			ideology = national_socialism_subtype
 			traits = { ICE_national_romanticist }
 			expire = "1965.1.1"
 			id = -1
@@ -98,7 +98,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_marxism_leninism_subtype
 			traits = { ICE_revolutionary_educator }
 			expire = "1965.1.1"
 			id = -1
@@ -141,7 +141,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = centrism
+			ideology = paternalism_national_conservatism_subtype
 			traits = { ICE_the_strict_regent }
 			expire = "1965.1.1"
 			id = -1
@@ -156,8 +156,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = conservatism
+					has_government = liberalism
 				}
 			}
 			visible = {
@@ -186,7 +186,7 @@ characters={
 
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_free_market_conservatism_subtype
 			traits = { ICE_transportation_enthusiast }
 			expire = "1965.1.1"
 			id = -1
@@ -201,8 +201,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = conservatism
+					has_government = liberalism
 				}
 			}
 			visible = {
@@ -252,7 +252,7 @@ characters={
 			available = {
 				NOT = { has_government = fascism }
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_hermann_jonasson
@@ -295,7 +295,7 @@ characters={
 			available = {
 				NOT = { has_government = fascism }
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_hermann_jonasson
@@ -338,7 +338,7 @@ characters={
 			available = {
 				NOT = { has_government = fascism }
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_hermann_jonasson
@@ -381,7 +381,7 @@ characters={
 			available = {
 				NOT = { has_government = fascism }
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_hermann_jonasson
@@ -455,7 +455,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
+					has_government = liberalism
 					has_government = fascism
 				}
 				IF = { 
@@ -500,7 +500,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = neutrality
+					has_government = paternalism
 					has_government = fascism
 				}
 			}
@@ -582,7 +582,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = neutrality
+					has_government = paternalism
 					has_government = fascism
 				}
 			}
@@ -616,7 +616,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = neutrality
+					has_government = paternalism
 					has_government = fascism
 				}
 			}
@@ -650,8 +650,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = paternalism
+					has_government = conservatism
 				}
 				has_completed_focus = ICE_the_kingdom_of_iceland
 			}
