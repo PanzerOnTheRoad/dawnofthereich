@@ -170,19 +170,20 @@ ideologies = {
 
 	types = {	paternalism_subtype = {}
 
-			paternalism_national_conservatism_subtype = {}
-			paternalism_social_nationalism_subtype = {}
-			paternalism_controlled_democracy_subtype = {}
-			paternalism_stratocracy_subtype = {}
-			paternalism_oligarchy_subtype = {}
-			paternalism_solidarism_subtype = {}
-			paternalism_military_mandate_subtype = {}
-			paternalism_corporate_paternalism_subtype = {}
-			paternalism_semi_constitutional_monarchy_subtype = {}
-			paternalism_dominant_party_democracy_subtype = {}
-			paternalism_provisional_government_subtype = {}
-			paternalism_right_wing_populism_subtype = {}
-			paternalism_left_wing_corporatism_subtype = {}
+			paternalism_national_conservatism_subtype = { can_be_randomly_selected = no }
+			paternalism_social_nationalism_subtype = { can_be_randomly_selected = no }
+			paternalism_controlled_democracy_subtype = { can_be_randomly_selected = no }
+			paternalism_stratocracy_subtype = { can_be_randomly_selected = no }
+			paternalism_oligarchy_subtype = { can_be_randomly_selected = no }
+			paternalism_solidarism_subtype = { can_be_randomly_selected = no }
+			paternalism_military_mandate_subtype = { can_be_randomly_selected = no }
+			paternalism_corporate_paternalism_subtype = { can_be_randomly_selected = no }
+			paternalism_semi_constitutional_monarchy_subtype = { can_be_randomly_selected = no }
+			paternalism_dominant_party_democracy_subtype = { can_be_randomly_selected = no }
+			paternalism_provisional_government_subtype = { can_be_randomly_selected = no }
+			paternalism_right_wing_populism_subtype = { can_be_randomly_selected = no }
+			paternalism_left_wing_corporatism_subtype = { can_be_randomly_selected = no }
+			paternalism_authoritarian_developmentalism_subtype = { can_be_randomly_selected = no }
 	}
 	dynamic_faction_names = {
 		"FACTION_NAME_PATERNALIST_1"
@@ -199,7 +200,7 @@ ideologies = {
 }
 
 	paternalism_2 = {
-		types = { paternalism_2_subtype = {} }
+		types = { paternalism_2_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
 		color = { 121 121 121 }
 		ai_neutral = yes
@@ -211,17 +212,17 @@ ideologies = {
 	conservatism = {
 
 		types = {
-			conservatism_subtype = {}
+			conservatism_subtype = { can_be_randomly_selected = no }
 
-			conservatism_paternalistic_conservatism_subtype = {}
-			conservatism_populist_conservatism_subtype = {}
-			conservatism_christian_conservatism_subtype = {}
-			conservatism_progressive_conservatism_subtype = {}
-			conservatism_free_market_conservatism_subtype = {}
-			conservatism_silent_conservatism_subtype = {}
-			conservatism_natural_conservatism_subtype = {}
-			conservatism_prairie_populism_subtype = {}
-			conservatism_liberal_corporatism_subtype = {}
+			conservatism_paternalistic_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_populist_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_christian_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_progressive_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_free_market_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_silent_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_natural_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_prairie_populism_subtype = { can_be_randomly_selected = no }
+			conservatism_liberal_corporatism_subtype = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -274,7 +275,7 @@ ideologies = {
 	}
 
 	conservatism_1 = {
-		types = { conservatism_1_subtype = {} }
+		types = { conservatism_1_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
 		color = { 16 16 91 }
 		ai_neutral = yes
@@ -284,10 +285,10 @@ ideologies = {
 	liberal_conservatism = {
 
 		types = {
-			liberal_conservatism_subtype = {}
-			liberal_conservatism_market_liberalism_subtype = {}
-			liberal_conservatism_christian_democracy_subtype = {}
-			liberal_conservatism_oligarchic_liberalism_subtype = {}
+			liberal_conservatism_subtype = { can_be_randomly_selected = no }
+			liberal_conservatism_market_liberalism_subtype = { can_be_randomly_selected = no }
+			liberal_conservatism_christian_democracy_subtype = { can_be_randomly_selected = no }
+			liberal_conservatism_oligarchic_liberalism_subtype = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -308,17 +309,23 @@ ideologies = {
 		ai_neutral = yes
 	}
 
-
+	liberalism_1 = {
+		types = { liberalism_1_subtype = { can_be_randomly_selected = no } }
+		dynamic_faction_names = {}
+		color = { 78 91 137 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	liberalism = {
 
 		types = {
-			liberalism_subtype = {}
-			liberalism_national_liberalism_subtype = {}
-			liberalism_liberal_radicalism_subtype = {}
-			liberalism_christian_liberalism_subtype = {}
-			liberalism_liberal_agrarianism_subtype = {}
-			liberalism_progressive_liberalism_subtype = {}
-			liberalism_classical_liberalism_subtype = {}
+			liberalism_subtype = { can_be_randomly_selected = no }
+			liberalism_national_liberalism_subtype = { can_be_randomly_selected = no }
+			liberalism_liberal_radicalism_subtype = { can_be_randomly_selected = no }
+			liberalism_christian_liberalism_subtype = { can_be_randomly_selected = no }
+			liberalism_liberal_agrarianism_subtype = { can_be_randomly_selected = no }
+			liberalism_progressive_liberalism_subtype = { can_be_randomly_selected = no }
+			liberalism_classical_liberalism_subtype = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -340,20 +347,21 @@ ideologies = {
 	}
 
 
+
 	progressivism = {
 
 		types = {
-			progressivism_subtype = {}
-			progressivism_social_democracy_subtype = {}
-			progressivism_democratic_socialism_subtype = {}
-			progressivism_left_wing_populism_subtype = {}
-			progressivism_labor_zionism_subtype = {}
-			progressivism_popular_front_subtype = {}
-			progressivism_left_wing_agrarianism_subtype = {}
-			progressivism_christian_progressivism_subtype = {}
-			progressivism_liberal_socialism_subtype = {}
-			progressivism_eastern_progressivism_subtype = {}
-			progressivism_western_progressivism_subtype = {}
+			progressivism_subtype = { can_be_randomly_selected = no }
+			progressivism_social_democracy_subtype = { can_be_randomly_selected = no }
+			progressivism_democratic_socialism_subtype = { can_be_randomly_selected = no }
+			progressivism_left_wing_populism_subtype = { can_be_randomly_selected = no }
+			progressivism_labor_zionism_subtype = { can_be_randomly_selected = no }
+			progressivism_popular_front_subtype = { can_be_randomly_selected = no }
+			progressivism_left_wing_agrarianism_subtype = { can_be_randomly_selected = no }
+			progressivism_christian_progressivism_subtype = { can_be_randomly_selected = no }
+			progressivism_liberal_socialism_subtype = { can_be_randomly_selected = no }
+			progressivism_eastern_progressivism_subtype = { can_be_randomly_selected = no }
+			progressivism_western_progressivism_subtype = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -374,14 +382,14 @@ ideologies = {
 	}
 
 	progressivism_1 = {
-		types = { progressivism_1_subtype = {} }
+		types = { progressivism_1_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
 		color = { 138 45 73 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
 	progressivism_2 = {
-		types = { progressivism_2_subtype = {} }
+		types = { progressivism_2_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
 		color = { 145 36 54 }
 		ai_neutral = yes
@@ -390,15 +398,15 @@ ideologies = {
 	socialism = {
 
 		types = {
-			socialism_revolutionary_gaitanismo_subtype = {}
-			socialism_anarcho_communism_subtype = {}
-			socialism_christian_socialism_subtype = {}
-			socialism_revolution_frontism_subtype = {}
-			socialism_agrarian_socialism_subtype = {}
-			socialism_syndicalism_subtype = {}
-			socialism_pan_africanism_subtype = {}
-			socialism_reformist_socialism_subtype = {}
-			socialism_left_wing_nationalism_subtype = {}
+			socialism_revolutionary_gaitanismo_subtype = { can_be_randomly_selected = no }
+			socialism_anarcho_communism_subtype = { can_be_randomly_selected = no }
+			socialism_christian_socialism_subtype = { can_be_randomly_selected = no }
+			socialism_revolution_frontism_subtype = { can_be_randomly_selected = no }
+			socialism_agrarian_socialism_subtype = { can_be_randomly_selected = no }
+			socialism_syndicalism_subtype = { can_be_randomly_selected = no }
+			socialism_pan_africanism_subtype = { can_be_randomly_selected = no }
+			socialism_reformist_socialism_subtype = { can_be_randomly_selected = no }
+			socialism_left_wing_nationalism_subtype = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -420,16 +428,16 @@ ideologies = {
 	communism = {
 
 		types = {
-			communism_communism_subtype = {}
-			communism_bolshevism_subtype = {}
-			communism_marxism_leninism_subtype = {}
-			communism_left_communism_subtype = {}
-			communism_stratocratic_communism_subtype = {}
-			communism_mao_zedong_thought_subtype = {}
-			communism_arab_communism_subtype = {}
-			communism_national_communism_subtype = {}
-			communism_workerism_subtype = {}
-			communism_revolutionary_baathism_subtype = {}
+			communism_communism_subtype = { can_be_randomly_selected = no }
+			communism_bolshevism_subtype = { can_be_randomly_selected = no }
+			communism_marxism_leninism_subtype = { can_be_randomly_selected = no }
+			communism_left_communism_subtype = { can_be_randomly_selected = no }
+			communism_stratocratic_communism_subtype = { can_be_randomly_selected = no }
+			communism_mao_zedong_thought_subtype = { can_be_randomly_selected = no }
+			communism_arab_communism_subtype = { can_be_randomly_selected = no }
+			communism_national_communism_subtype = { can_be_randomly_selected = no }
+			communism_workerism_subtype = { can_be_randomly_selected = no }
+			communism_revolutionary_baathism_subtype = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -460,28 +468,28 @@ ideologies = {
 		can_be_boosted = no	
 	}
 	communist_1 = {
-		types = { communist_1_subtype = {} }
-		dynamic_faction_names = {}
+		types = { communist_1_subtype = { can_be_randomly_selected = no } }
+		dynamic_faction_names = { }
 		color = { 77 15 15 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
 	communist_2 = {
-		types = { communist_2_subtype = {} }
+		types = { communist_2_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
 		color = { 80 20 20 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
 	communist_3 = {
-		types = { communist_3_subtype = {} }
+		types = { communist_3_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
 		color = { 100 35 35 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
 	communist_4 = {
-		types = { communist_4_subtype = {} }
+		types = { communist_4_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
 		color = { 110 45 45 }
 		ai_neutral = yes
