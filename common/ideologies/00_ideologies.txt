@@ -433,6 +433,7 @@ ideologies = {
 			communism_marxism_leninism_subtype = { can_be_randomly_selected = no }
 			communism_left_communism_subtype = { can_be_randomly_selected = no }
 			communism_stratocratic_communism_subtype = { can_be_randomly_selected = no }
+			socialist_islamic_socialism_subtype = { can_be_randomly_selected = no }
 			communism_mao_zedong_thought_subtype = { can_be_randomly_selected = no }
 			communism_arab_communism_subtype = { can_be_randomly_selected = no }
 			communism_national_communism_subtype = { can_be_randomly_selected = no }
