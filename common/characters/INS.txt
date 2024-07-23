@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=paternalism_authoritarian_developmentalism_subtype
 			traits = {
 			}
 			expire="1965.1.1.1"
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism 
+			ideology=despotism_colonial_government_subtype 
 			traits = {
 			}
 			expire="1965.1.1.1"
@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=socialism_revolution_frontism_subtype
 			traits = {
 			}
 			expire="1965.1.1.1"
@@ -52,7 +52,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=despotism_military_junta_subtype
 			traits = {
 			}
 			expire="1965.1.1.1"
@@ -67,7 +67,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=moderatism
+			ideology=progressivism_subtype
 			traits = {
 			}
 			expire="1965.1.1.1"
