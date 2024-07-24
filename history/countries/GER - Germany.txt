@@ -455,9 +455,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 5	
-	conservatism = 10
-	national_socialism = 85
+	communism = 7 #KPD
+	socialism = 0
+	progressivism = 9 #SPD
+	liberalism = 0
+	conservatism = 12 #zentrum
+	paternalism = 0
+	despotism = 0
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 72 #That party with the windmill lookin logo or smth
 }
 add_ideas = {
     limited_exports
