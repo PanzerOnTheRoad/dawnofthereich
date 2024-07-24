@@ -426,13 +426,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	communism = 6 #Japanese Communist Party
+	socialism = 0
+	progressivism = 11 #Rikken Minseitō 
+	liberalism = 16 #Rikken Seiyūkai
+	conservatism = 0
+	paternalism = 62 #IRAA, would become ultranationalist through events at 1940
+	despotism = 0
+	ultranationalism = 4 #Imperial Japanese Army
+	fascism = 2 #Kokumin Dōmei
+	national_socialism = 0
 }
 
 recruit_character = JAP_tetsu_katayama
