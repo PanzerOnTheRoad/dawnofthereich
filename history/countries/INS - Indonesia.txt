@@ -52,15 +52,33 @@ if = {
 		basic_battery = 1
 	}
 }
-
+HOL = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = INS
+            autonomous_state = autonomy_puppet
+        }
+        else = {
+            puppet = INS
+        }
+    }
+}
 set_convoys = 25
 set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 30
-	neutrality = 50
+	communism = 16 #Communist Party of Indonesia
+	socialism = 11 #Sarekat Islam
+	paternalism = 27 #Partai Nasional Indonesi
+	despotism = 46 #Dutch COlonial government
 }
-
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
 
 recruit_character = INS_a_t_van_starkenborgh_stachouwer
 recruit_character = INS_sukarno
