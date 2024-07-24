@@ -20,6 +20,12 @@ characters={
 				expire="1965.1.1.1"
 				id=500
 			}
+			country_leader={
+				ideology=fascism_subtype
+				traits={ anti_communist }
+				expire="1965.1.1.1"
+				id=503
+			}
 		}
 		instance = {
 			allowed = {
@@ -35,6 +41,12 @@ characters={
 				ideology=paternalism_semi_constitutional_monarchy_subtype
 				expire="1965.1.1.1"
 				id=500
+			}
+			country_leader={
+				ideology=fascism_subtype
+				traits={ anti_communist }
+				expire="1965.1.1.1"
+				id=503
 			}
 		}
 	}
