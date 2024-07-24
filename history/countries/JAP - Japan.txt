@@ -1,4 +1,4 @@
-﻿capital = 282
+capital = 282
 
 
 
@@ -434,12 +434,12 @@ set_politics = {
 set_popularities = {
 	communism = 6 #Japanese Communist Party
 	socialism = 0
-	progressivism = 11 #Rikken Minseito 
+	progressivism = 11 #Rikken Minseitō 
 	liberalism = 16 #Rikken Seiyukai
 	conservatism = 0
 	paternalism = 62 #IRAA, would become ultranationalist through events at 1940
 	despotism = 0
-	ultranationalism = 4 #Imperial Japanese Army
+	ultranationalism = 3 #Imperial Japanese Army
 	fascism = 2 #Kokumin Domei
 	national_socialism = 0
 }
