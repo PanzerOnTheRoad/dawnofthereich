@@ -434,13 +434,13 @@ set_politics = {
 set_popularities = {
 	communism = 6 #Japanese Communist Party
 	socialism = 0
-	progressivism = 11 #Rikken Minseitō 
-	liberalism = 16 #Rikken Seiyūkai
+	progressivism = 11 #Rikken Minseito 
+	liberalism = 16 #Rikken Seiyukai
 	conservatism = 0
 	paternalism = 62 #IRAA, would become ultranationalist through events at 1940
 	despotism = 0
 	ultranationalism = 4 #Imperial Japanese Army
-	fascism = 2 #Kokumin Dōmei
+	fascism = 2 #Kokumin Domei
 	national_socialism = 0
 }
 recruit_character = JAP_fumimaro_konoe
