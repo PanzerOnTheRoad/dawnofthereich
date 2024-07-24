@@ -1,2 +1,10 @@
-﻿l_english:
+l_english:
+
+ JAP: "Nippon Teikoku"
+ JAP_DEF: "Nippon Teikoku"
+ JAP_national_socialism: "Nippon Teikoku"
+ JAP_national_socialism_DEF: "Nippon Teikoku"
+ JAP_ADJ: "Japanese"
+
+##CHARACTER NAMES
  JAP_fumimaro_konoe: "Fumimaro Konoe"
