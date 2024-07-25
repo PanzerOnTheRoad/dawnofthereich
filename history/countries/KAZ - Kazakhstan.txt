@@ -102,7 +102,15 @@ set_popularities = {
 	national_socialism = 0
 	ultranationalism = 0
 }
-
+create_country_leader = {
+	name = KAZ_dinmukhamed_kunaev
+	desc = ""
+	picture = GFX_portrait_KAZ_dinmukhamed_kunaev
+	expire = "1988.1.1"
+	ideology = communism_subtype
+	traits = {
+	}
+}
 recruit_character = KAZ_dinmukhamed_kunaev
 recruit_character = KAZ_awt
 recruit_character = KAZ_acd2
