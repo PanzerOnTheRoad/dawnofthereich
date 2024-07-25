@@ -428,6 +428,7 @@ ideologies = {
 	communism = {
 
 		types = {
+			communism_subtype = { can_be_randomly_selected = no }
 			communism_communism_subtype = { can_be_randomly_selected = no }
 			communism_bolshevism_subtype = { can_be_randomly_selected = no }
 			communism_marxism_leninism_subtype = { can_be_randomly_selected = no }
