@@ -103,7 +103,7 @@ set_popularities = {
 	ultranationalism = 0
 }
 
-recruit_character = KAZ_dinmukhamed_kunaev
+recruit_character = KAZ_dinmukhamed_kunaev
 recruit_character = KAZ_awt
 recruit_character = KAZ_acd2
 recruit_character = KAZ_nt
