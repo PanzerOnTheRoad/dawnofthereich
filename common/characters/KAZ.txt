@@ -1,4 +1,18 @@
 characters={
+	KAZ_dinmukhamed_kunaev = {
+		name = KAZ_dinmukhamed_kunaev
+		portraits = {
+			civilian = {
+				large=GFX_portrait_KAZ_dinmukhamed_kunaev
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "1999.1.1.1"
+			ideology = communism_subtype
+			id = -1
+		}
+	}
 	KAZ_awt={
 		advisor={
 			slot = theorist
