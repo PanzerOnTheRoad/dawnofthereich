@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+			name = "GFX_portrait_KAZ_dinmukhamed_kunaev"
+			texturefile = gfx/leaders/KAZ/portrait_KAZ_dinmukhamed_kunaev.dds
+		}	
+}
