@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=oligarchism
+			ideology=despotism_civilian_dictatorship_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -36,7 +36,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_absolute_monarchy_subtype
 			expire="1965.1.1.1"
 			id=-1
 			traits = {
@@ -54,7 +54,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_bolshevism_subtype
 			expire="1965.1.1.1"
 			id=-1
 			traits = { devoted_marxist }
@@ -92,7 +92,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=stalinism
+			ideology=communism_marxism_leninism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -169,7 +169,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -204,7 +204,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -254,7 +254,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=socialism_subtype
 			expire="1965.1.1.1"
 			id=-1
 			traits = { democratic_crusader }
@@ -317,7 +317,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=oligarchism
+			ideology=despotism_oligarchy_subtype
 			expire="1965.1.1.1"
 			id=-1
 			traits = {  }
@@ -332,7 +332,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=liberalism_subtype
 			traits={ war_industrialist reluctant_interventionist }
 			expire="1942.1.1.12"
 			id=-1
