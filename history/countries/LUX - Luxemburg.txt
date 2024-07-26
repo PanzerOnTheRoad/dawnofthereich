@@ -102,7 +102,7 @@ recruit_character = LUX_martin_karp
 }
 
 set_politics = {
-	ruling_party = conservativism
+	ruling_party = conservatism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
