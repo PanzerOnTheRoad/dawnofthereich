@@ -28,7 +28,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=oligarchism
+			ideology=despotism_civilian_dictatorship_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -69,7 +69,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_revolutionary_nationalism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -103,7 +103,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_revolutionary_nationalism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -139,7 +139,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=conservatism
+			ideology=conservatism_agrarianism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -175,7 +175,7 @@ characters={
 				modifier = {
 					add = 100
 					OR = {
-						has_government = democratic
+						has_government = progressivism
 						has_country_flag = LAT_AI_RANDOM_DEMOCRATIC
 						has_game_rule = {
 							rule = LAT_ai_behavior
@@ -187,7 +187,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=socialism
+			ideology=progressivism_social_democracy_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -224,7 +224,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=marxism
+			ideology=communism_marxism_leninism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -272,7 +272,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=oligarchism
+			ideology=despotism_civilian_dictatorship_subtype
 			expire="1965.1.1.1"
 			id=-1
 			traits = { latvian_militant }
