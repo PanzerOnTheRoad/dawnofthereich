@@ -1,4 +1,4 @@
-﻿capital = 808
+capital = 808
 
 oob = "LAT_1936"
 if = {
@@ -194,14 +194,14 @@ set_politics = {
 }
 set_popularities = {
 	communism = 2 #Communist Party of Latvia
-	socialism = 0
+	socialism = 1 #Latvian Social Democratic Workers Party
 	progressivism = 0
 	liberalism = 1 #Democratic Centre
 	conservatism = 1 #Latvian Farmers Union
 	paternalism = 0
-	despotism = 95 #Ulmanis Regime
+	despotism = 93 #Ulmanis Regime
 	ultranationalism = 0
-	fascism = 1 #Perkonkrusts
+	fascism = 2 #Perkonkrusts
 	national_socialism = 0
 }
 
