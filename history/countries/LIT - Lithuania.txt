@@ -181,16 +181,23 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1926.5.8"
 	election_frequency = 120
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 15
-	communism = 15
-	neutrality = 40
+	communism = 0
+	socialism = 13 #Lithuanian Popular Peasants' Union
+	progressivism = 21 #Social Democratic Party of Lithuania
+	liberalism = 0
+	liberal_conservatism = 0
+	conservatism = 18 #Lithuanian Christian Democratic Party
+	paternalism = 12 #Farmers' Association
+	despotism = 32 #Lithuanian Nationalist Union
+	despotism_1 = 4 #Memel Agricultural Party
+
+
 }
 
 1939.1.1 = {
