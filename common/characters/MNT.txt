@@ -1,6 +1,20 @@
 characters = {
 	
-
+	MNT_Nikola_II = {
+		name = MNT_Nikola_II
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MNT/Portrait_Montenegro_King_Nikola_II.dds"
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "1999.1.1"
+			ideology = fascism_corporatism_subtype
+			traits = { }
+			id = -1
+		}
+	}
 
 	MNT_kristo_popovic = {
 		name = "Krsto Popović"
