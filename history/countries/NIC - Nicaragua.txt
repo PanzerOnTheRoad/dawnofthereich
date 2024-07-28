@@ -90,16 +90,22 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = liberalism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
-	fascism = 5
-	communism = 10
-	neutrality = 70
+	communism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 59 #Nationalist Liberal Party
+	conservatism = 41 #conservative party
+	paternalism = 0
+	despotism = 0
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 0
 }
 
 1939.1.1 = {
