@@ -269,16 +269,23 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = progressivism
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 18
-	fascism = 20
-	communism = 9
-	neutrality = 53
+	communism = 11 #Mexican Communist Party
+	socialism = 0
+	progressivism = 49 #Institutional Revolutionary Party
+	progressivism_1 = 11 #Mexican Laborist Party
+	liberalism = 0
+	conservatism = 17 #National Action Party
+	paternalism = 0
+	despotism = 0
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 0
 }
 
 ### VARIANTS ###
