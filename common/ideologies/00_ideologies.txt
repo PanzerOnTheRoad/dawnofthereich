@@ -108,6 +108,7 @@ ideologies = {
 	types = {	
 			despotism_subtype = {}
 
+			despotism_aristocratic_conservatism_subtype
 			despotism_absolute_monarchy_subtype = {}
 			despotism_military_junta_subtype = {}
 			despotism_civilian_dictatorship_subtype = {}
