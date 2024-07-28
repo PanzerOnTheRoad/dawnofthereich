@@ -1,7 +1,7 @@
 characters = {
 	
 	MNT_Nikola_II = {
-		name = MNT_Nikola_II
+		name = "Nikola II"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MNT/Portrait_Montenegro_King_Nikola_II.dds"
