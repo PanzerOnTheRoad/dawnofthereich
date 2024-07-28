@@ -7,8 +7,8 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=falangism
-			traits={ fascist_militia_leader }
+			ideology=socialism_syndicalism_subtype 
+			traits={ }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -69,7 +69,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=communism_marxism_leninism_subtype 
 			traits={ devoted_trotskyist }
 			expire="1965.1.1.1"
 			id=-1
@@ -124,7 +124,7 @@ characters={
 			legacy_id=712
 		}
 		country_leader={
-			ideology=moderatism
+			ideology=progressivism_left_wing_agrarianism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -479,7 +479,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=falangism
+			ideology=fascism_falangism_subtype 
 			traits={ fascist_militia_leader }
 			expire="1965.1.1.1"
 			id=-1
