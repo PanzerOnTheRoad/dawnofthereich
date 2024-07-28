@@ -235,13 +235,24 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = progressivism
 	last_election = "1935.11.27"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+
+	communism = 1 #communist party
+	socialism = 0
+	progressivism = 47 #labour party
+	liberalism = 16 #United party
+	liberalism_1 = 8 #Democrat
+	conservatism = 26 #Reform
+	paternalism = 4 #Country party
+	despotism = 0
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 0
 }
 
 set_convoys = 70
