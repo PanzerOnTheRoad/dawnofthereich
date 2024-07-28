@@ -1,12 +1,8 @@
 ideologies = {
-
 		national_socialism = {
-
 		types = {
-
 			national_socialism_subtype = {}
 			national_socialism_burgundian_system_subtype = {}
-
 		}
 		dynamic_faction_names = {}
 		color = { 50 33 30 }
@@ -26,24 +22,19 @@ ideologies = {
 			fascism_acceptance = 75
 			#disabled_ideas = 1
 		}
-
 		ai_neutral = yes
 		ai_ideology_wanted_units_factor = 1.65
 	}
-
 #Fascism	
 	
 	fascism = {
-
 		types = {
-
 			fascism_subtype = {}
 			fascism_falangism_subtype = {}
 			fascism_corporate_statism_subtype = {}
 			fascism_corporatism_subtype = {}
 			fascism_fascist_populism_subtype = {}
 			fascism_revolutionary_nationalism_subtype = {}			
-
 		}
 		dynamic_faction_names = {}
 		color = {  110 45 35  }
@@ -64,7 +55,6 @@ ideologies = {
 		ai_neutral = yes
 		ai_ideology_wanted_units_factor = 1.65
 	}
-
 	ultranationalism_1 = {
 		types = { ultranationalism_1_subtype = {} }
 		dynamic_faction_names = {}
@@ -75,7 +65,6 @@ ideologies = {
 	ultranationalism = {
 		types = {
 			ultranationalism_subtype = {}
-
 			ultranationalism_slavo_aryanism_subtype = { can_be_randomly_selected = no }
 			ultranationalism_eurasianism_subtype = { can_be_randomly_selected = no }
 			ultranationalism_ultramilitarism_subtype = { can_be_randomly_selected = no }
@@ -95,7 +84,7 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}	
-	
+
 	despotism_1 = {
 		types = { despotism_1_subtype = {} }
 		dynamic_faction_names = {}
@@ -107,8 +96,6 @@ ideologies = {
 
 	types = {	
 			despotism_subtype = {}
-
-			despotism_aristocratic_conservatism_subtype
 			despotism_absolute_monarchy_subtype = {}
 			despotism_military_junta_subtype = {}
 			despotism_civilian_dictatorship_subtype = {}
@@ -121,7 +108,6 @@ ideologies = {
 			despotism_personalistic_dictatorship_subtype = {}
 			despotism_partisan_movement_subtype = {}
 	}
-
 	dynamic_faction_names = {}
 	color = { 65 65 65 }
 	war_impact_on_world_tension = 1.0
@@ -131,9 +117,7 @@ ideologies = {
 	modifiers = {}
 	ai_neutral = yes
 }
-
 #Paternalism
-
 	paternalism_1 = {
 		types = { paternalism_1_subtype = {} }
 		dynamic_faction_names = {}
@@ -143,9 +127,7 @@ ideologies = {
 	}
 	
 	paternalism = {
-
 	types = {	paternalism_subtype = {}
-
 			paternalism_national_conservatism_subtype = { can_be_randomly_selected = no }
 			paternalism_social_nationalism_subtype = { can_be_randomly_selected = no }
 			paternalism_controlled_democracy_subtype = { can_be_randomly_selected = no }
@@ -167,7 +149,6 @@ ideologies = {
 	modifiers = {}
 	ai_neutral = yes
 }
-
 	paternalism_2 = {
 		types = { paternalism_2_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
@@ -185,7 +166,6 @@ ideologies = {
 		can_be_boosted = no
 	}	
 	conservatism = {
-
 		types = {
 			conservatism_subtype = { can_be_randomly_selected = no }
 			conservatism_agrarianism_subtype = { can_be_randomly_selected = no }
@@ -199,14 +179,12 @@ ideologies = {
 			conservatism_prairie_populism_subtype = { can_be_randomly_selected = no }
 			conservatism_liberal_corporatism_subtype = { can_be_randomly_selected = no }
 		}
-
 		dynamic_faction_names = {}
 		color = { 26 26 101  }
 		rules = {}
 		can_host_government_in_exile = yes
 		war_impact_on_world_tension = 0.25	
 		faction_impact_on_world_tension = 0.1
-
 		modifiers = {}
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
@@ -214,10 +192,7 @@ ideologies = {
 		ai_neutral = yes 
 		ai_ideology_wanted_units_factor = 1.10 
 	}
-
-
 	liberal_conservatism = {
-
 		types = {
 			liberal_conservatism_subtype = { can_be_randomly_selected = no }
 			liberal_conservatism_market_liberalism_subtype = { can_be_randomly_selected = no }
@@ -232,7 +207,6 @@ ideologies = {
 		modifiers = {}
 		ai_neutral = yes
 	}
-
 	liberalism_1 = {
 		types = { liberalism_1_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
@@ -241,7 +215,6 @@ ideologies = {
 		can_be_boosted = no
 	}
 	liberalism = {
-
 		types = {
 			liberalism_subtype = { can_be_randomly_selected = no }
 			liberalism_national_liberalism_subtype = { can_be_randomly_selected = no }
@@ -259,7 +232,6 @@ ideologies = {
 		modifiers = {}
 		ai_neutral = yes
 	}
-
 	liberalism_2 = {
 		types = { liberalism_2_subtype = {} }
 		dynamic_faction_names = {}
@@ -275,7 +247,6 @@ ideologies = {
 		can_be_boosted = no
 	}
 	progressivism = {
-
 		types = {
 			progressivism_subtype = { can_be_randomly_selected = no }
 			progressivism_social_democracy_subtype = { can_be_randomly_selected = no }
@@ -297,8 +268,6 @@ ideologies = {
 		modifiers = {}
 		ai_neutral = yes
 	}
-
-
 	progressivism_2 = {
 		types = { progressivism_2_subtype = { can_be_randomly_selected = no } }
 		dynamic_faction_names = {}
@@ -314,7 +283,6 @@ ideologies = {
 		can_be_boosted = no
 	}
 	socialism = {
-
 		types = {
 			socialism_revolutionary_gaitanismo_subtype = { can_be_randomly_selected = no }
 			socialism_anarcho_communism_subtype = { can_be_randomly_selected = no }
@@ -326,20 +294,14 @@ ideologies = {
 			socialism_reformist_socialism_subtype = { can_be_randomly_selected = no }
 			socialism_left_wing_nationalism_subtype = { can_be_randomly_selected = no }
 		}
-
 		dynamic_faction_names = {
 		}
-
 		color = { 133 33 33 }
-
 		rules = {
 		}
-
 		can_collaborate = yes
-
 		modifiers = {
 		}
-
 		ai_neutral = yes
 	}
 	communism_1 = {
@@ -371,7 +333,6 @@ ideologies = {
 		can_be_boosted = no
 	}
 	communism = {
-
 		types = {
 			communism_subtype = { can_be_randomly_selected = no }
 			communism_communism_subtype = { can_be_randomly_selected = no }
@@ -386,12 +347,10 @@ ideologies = {
 			communism_workerism_subtype = { can_be_randomly_selected = no }
 			communism_revolutionary_baathism_subtype = { can_be_randomly_selected = no }
 		}
-
 		dynamic_faction_names = {}
 		color = { 97 23 23 }
 		war_impact_on_world_tension = 1.0
 		faction_impact_on_world_tension = 1.0
-
 		rules = {
 			can_force_government = yes
 			can_send_volunteers = yes
@@ -402,6 +361,4 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no	
 	}
-
-
 }
