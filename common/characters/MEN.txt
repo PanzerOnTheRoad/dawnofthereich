@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=paternalism_military_mandate_subtype
+			ideology=despotism_aristocratic_conservatism_subtype
 			traits={ spirit_of_genghis }
 			expire="1965.1.1.1"
 			id=-1
