@@ -7,13 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology_subtype
-			traits={ warrior_code }
-			expire="1960.1.1.1"
-			id=-1
-		}
-		country_leader={
-			ideology=despotism
+			ideology=despotism_personalistic_dictatorship_subtype
 			traits={ warrior_code }
 			expire="1960.1.1.1"
 			id=-1
