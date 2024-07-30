@@ -13,7 +13,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = marxism
+				ideology = progressivism_left_wing_populism_subtype 
 				traits = { JUNO_revolutionary_feberista_hero }
 				expire = "1965.1.1.1"
 				id = -1
@@ -29,7 +29,7 @@ characters = {
 				visible = {
 					OR = {
 						has_government = communism
-						has_government = democratic
+						has_government = conservatism
 					}
 				}
 			}
@@ -47,7 +47,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = marxism
+				ideology = paternalism_left_wing_corporatism_subtype 
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -63,7 +63,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			traits = { silent_workhorse quartermaster_general }
 			expire = "1950.1.1.12"
 			id = -1
@@ -79,7 +79,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = rexism
+			ideology = fascism_revolutionary_nationalism_subtype 
 			traits = { tenacious_negotiator }
 			expire = "1942.1.1.12"
 			id = -1
@@ -95,7 +95,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = moderatism
+			ideology = paternalism_subtype
 			traits = { quartermaster_general armaments_organizer }
 			expire = "1950.1.1.12"
 			id = -1
@@ -115,7 +115,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = fascism_subtype 
 				traits = { fascist_sympathies reluctant_veteran }
 				expire = "1950.1.1.12"
 				id = -1
@@ -148,7 +148,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = despotism
+				ideology = fascism_subtype 
 				traits = {  }
 				expire = "1950.1.1.12"
 				id = -1
@@ -1068,7 +1068,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology = rexism
+				ideology = paternalism_national_conservatism_subtype 
 				traits = { JUNO_red_banner_leader }
 				expire = "1965.1.1.1"
 				id = -1
@@ -1110,7 +1110,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = liberalism_subtype
 			traits = { JUNO_president_of_victory JUNO_unpopular }
 			expire = "1965.1.1.1"
 			id = -1
