@@ -1,4 +1,4 @@
-﻿capital = 279
+capital = 279
 
 IF = {
 	limit = { 
@@ -289,7 +289,7 @@ set_politics = {
 set_popularities = {
 	communism = 1
 	socialism = 7
-	progressism = 12
+	progressivism = 12
 	liberalism = 55
 	liberalism_1 = 12
 	conservatism = 13
