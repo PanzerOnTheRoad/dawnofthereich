@@ -48,16 +48,23 @@ IF = {
 	}
 
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = progressivism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = yes
-	}
+		}
+
 	set_popularities = {
-		democratic = 55
-		communism = 30
-		neutrality = 10
-		fascism = 5
+		communism = 13 #Communist party of paraguay
+		socialism = 0
+		progressivism = 48 #National Revolutionary Party
+		liberalism = 17 #Partido Liberal
+		conservatism = 12 #National Republican Association Democrats
+		paternalism = 10 #National Republican Association Epifanistas
+		despotism = 0
+		ultranationalism = 0
+		fascism = 0
+		national_socialism = 0
 	}
 	add_timed_idea = {
 		idea = idea_PAR_the_aftershock_of_the_tripple_alliance
@@ -114,14 +121,22 @@ IF = {
 	ELSE = {
 
 		set_politics = {
-			ruling_party = communism
+			ruling_party = progressivism
 			last_election = "1936.1.1"
 			election_frequency = 48
 			elections_allowed = yes
 		}
 		set_popularities = {
-			democratic = 25
-			communism = 75
+		communism = 13 #Communist party of paraguay
+		socialism = 0
+		progressivism = 48 #National Revolutionary Party
+		liberalism = 17 #Partido Liberal
+		conservatism = 12 #National Republican Association Democrats
+		paternalism = 10 #National Republican Association Epifanistas
+		despotism = 0
+		ultranationalism = 0
+		fascism = 0
+		national_socialism = 0
 		}
 
 		recruit_character = PAR_rafael_franco
@@ -250,16 +265,22 @@ set_country_flag = monroe_doctrine
 	}
 
 	set_politics = {
-		ruling_party = communism
-		last_election = "1938.1.1"
+		ruling_party = progressivism
+		last_election = "1936.1.1"
 		election_frequency = 48
-		elections_allowed = no
+		elections_allowed = yes
 	}
-
 	set_popularities = {
-		democratic = 20
-		communism = 30
-		neutrality = 50
+		communism = 13 #Communist party of paraguay
+		socialism = 0
+		progressivism = 48 #National Revolutionary Party
+		liberalism = 17 #Partido Liberal
+		conservatism = 12 #National Republican Association Democrats
+		paternalism = 10 #National Republican Association Epifanistas
+		despotism = 0
+		ultranationalism = 0
+		fascism = 0
+		national_socialism = 0
 	}
 	
 }
