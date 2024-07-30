@@ -84,13 +84,23 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1932.6.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	communism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 46 #Liberal Doctrinaire Party
+	liberalism_1 = 17 #Liberal Renewal Party
+	conservatism = 23 #Conservative Party
+	paternalism = 14 #Agrarian Party
+	despotism = 0
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 0
 }
 
 1939.1.1 = {
