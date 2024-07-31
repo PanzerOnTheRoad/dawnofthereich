@@ -94,15 +94,16 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = liberalism
 		last_election = "1936.2.9"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 95
-		communism = 5
+		liberalism = 60 #National Republican Party 
+		liberalism_1 = 35 #National Party
+		communism = 5 #People's Vanguard Party
 	}
 
 	recruit_character = COS_leon_cortes_castro
