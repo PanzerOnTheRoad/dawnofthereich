@@ -120,7 +120,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	communism = 11 #Hezb-e Tudeh Iran
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 9 #Anjoman-e Eslami
+	paternalism = 0
+	despotism = 43 #Royalist
+	ultranationalism = 12 #Ḥezb-e Mellat-e Irān
+	fascism = 10 #Hezb-e Pan-Iranist
+	national_socialism = 0
 }
 
 # His son, who came to power 41
