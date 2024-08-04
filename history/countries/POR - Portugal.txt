@@ -201,7 +201,7 @@ if = {
 
 set_convoys = 50
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -221,13 +221,22 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1938.10.30"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		neutrality = 100
+		communism = 7 #Partido Comunista Português
+		socialism = 11 #Partido Socialista
+		progressivism = 7 #Movimento de Unidade Democrática
+		liberalism = 11 #Partido Republicano Português
+		conservatism = 0
+		paternalism = 0
+		despotism = 59 #Uniao Nacional
+		ultranationalism = 0
+		fascism = 0
+		national_socialism = 0
 	}
 }
 
