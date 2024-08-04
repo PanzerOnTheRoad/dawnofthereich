@@ -151,14 +151,22 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = despotism
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 49
-	fascism = 51
+	communism = 13 #Partido Comunista Peruano
+	socialism = 23 #Partido Aprista Peruano
+	progressivism = 0
+	liberalism = 0
+	conservatism = 8 #Partido Conservador
+	paternalism = 0
+	despotism = 56 #Unión Revolucionaria
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 0
 }
 
 1939.1.1 = {
