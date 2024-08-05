@@ -1238,10 +1238,21 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 2
-	fascism = 1
-	communism = 72
-	communist_1 = 25
+	communism = 55 #Bukharinists
+	communism_1 = 23 #Stalinists
+	communism_2 = 10 #left opposition
+	communism_3 = 5 #Right Opposition
+	communism_4 = 3 #Workers Opposition
+	socialism = 2 #Anarcho Socialists
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	paternalism = 0
+	despotism = 0
+	ultranationalism = 0
+	fascism = 2
+	national_socialism = 0
+
 }
 
 create_faction = Comintern
