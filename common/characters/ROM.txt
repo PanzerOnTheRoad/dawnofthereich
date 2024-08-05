@@ -7,12 +7,11 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=liberalism_national_liberalism_subtype 
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
-
 	ROM_constantin_ion_parhon={
 		name=ROM_constantin_ion_parhon
 		portraits={
@@ -21,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=communism_bolshevism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -35,12 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			ideology=despotism
+			ideology=despotism_absolute_monarchy_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -68,7 +62,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=centrism
+			ideology=paternalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -82,13 +76,54 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_fascist_populism_subtype 
 			traits={ anti_democrat }
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
-
+	ROM_ion_antonescu={
+		name=ROM_ion_antonescu
+		portraits={
+			army={
+				small="GFX_idea_ROM_ion_antonescu"
+				large="GFX_Portrait_romania_ion_antonescu"
+			}
+			civilian={
+				large="GFX_Portrait_romania_ion_antonescu"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = ROM_ion_antonescu
+			allowed = {
+				original_tag = ROM
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		country_leader = { 
+			ideology = fascism_revolutionary_nationalism_subtype 
+			expire = "1955.1.1"
+			traits={}
+			id=-1
+		}
+		
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
 	ROM_corneliu_codreanu={
 		name=ROM_corneliu_codreanu
 		portraits={
@@ -97,7 +132,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -225,42 +260,6 @@ characters={
 		
 	}
 
-	ROM_ion_antonescu={
-		name=ROM_ion_antonescu
-		portraits={
-			army={
-				small="GFX_idea_ROM_ion_antonescu"
-				large="GFX_Portrait_romania_ion_antonescu"
-			}
-			civilian={
-				large="GFX_Portrait_romania_ion_antonescu"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = ROM_ion_antonescu
-			allowed = {
-				original_tag = ROM
-			}
-			traits = {
-				army_chief_offensive_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
-		field_marshal={
-			traits={ offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
-			legacy_id=-1
-		}
-	}
 
 
 	### NAVY CHIEFS ###
