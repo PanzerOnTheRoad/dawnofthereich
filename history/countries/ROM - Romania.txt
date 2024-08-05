@@ -367,16 +367,24 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.7.15"
+		ruling_party = liberalism
+		last_election = "1933.12.20"
 		election_frequency = 48
-		elections_allowed = no
+		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 20
-		fascism = 35
-		communism = 2
-		neutrality = 43
+		communism = 5 #Romanian Communist Party
+		socialism = 0
+		progressivism = 4 #Social Democratic Party
+		liberalism = 30 #National Liberal Party
+		conservatism = 25 #National Peasants' Party 
+		paternalism = 0
+		despotism = 13 #King Carol II Royal Government
+		despotism_1 = 5 #National Liberal Party-Bratianu
+		ultranationalism = 0
+		fascism = 10 #Iron Guard
+		fascism_1 = 8 #National Christian Party
+		national_socialism = 0
 	}
 }
 ### VARIANTS ###
