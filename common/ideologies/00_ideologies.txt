@@ -2,7 +2,9 @@ ideologies = {
 		national_socialism = {
 		types = {
 			national_socialism_subtype = {}
-			national_socialism_burgundian_system_subtype = {}
+			national_socialism_burgundian_system_subtype = {can_be_randomly_selected = no }
+			national_socialism_burgundian_system_subtype = {can_be_randomly_selected = no }
+			national_socialism_clerical_fascism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 50 33 30 }
