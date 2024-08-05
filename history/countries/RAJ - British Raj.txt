@@ -254,18 +254,38 @@ set_cosmetic_tag = RAJ_UK # British Raj
 		dispersed_industry3 = 1
 	}
 }
-
+ENG = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = RAJ
+            autonomous_state = autonomy_puppet
+        }
+        else = {
+            puppet = RAJ
+        }
+    }
+}
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 17
-	fascism = 2
-	communism = 1
-	neutrality = 80
+	communism = 5 #Communist Party of India 
+	socialism = 0
+	progressivism = 31 #Indian National Congress
+	liberalism = 0
+	conservatism = 25 #All India Muslim League
+	conservatism_1 = 6 #Unionist Party
+	paternalism = 7 #Shiromani Akali Dal
+	despotism = 23 #British Raj Administration
+	ultranationalism = 3 #Hindu Mahasabha
+	fascism = 0
+	national_socialism = 0
 }
 
 if = {
