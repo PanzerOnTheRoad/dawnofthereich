@@ -3,11 +3,11 @@ characters={
 		name="Jozef Tiso"
 		portraits={
 			civilian={
-				large=GFX_portrait_Jozef_Tiso
+				large=GFX_portrait_Jozef_Tisoe
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=national_socialism_clerical_fascism_subtype 
 			expire="1965.1.1"
 			id=-1
 		}
