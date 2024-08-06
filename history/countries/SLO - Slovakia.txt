@@ -133,13 +133,20 @@ recruit_character = SLO_anton_pulanick
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 90
-	communism = 5
+	communism = 3 #Communist Party of Slovakia
+	socialism = 0
+	progressivism = 2 #Party of Slovak Revival
+	liberalism = 2 #Sloboda a Solidarita
+	conservatism = 4 #Democratic Party
+	paternalism = 11 #Slovak National Council
+	despotism = 0
+	fascism = 27 #Hlinka's Slovak People's Party
+	national_socialism = 51 #Hlinka's Slovak People's Party
+	ultranationalism = 0
 }
