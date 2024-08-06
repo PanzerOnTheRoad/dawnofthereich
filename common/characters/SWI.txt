@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=paternalism_oligarchy_subtype 
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=paternalism_oligarchy_subtype 
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=centrism
+			ideology=paternalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -101,7 +101,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=nazism
+				ideology=national_socialism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -115,7 +115,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=_communism_marxism_leninism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -2067,7 +2067,7 @@ characters={
 	SWI_robert_tobler = {
 		
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = fascism_subtype
 			traits = { SWI_fascist_recruiter }
 			expire = "1965.1.1.1"
 			id=-1
@@ -2166,7 +2166,7 @@ characters={
 			
 		}
 		country_leader={
-			ideology=nazism
+			ideology=national_socialism_subtype
 			traits={ SWI_fascist }
 			expire="1965.1.1.1"
 			id=-1
