@@ -414,13 +414,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	liberal_conservatism = 23 #Demokrat Parti
+	paternalism = 77 #Republican People's Party
+	
 }
 
 set_convoys = 20
