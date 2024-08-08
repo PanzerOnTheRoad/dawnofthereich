@@ -359,15 +359,22 @@ if = { #########   By Blood Alone Stuff
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = paternalism
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	progressivism = 11 #Social Democratic Party of Switzerland Center
+	liberalism = 10 #Social Democratic Party of Switzerland Institutional
+	liberal_conservatism = 10 #Free Democratic Party of Switzerland Center
+	conservatism = 14 #Free Democratic Party of Switzerland Institutional
+	conservatism_1 = 18 #Swiss Conservative People's Party Conservatives
+	conservatism_2 = 6 #Farmers', Tradesmen's, and Citizens' Party  Wahlenists
+	paternalism = 10 #Bundesversammlung
+	paternalism_1 = 9 #Schweizerische Konservative Volkspartei Nationalisten
+	paternalism_2 = 7 #Farmers', Tradesmen's, and Citizens' Party Populists
+	fascism = 5 #Farmers', Tradesmen's, and Citizens' Party - Vaud League
 }
 
 #1939.1.1 = {
