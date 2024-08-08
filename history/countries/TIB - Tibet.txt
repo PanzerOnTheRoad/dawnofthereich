@@ -1,4 +1,4 @@
-﻿capital = 757
+ot﻿capital = 757
 
 oob = "TIB_1936"
 
@@ -70,11 +70,11 @@ recruit_character = TIB_taktra_rinpoche
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism 
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	despotism = 100 #Kashag
 }
