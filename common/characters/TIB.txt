@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_theocracy_subtype  
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=socialism_subtype
 			expire="1944.1.1.12"
 			id=-1
 		}
@@ -33,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anti_revisionism
+			ideology=communism_subtype
 			traits={ retired_officer }
 			expire="1945.1.1.12"
 			id=-1
@@ -47,7 +47,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=falangism
+			ideology=fascism_subtype
 			traits={ ideological_crusader reluctant_interventionist }
 			expire="1946.1.1.12"
 			id=-1
