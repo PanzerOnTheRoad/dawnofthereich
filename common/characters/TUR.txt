@@ -14,7 +14,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=paternalism_kemalism_subtype 
 				traits={ father_of_the_turks }
 				expire="1965.1.1.1"
 				id=-1
@@ -34,7 +34,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=paternalism_kemalism_subtype 
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -97,7 +97,7 @@ characters={
 			}
 
 			country_leader={
-				ideology=stalinism
+				ideology=communism_marxism_leninism_subtype
 				traits={ reluctant_stalinist }
 				expire="1965.1.1.1"
 				id=-1
@@ -114,7 +114,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=stalinism
+				ideology=communism_marxism_leninism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -134,7 +134,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=paternalism_kemalism_subtype 
 				traits={ liberal_democratic_paragon }
 				expire="1965.1.1.1"
 				id=-1
@@ -195,7 +195,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=paternalism_kemalism_subtype 
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -261,7 +261,7 @@ characters={
 			}
 			
 			country_leader={
-				ideology=despotism
+				ideology=paternalism_kemalism_subtype 
 				traits={ milli_sef }
 				expire="1965.1.1.1"
 				id=-1
@@ -278,7 +278,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=despotism
+				ideology=paternalism_kemalism_subtype 
 				traits={ }
 				expire="1965.1.1.1"
 				id=-1
@@ -808,7 +808,7 @@ characters={
 			}
 			
 			country_leader={
-				ideology=fascism_ideology
+				ideology=fascism_subtype
 				expire="1966.1.1.1"
 				id=-1
 			}
@@ -2436,7 +2436,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=fascism_ideology
+			ideology=fascism_subtype
 			traits={ the_statist }
 			expire="1965.1.1.1"
 			id=-1
