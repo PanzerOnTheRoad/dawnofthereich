@@ -1,4 +1,4 @@
-﻿capital = 49
+capital = 49
 
 if = {
 	limit = {
@@ -497,8 +497,8 @@ if = {
 
 if = {
 	limit = { NOT = { has_dlc = "Battle for the Bosporus" } }
-	recruit_character = TUR_ismet_inonu
 	recruit_character = TUR_mustafa_kemal_ataturk
+	recruit_character = TUR_ismet_inonu
 	recruit_character = TUR_sefik_husnu
 	recruit_character = TUR_celal_bayar
 	recruit_character = TUR_fevzi_cakmak
