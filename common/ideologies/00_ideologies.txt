@@ -202,6 +202,7 @@ ideologies = {
 			paternalism_solidarism_subtype = { can_be_randomly_selected = no }
 			paternalism_military_mandate_subtype = { can_be_randomly_selected = no }
 			paternalism_corporate_paternalism_subtype = { can_be_randomly_selected = no }
+			paternalism_kemalism_subtype = { can_be_randomly_selected = no }	
 			paternalism_semi_constitutional_monarchy_subtype = { can_be_randomly_selected = no }
 			paternalism_dominant_party_democracy_subtype = { can_be_randomly_selected = no }
 			paternalism_provisional_government_subtype = { can_be_randomly_selected = no }
