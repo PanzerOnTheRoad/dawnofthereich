@@ -86,7 +86,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	socialist = 10 #Tanzim Abdulaat al-Ahrar
+	socialism = 10 #Tanzim Abdulaat al-Ahrar
 	paternalism = 26 #al-Ittihad al-Yamani
 	despotism = 64 #Hamid al-Din
 }
