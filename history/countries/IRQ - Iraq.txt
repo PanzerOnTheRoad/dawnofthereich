@@ -116,14 +116,22 @@ recruit_character = IRQ_nuri_as_said
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	communism = 10 #Iraqi communist Party 
+	socialism = 6 #Iraqi Socialist Party 
+	progressivism = 0
+	liberalism = 17 #Iraqi Independence Party
+	conservatism = 0
+	paternalism = 0
+	despotism = 42 #Hashemite Dynasty
+	ultranationalism = 25 #Party of National Brotherhood
+	fascism = 0
+	national_socialism = 0
 }
 
 1939.1.1 = {
