@@ -1,6 +1,6 @@
  ### COUNTRY NAMES ###
- GER:0 "Deutsches Reich"
- GER_DEF:0 "das Deutsche Reich"
+ GER_national_socialism:0 "Deutsches Reich"
+ GER_national_socialism_DEF:0 "das Deutsche Reich"
  GER_ADJ:0 "German"
 
  ### PARTIES ###
