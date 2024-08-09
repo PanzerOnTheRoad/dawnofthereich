@@ -94,7 +94,16 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 100
+	communism = 0
+	socialism = 0
+	progressivism = 26 #Labor Party
+	liberalism = 15 #Progressive Fraternal Party
+	conservatism = 8 #National Development Party
+	paternalism = 12 #National Republican Party
+	despotism = 0
+	ultranationalism = 0
+	fascism = 39 #National Pro Patria Party
+	national_socialism = 0
 }
 
 1939.1.1 = {
