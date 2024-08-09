@@ -131,6 +131,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
+	communism = 4
 	despotism = 68 #Qinghai Provincial Government 
 	despotism_1 = 13 #Shanxi Self-Government Association
 	despotism_2 = 19 #KMT
