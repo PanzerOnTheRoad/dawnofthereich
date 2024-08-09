@@ -90,11 +90,16 @@ recruit_character = SAU_gholam_wali
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	communism = 2 #Munazamat al-Shuyuin al-Su'udiyn
+	socialism = 3 #Aitihad al-Shaeb fi al-Jazirat al-'Arabiyah
+	progressivism = 10 #Harakat al-'Amra al-'Ahrar - Left Wing
+	liberalism = 5 #Harakat al-'Amra al-'Ahrar - Center Wing
+	despotism = 70	#al-'Usra al-Su'ud - Traditionalist Wing
+	fascism = 10 #MTIJA
 }
