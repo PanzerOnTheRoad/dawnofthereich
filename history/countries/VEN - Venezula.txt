@@ -104,13 +104,20 @@ add_ideas = idea_VEN_blockade_inactive
 
 set_convoys = 10
 set_politics = {
-	ruling_party = fascism
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 80
-	communism = 15
+	communism = 4 #Partido Comunista de Venezuela
+	socialism = 7 #Democratic Action Left
+	progressivism = 10 #Democratic Action Center
+	liberalism = 28 #Venezuelan Democratic Party Institutional
+	conservatism = 15 #Venezuelan Democratic Party Center
+	paternalism = 36 #Venezuelan Democratic Party Right
+	despotism = 0
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 0
 }
