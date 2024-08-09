@@ -85,15 +85,21 @@ recruit_character = IRE_sean_ceallaigh
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = paternalism
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
+	communist = 5
+	socialist = 4
+	progressivism = 11
+	liberal_conservatism = 20
+	conservatism = 12
+	paternalism_2 = 8
+	paternalism = 26
+	despotism = 12
+	fascism = 2
 }
 
 1939.1.1 = {
