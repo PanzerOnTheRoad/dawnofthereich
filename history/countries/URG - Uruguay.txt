@@ -247,12 +247,12 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	communist = 2
-	socialist = 3 #Union popular
-	liberalism = 9 #Colorado
-	liberal_conservatism = 22 #Partido Nacional Unión Blanca Democrática
-	conservatism = 25 #Nacional Herrerismo
-	paternalism = 17 #Colorado Batllista
+	communist = 3
+	socialist = 4 #Union popular
+	liberalism = 12 #Colorado
+	liberal_conservatism = 28 #Partido Nacional Unión Blanca Democrática
+	conservatism = 31 #Nacional Herrerismo
+	paternalism = 22 #Colorado Batllista
 }
 
 1939.1.1 = {
