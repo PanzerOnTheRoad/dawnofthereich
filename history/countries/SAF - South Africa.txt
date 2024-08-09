@@ -1,4 +1,4 @@
-﻿capital = 275
+capital = 275
 
 oob = "SAF_1936"
 if = {
@@ -17,7 +17,20 @@ if = {
 		}
 	}
 }
-
+ENG = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = SAF
+            autonomous_state = autonomy_dominion
+        }
+        else = {
+            puppet = SAF
+        }
+    }
+}
 set_stability = 0.6
 set_war_support = 0.1
 # Starting tech
@@ -177,20 +190,7 @@ if = {
 		}
 	}
 }
-ENG = {
-    if = {
-        limit = {
-            has_dlc = "Together for Victory"
-        }
-        set_autonomy = {
-            target = SAF
-            autonomous_state = autonomy_puppet
-        }
-        else = {
-            puppet = SAF
-        }
-    }
-}
+
 set_convoys = 25
 set_politics = {
 	ruling_party = paternalism
@@ -201,7 +201,7 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	socialism = 0
-	progresivism = 9 #Labour
+	progressivism = 9 #Labour
 	progressivism_1 = 4 #African National Congress
 	liberalism = 28 #South African Left
 	conservatism = 18 #South African Right
