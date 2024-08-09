@@ -11,7 +11,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_warlordism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -58,7 +58,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=conservatism_subtype
 			traits={ editor financial_expert }
 			expire="1956.1.1.12"
 			id=-1
@@ -73,7 +73,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anarchist_communism
+			ideology=communism_subtype
 			expire="1951.1.1.12"
 			id=-1
 		}
@@ -87,7 +87,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=falangism
+			ideology=fascism_subtype
 			expire="1946.1.1.12"
 			id=-1
 		}
