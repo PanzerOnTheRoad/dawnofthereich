@@ -308,16 +308,22 @@ if = {
 
 set_convoys = 10
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1935.5.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 15
-	fascism = 10
-	communism = 15
-	neutrality = 60
+	communism = 0
+	socialism = 11 #Socialist Party of Yugoslavia
+	progressivism = 0
+	liberalism = 12 #Yugoslav Democratic Party
+	conservatism = 19 #Traditionalists and Serbian Radical Party	
+	paternalism = 43 #Yugoslav Monarchy Royalists
+	despotism = 7 #Yugoslav Monarchy Authoritarian
+	ultranationalism = 0
+	fascism = 8 #Yugoslav National Movement
+	national_socialism = 0
 }
 
 1939.1.1 = {
