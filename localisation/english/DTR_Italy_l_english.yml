@@ -1,0 +1,27 @@
+﻿l_english:
+ ### COUNTRY NAMES ###
+ ITA_fascism:0 "Regno d'Italia"
+ ITA_fascism_DEF:0 "il Regno D'Italia"
+ ITA_ADJ:0 "Italian"
+
+ ### PARTIES ###
+ ITA_communism_party:0 "PCI"
+ ITA_communism_party_long:0 "Partito Comunista Italiano"
+ ITA_progressivism_party:0 "PSI"
+ ITA_progressivism_party_long:0 "Partito Socialista Italiano"
+ ITA_liberalism_party:0 "PLI"
+ ITA_liberalism_party_long:0 "Partito Liberale Italiano"
+ ITA_liberalism_1_party:0 "PRI"
+ ITA_conservatism_party_long:0 "Deutsche Zentrumspartei"
+ ITA_despotism_party:0 "Monarchia italiana"
+ ITA_fascism_party:0 "PNF"
+ ITA_fascism_party_long:0 "Partito Nazionale Fascista"
+ 
+ ### CHARACTERS ###
+ 
+
+ #Ministers
+ 
+ ### IDEAS ###
+
+ ### TOOLTIPS ###
