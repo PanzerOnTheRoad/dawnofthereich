@@ -177,18 +177,39 @@ if = {
 		}
 	}
 }
-
+ENG = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = SAF
+            autonomous_state = autonomy_puppet
+        }
+        else = {
+            puppet = SAF
+        }
+    }
+}
 set_convoys = 25
 set_politics = {
-	ruling_party = democratic
+	ruling_party = paternalism
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 20
-	communism = 5
+	communism = 0
+	socialism = 0
+	progresivism = 9 #Labour
+	progressivism_1 = 4 #African National Congress
+	liberalism = 28 #South African Left
+	conservatism = 18 #South African Right
+	paternalism = 41 #National 
+	despotism = 0
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 0
 }
 
 recruit_character = SAF_j_b_m_hertzog
