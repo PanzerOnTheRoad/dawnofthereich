@@ -1,3 +1,4 @@
+l_english:
  ### COUNTRY NAMES ###
  GER_national_socialism:0 "Deutsches Reich"
  GER_national_socialism_DEF:0 "das Deutsche Reich"
@@ -5,9 +6,9 @@
 
  ### PARTIES ###
  GER_communism_party:0 "KPD"
- GER_communistm_party_long:0 "Kommunistische Partei Deutschlands"
+ GER_communism_party_long:0 "Kommunistische Partei Deutschlands"
  GER_socialism_party:0 "SAPD"
- GER_socialist_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
+ GER_socialism_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
  GER_progressivism_party:0 "SPD"
  GER_progressivism_party_long:0 "Sozialdemokratische Partei Deutschlands"
  GER_conservatism_party:0 "Zentrum"
