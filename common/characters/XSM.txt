@@ -11,7 +11,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_warlordism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -58,7 +58,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=socialism_subtype
 			traits={ national_integralist }
 			expire="1941.1.1.12"
 			id=-1
@@ -72,7 +72,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=communism_marxism_leninism
 			traits={ smooth_talking_charmer armaments_organizer }
 			expire="1956.1.1.12"
 			id=-1
@@ -86,7 +86,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=Fascism_subtype
 			traits={ economist silent_workhorse }
 			expire="1955.1.1.12"
 			id=-1
