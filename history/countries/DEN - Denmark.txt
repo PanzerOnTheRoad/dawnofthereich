@@ -1,4 +1,4 @@
-capital = 37
+﻿capital = 37
 
 if = {
 	limit = { has_dlc = "Arms Against Tyranny" }
@@ -229,7 +229,7 @@ if = {
 	#OCCUPATION LAWS
 	set_variable = { DEN_occupation_laws_cic_to_overlord = 0 }
 	set_variable = { DEN_occupation_laws_mic_to_overlord = 0 }
-	set_variable = { DEN_occupation_laws_autonomy_manpower_share = 0 }
+	set_variable = { DEN_occupation_laws_autoautonomy_manpower_share = 0 }
 	set_variable = { DEN_occupation_laws_master_ideology_drift = 0 }
 	set_variable = { DEN_occupation_laws_autonomy_gain = 0 }
 
