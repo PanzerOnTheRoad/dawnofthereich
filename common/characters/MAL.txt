@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=paternalism_national_conservatism_subtype
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=despotism_colonial_government_subtype 
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -33,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=marxism
+			ideology=communism_marxism_leninism_subtype
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -46,7 +46,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=moderatism
+			ideology=socialism_agrarian_socialism_subtype
 			expire="1953.3.1.1"
 			id=-1
 		}
@@ -59,7 +59,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazism
+			ideology=fascism_subtype
 			expire="1950.1.1.12"
 			id=-1
 		}
