@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism_military_junta_subtype S
+			ideology=despotism_military_junta_subtype 
 			expire="1965.1.1.1"
 			id=-1
 		}
