@@ -232,10 +232,10 @@ set_popularities = {
 		progressivism = 7 #Movimento de Unidade Democrática
 		liberalism = 13 #Partido Republicano Português
 		conservatism = 0
-		paternalism = 0
-		despotism = 63 #Uniao Nacional
+		paternalism = 20 #Uniao Nacional corporate paternalist
+		despotism = 35 #Uniao Nacional Corporatocratic
 		ultranationalism = 0
-		fascism = 0
+		fascism = 8 #Uniao Nacional Corporate statist
 		national_socialism = 0
 	}
 }
