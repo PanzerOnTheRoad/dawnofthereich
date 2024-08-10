@@ -207,16 +207,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 8 #Partido Comunista Português
-	socialism = 9 #Partido Socialista
-	progressivism = 7 #Movimento de Unidade Democrática
-	liberalism = 13 #Partido Republicano Português
-	conservatism = 0
-	paternalism = 0
-	despotism = 63 #Uniao Nacional
-	ultranationalism = 0
-	fascism = 0
-	national_socialism = 0
+		communism = 8 #Partido Comunista Português
+		socialism = 9 #Partido Socialista
+		progressivism = 7 #Movimento de Unidade Democrática
+		liberalism = 13 #Partido Republicano Português
+		conservatism = 0
+		paternalism = 20 #Uniao Nacional corporate paternalist
+		despotism = 35 #Uniao Nacional Corporatocratic
+		ultranationalism = 0
+		fascism = 8 #Uniao Nacional Corporate statist
+		national_socialism = 0
 }
 
 1939.1.1 = {
