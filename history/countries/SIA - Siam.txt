@@ -164,14 +164,22 @@ set_convoys = 15
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	communism = 0
+	socialism = 0 
+	progressivism = 5 #Khana Ratsadon - Thamniap Tha Chang
+	liberalism = 0
+	conservatism = 0
+	paternalism = 10 #Khana Ratsadon - Soi Ratchakru
+	despotism = 30 #Khana Ratsadon - Saphan Kwai
+	ultranationalism = 0
+	fascism = 55 #Khana Ratsadon
+	national_socialism = 0
 }
 
 1939.1.1 = {
