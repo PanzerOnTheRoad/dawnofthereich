@@ -107,11 +107,33 @@ if = {
 
 	add_to_tech_sharing_group = commonwealth_research
 }
-
+ENG = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = MAL
+            autonomous_state = autonomy_puppet
+        }
+        else = {
+            puppet = MAL
+        }
+    }
+}
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
 set_popularities = {
-	democratic = 33
-	communism = 33
-	neutrality = 34
+
+	communism = 7 #Communist Party of Malaya
+	socialism = 15 #Young Malays Union Left
+	progressivism = 20 #Young Malays Union Right
+	paternalism = 25 #United Malays National Organisation
+	despotism = 33 #British Malaya Colonial Administration
 }
 
 
