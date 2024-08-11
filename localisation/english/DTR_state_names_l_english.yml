@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  STATE_1:0 "Corsica"
  STATE_2:1 "Lazio"
  STATE_3:1 "Swiss Plateau"
@@ -992,3 +992,4 @@ l_english:
  STATE_974: "Eupen-Malmedy"
  STATE_975: "Somme"
  STATE_976: "Ardennen-Maas"
+ STATE_977:0 "North Zaolzie"
