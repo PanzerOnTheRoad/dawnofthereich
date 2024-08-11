@@ -139,12 +139,13 @@ USA = {
     }
 }
 set_popularities = {
-	liberalism = 82
-	fascism = 9
-	communism = 9
+	socialism = 17
+	liberalism = 15
+	paternalism = 68
+	
 }
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = paternalism
 	last_election = "1935.9.15"
 	election_frequency = 72
 	elections_allowed = yes

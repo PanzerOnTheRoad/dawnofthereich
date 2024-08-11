@@ -722,10 +722,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 73
-	communism = 2
-	neutrality = 5
+	communism = 15 #Partito Comunista Italiano
+	socialism = 0
+	progressivism = 12 #Partito Socialista Italiano
+	liberalism_1 = 3 #Partito Repubblicano Italiano
+	liberalism = 8 #Partito Liberale Italiano
+	conservatism = 0 
+	paternalism = 0
+	despotism = 11 #Italian Monarchy
+	ultranationalism = 0
+	fascism = 51 #Partito Nazionale Fascista
+	national_socialism = 0
 }
 
 recruit_character = ITA_benito_mussolini

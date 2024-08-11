@@ -107,10 +107,17 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 65
-	neutrality = 20
-	fascism = 5
-	communism = 10
+	communism = 11
+	progressivism_2 = 13
+	progressivism = 10
+	progressivism_1 = 6
+	liberalism = 7
+	conservatism = 7
+	paternalism = 15
+	paternalism_1 = 11
+	fascism = 7
+	national_socialism = 13
+	
 }
 
 if = {

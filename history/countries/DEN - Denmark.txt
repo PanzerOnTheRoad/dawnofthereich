@@ -27,23 +27,6 @@ if = {
 	}
 }
 
-# Diplomacy
-IF = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = ICE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	ELSE = {
-		puppet = ICE
-	}
-}
 
 #### COUNTRY LEADERS ####
 recruit_character = DEN_thorvald_stauning
@@ -188,11 +171,16 @@ if = {
 	}
 
 	#PARY POPULARITY
-	set_variable = { DEN_democratic_popularity = 94 }
-	set_variable = { DEN_communism_popularity = 2 }
-	set_variable = { DEN_neutrality_popularity = 3 }
-	set_variable = { DEN_fascism_popularity = 1 }
-
+	set_variable = { DEN_communism_popularity = 1 }
+	set_variable = { DEN_progressivism_popularity = 46 }
+	set_variable = { DEN_progressivism_1_popularity = 9 }
+	set_variable = { DEN_liberalism_popularity = 3 }
+	set_variable = { DEN_liberal_conservatism_popularity = 17 }
+	set_variable = { DEN_conservatism_popularity = 18 }
+	set_variable = { DEN_conservatism_1_popularity = 4 }
+	set_variable = { DEN_paternalism_popularity = 1 }
+	set_variable = { DEN_national_socialism_popularity = 1 }
+	
 	#NEGLECTED MILITARY
 	set_variable = { DEN_neglected_military_mobilization_speed = -0.2 }
 	set_variable = { DEN_neglected_military_surrender_limit = -0.2}
@@ -241,7 +229,7 @@ if = {
 	#OCCUPATION LAWS
 	set_variable = { DEN_occupation_laws_cic_to_overlord = 0 }
 	set_variable = { DEN_occupation_laws_mic_to_overlord = 0 }
-	set_variable = { DEN_occupation_laws_autonomy_manpower_share = 0 }
+	set_variable = { DEN_occupation_laws_autoautonomy_manpower_share = 0 }
 	set_variable = { DEN_occupation_laws_master_ideology_drift = 0 }
 	set_variable = { DEN_occupation_laws_autonomy_gain = 0 }
 
@@ -413,13 +401,18 @@ if = {
 		NOT = { has_dlc = "Arms Against Tyranny" }
 	}
 	set_popularities = {
-		democratic = 94
-		fascism = 1
-		communism = 2
-		neutrality = 3
+		communism = 1
+		progressivism = 46
+		progressivism_1 = 9
+		liberalism = 3
+		liberal_conservatism = 17
+		conservatism = 18
+		conservatism_1 = 4
+		paternalism = 1
+		national_socialism = 1
 	}
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = progressivism
 		last_election = "1935.10.22"
 		election_frequency = 48
 		elections_allowed = yes
@@ -432,7 +425,7 @@ if = {
 			has_dlc = "Arms Against Tyranny"
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = progressivism
 			last_election = "1939.4.3"
 			election_frequency = 42
 			elections_allowed = yes
@@ -443,7 +436,7 @@ if = {
 			NOT = { has_dlc = "Arms Against Tyranny" }
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = progressivism
 			last_election = "1939.10.22"
 			election_frequency = 48
 			elections_allowed = yes
@@ -454,7 +447,8 @@ if = {
 	add_ideas = {
 		volunteer_only
 	}
-	
+
+
 
 	set_power_balance = {
 		id = DEN_balance_of_power

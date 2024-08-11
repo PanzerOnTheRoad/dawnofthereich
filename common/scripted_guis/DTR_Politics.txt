@@ -1,0 +1,19 @@
+scripted_gui = {
+
+	DTR_politics = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "DTR_politics_faction_leader_container"
+
+		visible = {
+			always = yes
+		}
+
+		triggers = {
+		}
+
+		properties = {
+		}
+	}
+
+}

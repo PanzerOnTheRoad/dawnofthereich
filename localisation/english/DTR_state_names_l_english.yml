@@ -990,5 +990,5 @@ l_english:
  STATE_972: "Hesse-Nassau"
  STATE_973: "Berlin"
  STATE_974: "Eupen-Malmedy"
- STATE_975: "Ardennen-Maas"
- STATE_976: "Somme"
+ STATE_975: "Somme"
+ STATE_976: "Ardennen-Maas"

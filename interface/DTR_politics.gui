@@ -19,7 +19,7 @@ guiTypes = {
 			name = "DTR_subideology"
 			position = { x = 153 y = 0 }
 			font = "hoi_18mbs"
-			text = [?country_leader.GetIdeologyGroup]
+			text = [GetSubIdeologyLoc]
 			maxWidth = 160
 			maxHeight = 20
 		}

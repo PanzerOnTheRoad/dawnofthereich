@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			desc= adolf_hitler_desc
-			ideology=national_socialism
+			ideology=national_socialism_subtype
 			traits={ dictator }
 			expire="1963.1.1.1"
 			id=-1
@@ -1375,7 +1375,7 @@ characters={
 		name=GER_wilhelm_frick
 		portraits={
 			army={
-				small="GFX_idea_frick"
+				small="GFX_GER_minister_wilhelm_frick"
 			}
 		}
 		advisor={
@@ -1447,7 +1447,7 @@ characters={
 		name=GER_hjalmar_schacht
 		portraits={
 			army={
-				small="GFX_idea_hjalmar_schacht"
+				small="GFX_GER_minister_hjalmar_schacht"
 			}
 		}
 		advisor={
@@ -1588,7 +1588,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_government = fascism 
+				has_government = national_socialism 
 				if = {
 					limit = {
 						has_dlc = "Man the Guns"
@@ -1603,7 +1603,7 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = fascism 
+					has_government = national_socialism 
 				}
 			}
 			ai_will_do = {
@@ -1616,7 +1616,7 @@ characters={
 		name=GER_rudolf_hess
 		portraits={
 			army={
-				small="GFX_idea_rudolf_hess"
+				small="GFX_GER_minister_rudolf_hess"
 			}
 		}
 		advisor={
@@ -1654,7 +1654,7 @@ characters={
 			}
 		}
 		allowed_civil_war = {
-			has_government = fascism
+			has_government = national_socialism
 		}
 		advisor={
 			slot = political_advisor
@@ -1736,7 +1736,7 @@ characters={
 		name=GER_konstantin_von_neurath
 		portraits={
 			army={
-				small="GFX_idea_konstantin_von_neurath"
+				small="GFX_GER_minister_konstantin_von_neurath"
 			}
 		}
 		advisor={

@@ -68,14 +68,31 @@ recruit_character = MEN_megata_toshiro
 		dispersed_industry2 = 1
 	}
 }
-
+MEN = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = MEN
+            autonomous_state = autonomy_puppet
+        }
+        else = {
+            puppet = MEN
+        }
+    }
+}
 set_politics = {
-	ruling_party = fascism
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 80
-	despotism = 20
+	communism = 9
+	socialism = 3
+	paternalism = 25 #Japanese Advisory Council 
+	despotism = 55 #Mongol Military Government
+	fascism = 8
+
 }

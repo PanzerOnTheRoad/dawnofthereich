@@ -1,0 +1,22 @@
+guiTypes = {
+
+	
+	containerWindowType = {
+		name = "DTR_Diplomacy_Ideology"
+		position = { x = 0 y = 0 }
+
+		instantTextboxType = {
+			name = "ideology"
+			position = { x = 251 y = 144 }
+			font = "hoi_16mbs"
+			text = [GetSubIdeologyLoc]
+			alwaystransparent = yes
+			maxWidth = 270
+			maxHeight = 20
+			format = left
+			fixedsize = yes
+		}
+	}
+
+
+}

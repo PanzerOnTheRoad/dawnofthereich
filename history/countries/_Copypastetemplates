@@ -1,0 +1,29 @@
+#Popularities template
+	communism = 0
+	socialism = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 0
+	paternalism = 0
+	despotism = 0
+	ultranationalism = 0
+	fascism = 0
+	national_socialism = 0
+
+
+#Autonomy entry to put in puppet history file
+
+#Overlord tag = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = #Puppet tag
+            autonomous_state = autonomy_puppet
+        }
+        else = {
+            puppet = #Puppet tag
+        }
+    }
+}

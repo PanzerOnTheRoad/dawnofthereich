@@ -43,10 +43,16 @@ characters = {
 				small = GFX_portrait_SOV_iosif_stalin_small
 			}
 		}	
+
 			country_leader = {
-			ideology = communist_1_subtype
-			traits = { stalin_heart_of_steel }
-			expire = "1953.3.1.1"
+				ideology = communist_1_subtype
+				traits = { stalin_heart_of_steel }
+				expire = "1953.3.1.1"
+			}
+			country_leader = {
+				ideology = communist_marxism_leninism_subtype
+				traits = { stalin_heart_of_steel }
+				expire = "1953.3.1.1"
 			}
 		}
 
@@ -55,7 +61,7 @@ characters = {
 	SOV_tsar_iosif_stalin = {
 		name = "Tsar Joseph I"
 		portraits = {
-			civilian = {
+			civilian = {	
 				large = "GFX_portrait_SOV_tsar_stalin"
 			}
 		}
@@ -76,7 +82,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_absolute_monarchy
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -92,7 +98,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_absolute_monarchy
 			expire = "1953.3.1.1"
 			id = -1
 		}
@@ -109,7 +115,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_theocracy_subtype 
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -159,7 +165,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_interim_government_subtype 
 			expire = "1953.3.1.1"
 			id = -1
 			traits = {
@@ -3757,7 +3763,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = national_socialism_clerical_fascism_subtype
 				traits = { fascist_orchestrator }
 				expire = "1953.3.1.1"
 				id = -1
@@ -3773,6 +3779,12 @@ characters = {
 				army = {
 					small = "GFX_idea_konstantin_rodzaevsky"
 				}
+			}
+			country_leader = {
+				ideology = national_socialism_clerical_fascism_subtype
+				traits = { fascist_orchestrator }
+				expire = "1953.3.1.1"
+				id = -1
 			}
 			advisor = {
 				slot = political_advisor
@@ -3806,7 +3818,7 @@ characters = {
 				}
 				do_effect = {
 					NOT = {
-						has_government = fascism 
+						has_government = national_socialism 
 					}
 				}
 				ai_will_do = {
@@ -3828,7 +3840,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			logy = socialism_agrarian_socialism_subtype
 			expire = "1953.3.1.1"
 			id = -1
 		}

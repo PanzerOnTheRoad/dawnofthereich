@@ -1,0 +1,67 @@
+﻿l_english:
+ ### COUNTRY NAMES ###
+ GER_national_socialism:0 "Deutsches Reich"
+ GER_national_socialism_DEF:0 "das Deutsche Reich"
+ GER_ADJ:0 "German"
+
+ ### PARTIES ###
+ GER_communism_party:0 "KPD"
+ GER_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ GER_socialism_party:0 "SAPD"
+ GER_socialism_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
+ GER_progressivism_party:0 "SPD"
+ GER_progressivism_party_long:0 "Sozialdemokratische Partei Deutschlands"
+ GER_conservatism_party:0 "Zentrum"
+ GER_conservatism_party_long:0 "Deutsche Zentrumspartei"
+ GER_national_socialism_party:0 "NSDAP"
+ GER_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ GER_national_socialism_1_party:0 "NSDAP - S"
+ GER_national_socialism_1_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Strasseristisch"
+ GER_national_socialism_2_party:0 "NSDAP - N"
+ GER_national_socialism_2_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Nationalistisch"
+ 
+ ### CHARACTERS ###
+ 
+ GER_wilhelm_frick:0 "Wilhelm Frick"
+
+ #Ministers
+ GER_rudolf_hess_desc:0 "§YStellvertreter des Führers§!\n--------------\n"
+ GER_wilhelm_frick_sec_desc:0 "§YReichsministerium des Innern§!\n--------------\n"
+ GER_hjalmar_schacht_eco_desc:0 "§YReichswirtschaftsminister§!\n--------------\n" 
+ GER_konstantin_von_neurath_for_desc:0 "§YReichsminister des Auswärtigen§!\n--------------\n" 
+ 
+ ### IDEAS ###
+ 
+ GER_a_man:0 "A Charismatic Man..."
+ GER_a_man_desc:0 "Adolf Hitler, our Führer, has emerged as the savior of Germany, hellbent to restoring our nation's former glory and dominance on the global stage. With his leadership and the ambitious ideals of National Socialism, a new era of strength and unity is on the cusp of our reach, as he vows to eradicate the remnants of the Versailles Treaty and lead Germany to unprecedented heights."
+ 
+ GER_a_problem:0 "...A Crippling Problem..."
+ 
+ GER_a_solution:0 "...And a Radical Solution"
+ 
+ GER_wirtschaftwunder:0 "Wirtschaftwunder"
+ 
+ GER_an_autarkic_industry:0 "An Autarkic Industry"
+ 
+ GER_reaching_out_to_corporate_giants:0 "Reaching Out to the Corporate Giants"
+ 
+ GER_transitioning_to_a_state_owned_market:0 "Transitioning to a State-Owned market" #unused idea
+ 
+ GER_volksgemeinschaft:0 "Volksgemeinschaft"
+ 
+ GER_collaboration_with_ig_farben:0 "Collaboration with IG Farben"
+ 
+ GER_the_mittelstand:0 "The Mittelstand"
+ 
+ GER_develop_reichswerker_hermann_goering_infrastructure:0 "Develop RW Hermann Goering Infrastructure"
+ 
+ GER_the_industry_in_the_rhine:0 "The Industry in the Rhine"
+
+ GER_peenmunde_army_research_center:0 "Peenemünde Army Research Center"
+ 
+ GER_a_revitalised_reich:0 "A Revitalised Reich"
+
+ ### TOOLTIPS ###
+ rhineland_remilitarisation_tt:0 "The Rhineland, long restricted by the Treaty of Versailles, will soon be §Cliberated§! and rendered §Gremilitarized§!."
+ rome_berlin_axis_tt:0 "The Rome Berlin shall be formed with our §Rnation§! and with §GItaly§!"
+ anschluss_decision_tt:0 "The time has come to unite all German-speaking peoples under one Reich. We shall execute the Anschluss and bring Austria into the fold."
