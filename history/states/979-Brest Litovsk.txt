@@ -1,23 +1,23 @@
-
 state={
-	id=94
-	name="STATE_94"
-
-	history={
+	id=979
+	name="STATE_979"
+		history={
 		owner = POL
 		buildings = {
 			infrastructure = 2
 
 		}
+		victory_points = {
+			560 1 
+		}
 		add_core_of = POL
 		add_core_of = BLR
 
 	}
-
 	provinces={
-		3309 3556 6280 6306 6546 11285 
+		560 3256 6415 11528 13369 13370 13371 13372 13373 13374  
 	}
-	manpower=1032200
+	manpower=532200
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000
