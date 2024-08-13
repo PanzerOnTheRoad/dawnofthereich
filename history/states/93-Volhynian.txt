@@ -1,34 +1,29 @@
 
 state={
-	id=200
-	name="STATE_200"
+	id=93
+	name="STATE_93"
 
 	history={
-		owner = SOV
 		victory_points = {
-			11405 1 
+			6557 1 
 		}
+		victory_points = {
+			422 3 
+		}
+		owner = POL
 		buildings = {
 			infrastructure = 3
-			air_base = 3
 
 		}
-		add_core_of = SOV
+		add_core_of = POL
 		add_core_of = UKR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
-
-			}
-
-		}
 
 	}
 
 	provinces={
-		429 588 3399 9571 11405 9729 3767
+		422 474 513 535 572 3412 3496 6435 6520 6557 6579 9520 11441 11503 11543 13375 
 	}
-	manpower=1294082
+	manpower=1985600
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
