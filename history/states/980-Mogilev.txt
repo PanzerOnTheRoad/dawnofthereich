@@ -1,14 +1,9 @@
-
 state={
-	id=196
-	name="STATE_196"
-	resources={
-		chromium=15.000
-	}
-
-	history={
+	id=980
+	name="STATE_980"
+		history={
 		victory_points = {
-			721 1 
+			476 3 
 		}
 		owner = SOV
 		buildings = {
@@ -18,14 +13,12 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = UKR
-		add_core_of = CRI
 
 	}
-
 	provinces={
-		568 721 737 767 3573 6771 9712 11715 13368 11700 6596
+		476 6429 9423 9435 
 	}
-	manpower=728363
+	manpower=993391
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

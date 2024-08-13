@@ -1,27 +1,27 @@
 
 state={
-	id=201
-	name="STATE_201"
-	manpower = 1417834
+	id=203
+	name="STATE_203"
+	manpower = 2405190
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		victory_points = {
-			6593 3
+			488 5
 		}
 		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 5
-			air_base = 3
+			industrial_complex = 1
 		}
 		add_core_of = SOV
 		add_core_of = UKR
 	}
 
 	provinces={
-		3570 9533 11464 11514 
+	 3470 6593 441 550 9493 9466 11477
 	}
 
-	local_supplies=7.0 
+	local_supplies=0.0 
 }
