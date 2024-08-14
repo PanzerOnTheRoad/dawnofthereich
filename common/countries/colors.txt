@@ -65,6 +65,10 @@ MCW = {
 	color = rgb { 118 124 94 }
 	color_ui = rgb { 118 124 94 }
 }
+OST = {
+	color = rgb { 102 100 86 }
+	color_ui = rgb { 102 100 86 }
+}
 ROM = {
 	color = rgb { 231 223 162 }
 	color_ui = rgb { 231 223 162 }
