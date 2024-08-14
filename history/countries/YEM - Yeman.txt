@@ -90,4 +90,3 @@ set_popularities = {
 	paternalism = 26 #al-Ittihad al-Yamani
 	despotism = 64 #Hamid al-Din
 }
-

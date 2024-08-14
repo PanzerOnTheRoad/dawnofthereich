@@ -1,5 +1,27 @@
 capital = 271
-
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+IF = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_popularities = {
+		communism = 5 #Black Lions
+		socialism = 8 #The Workers Party of Ethiopia
+		conservatism = 7 #Ethiopian Democratic Union
+		despotism = 60 #Solomonic Dynasty
+		fascism = 20 #The Gugsa Line of Solomon
+		 
+	}
+}
+IF = {
+	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	set_popularities = {
+		despotism = 100 #Solomonic Dynasty
+	}
+}
 IF = {
 	limit = {
 		has_dlc = "By Blood Alone"
@@ -267,32 +289,3 @@ set_convoys = 5
 }
 
 
-set_politics = {
-	ruling_party = despotism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-IF = {
-	limit = { has_dlc = "By Blood Alone" }
-	set_popularities = {
-		communism = 5 #Black Lions
-		socialism = 8 #The Workers Party of Ethiopia
-		conservatism = 7 #Ethiopian Democratic Union
-		despotism = 60 #Solomonic Dynasty
-		fascism = 20 #The Gugsa Line of Solomon
-
-		 
-		
-	}
-}
-IF = {
-	limit = { NOT = { has_dlc = "By Blood Alone" } }
-	set_popularities = {
-		communism = 5 #Black Lions
-		socialism = 8 #The Workers Party of Ethiopia
-		conservatism = 7 #Ethiopian Democratic Union
-		despotism = 60 #Solomonic Dynasty
-		fascism = 20 #The Gugsa Line of Solomon
-	}
-}

@@ -1,4 +1,4 @@
-ot﻿capital = 757
+﻿ot﻿capital = 757
 
 oob = "TIB_1936"
 

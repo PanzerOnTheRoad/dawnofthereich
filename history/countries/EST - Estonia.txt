@@ -1,4 +1,4 @@
-﻿capital = 812
+﻿﻿capital = 812
 
 oob = "EST_1936"
 if = {
@@ -214,12 +214,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 8
-	progressivism = 18
-	liberalism = 16
-	conservatism = 17
-	paternalism = 36
-	despotism = 5
+	communism = 8 ##Eesti Kommunistlik Parte
+	progressivism = 18 #Eesti Sotsiaaldemokraatlik Tööliste Partei
+	liberalism = 16 #Eesti Rahvaerakond
+	conservatism = 17 #Eesti Rahvuslik Eduerakond
+	paternalism = 36 #Asunike ja Väikepõllupidajate Liit
+	despotism = 5 #Vabadussõjalaste Liit
 }
 
 1939.1.1 = {

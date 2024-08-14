@@ -3,7 +3,7 @@
 oob = "UKR_1936"
 
 set_research_slots = 3
-
+recruit_character = UKR_Erich_Koch
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -83,10 +83,19 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1941.4.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	despotism = 15
+	fascism = 10
+	national_socialism = 70
+	national_socialism_2 = 5
+	
 }
 
 create_country_leader = {

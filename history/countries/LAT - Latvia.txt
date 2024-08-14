@@ -1,4 +1,4 @@
-capital = 808
+﻿capital = 808
 
 oob = "LAT_1936"
 if = {

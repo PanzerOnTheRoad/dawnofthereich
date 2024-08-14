@@ -1,4 +1,4 @@
-﻿capital = 302
+﻿﻿capital = 302
 
 oob = "BOL_1936"
 every_core_state = {
@@ -81,14 +81,17 @@ IF = {
 
 	ELSE = {
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = liberalism
 			last_election = "1934.11.11"
 			election_frequency = 72
 			elections_allowed = yes
 		}
 
 		set_popularities = {
-			neutrality = 100
+			liberalism = 38
+			conservatism = 41
+			conservatism_1 = 13
+			paternalism = 8
 		}
 
 		recruit_character = BOL_jose_luis_tejada_sorzano
@@ -181,13 +184,16 @@ set_country_flag = monroe_doctrine
 	}
 
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = liberalism
 		last_election = "1934.11.11"
 		election_frequency = 72
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		neutrality = 100
+		liberalism = 38
+		conservatism = 41
+		conservatism_1 = 13
+		paternalism = 8
 	}
 }
