@@ -1,0 +1,16 @@
+capital = 808
+recruit_character = OST_hinrich_lohse
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1941.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	national_socialism = 100
+}
+
+set_stability = 0.45
+set_war_support = 0.32
+set_convoys = 200

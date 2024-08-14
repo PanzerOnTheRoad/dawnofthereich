@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism_subtype
+			ideology=liberalism
 			traits={ silent_workhorse dealbroker }
 			expire="1945.1.1.12"
 			id=-1
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_subtype
+			ideology=fascism_ideology
 			expire="1947.1.1.12"
 			id=-1
 		}
@@ -47,7 +47,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=paternalism_oligarchy_subtype
+			ideology=oligarchism
 			traits={ armaments_organizer }
 			expire="1948.1.1.12"
 			id=-1
@@ -61,7 +61,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=communism_bolshevism_subtype
+			ideology=stalinism
 			expire="1948.1.1.12"
 			id=-1
 		}

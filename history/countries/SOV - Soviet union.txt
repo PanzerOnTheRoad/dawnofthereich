@@ -1,4 +1,4 @@
-﻿
+﻿﻿
 
 ####
 #### NO STEP BACK
@@ -1250,8 +1250,8 @@ set_popularities = {
 	paternalism = 0
 	despotism = 0
 	ultranationalism = 0
-	fascism = 2
-	national_socialism = 0
+	fascism = 0
+	national_socialism = 2 #Russian Fascist Party
 
 }
 

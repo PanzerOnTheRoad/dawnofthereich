@@ -1,4 +1,4 @@
-capital = 266
+﻿capital = 266
 
 oob = "PER_1936"
 if = {
@@ -127,7 +127,7 @@ set_popularities = {
 	conservatism = 14 #Anjoman-e Eslami
 	paternalism = 0
 	despotism = 45 #Royalist
-	ultranationalism = 15 #Ḥezb-e Mellat-e Irān
+	ultranationalism = 15 #Ḥezb-e Mellat-e Iran
 	fascism = 13 #Hezb-e Pan-Iranist
 	national_socialism = 0
 }

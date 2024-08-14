@@ -364,6 +364,21 @@ set_popularities = {
 	fascism_1 = 8 #National Christian Party
 	national_socialism = 0
 }
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1939.7.15"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 20
+		fascism = 35
+		communism = 2
+		neutrality = 43
+	}
+}
 ### VARIANTS ###
 # 1936 Start #
 if = {

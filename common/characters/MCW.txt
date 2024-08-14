@@ -1,0 +1,16 @@
+characters = {
+	MCW_siegfried_kasche = {
+		name = MCW_siegfried_kasche
+		portraits = { 
+			civilian = { 
+				large = "gfx/leaders/MCW/Portrait_Moskowien_Siegfried_Kasche.dds" 
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = national_socialism_subtype
+			traits = {  }
+			expire = "2222.2.2"
+			id = -1
+		}
+	}

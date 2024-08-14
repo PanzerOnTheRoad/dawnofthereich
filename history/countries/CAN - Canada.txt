@@ -1,4 +1,4 @@
-
+﻿
 ﻿capital = 276
 
 if = {
@@ -305,10 +305,10 @@ ENG = {
 
 set_popularities = {
 	communism = 2
-	progressivism = 14
+	progressivism = 14 #Co-op commonwealth
 	liberalism = 43
 	conservatism = 30
-	paternalism = 10
+	paternalism = 10 #social credit
 	fascism = 1
 }
 set_politics = {

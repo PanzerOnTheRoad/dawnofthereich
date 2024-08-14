@@ -1,4 +1,4 @@
-﻿capital = 85 #Danzig
+﻿﻿capital = 85 #Danzig
 
 set_research_slots = 3
 
@@ -105,7 +105,7 @@ set_popularities = { #popularities based on 1935 election statistics.
 create_country_leader = {
 	name = "Albert Forster"
 	desc = ""
-	picture = "GFX_portrait_DNZ_Albert_Forster"
+	picture = "GFX_portrait_Albert_Forster"
 	expire = "1953.3.1"
 	ideology = national_socialism_subtype
 	traits = {

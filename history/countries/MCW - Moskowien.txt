@@ -1,0 +1,21 @@
+capital = 219
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1941.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+		national_socialism = 50
+		despotism = 30
+		ultranationalism = 10
+		progressivism = 10
+	
+}
+recruit_character = MCW_siegfried_kasche
+
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.23
