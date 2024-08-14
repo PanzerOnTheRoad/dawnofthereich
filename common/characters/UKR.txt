@@ -1,0 +1,18 @@
+characters = {
+	UKR_erich_koch = {
+		name = UKR_erich_koch
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKR/Portrait_UKR_Erich_Koch.dds"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = national_socialism_subtype
+			expire = "1983.4.24.1"
+			traits = { }
+			id = -1
+		}
+	}
+
+}

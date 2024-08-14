@@ -1,0 +1,16 @@
+characters = {
+	OST_hinrich_lohse = {
+		name = OST_hinrich_lohse
+		portraits = { 
+			civilian = { 
+				large = "gfx/leaders/OST/portrait_ostland_hinrich_lohse.dds" 
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = national_socialism_subtype
+			traits = {  }
+			expire = "2222.2.2"
+			id = -1
+		}
+	}

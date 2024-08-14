@@ -1,3 +1,4 @@
+
 characters={
 	HAI_sténio_vincent={
 		name="Sténio Vincent"

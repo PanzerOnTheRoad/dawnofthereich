@@ -1,4 +1,4 @@
-characters = {
+﻿characters = {
 
 	# AMEDEO UMBERTO ISABELLA LUIGI FILIPPO MARIA GIUSEPPE GIOVANNI DI SAVOIA-AOSTA
 	AOI_prince_amedeo = { 
