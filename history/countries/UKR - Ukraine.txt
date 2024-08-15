@@ -93,8 +93,7 @@ set_politics = {
 set_popularities = {
 	despotism = 15
 	fascism = 10
-	national_socialism = 70
-	national_socialism_2 = 5
+	national_socialism = 75
 	
 }
 
