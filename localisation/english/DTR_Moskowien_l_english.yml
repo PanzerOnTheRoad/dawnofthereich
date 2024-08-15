@@ -1,0 +1,23 @@
+﻿l_english:
+#COUNTRY NAMES#
+MCW:0 "Reichskommissariat Moskowien"
+MCW_DEF:0 "Reichskommissariat Moskowien"
+MCW_ADJ:0 "Moskowien"
+
+#COUNTRY LEADERS#
+MCW_siegfried_kasche:0 "Siegfried Kasche"
+
+#PARTIES#
+
+MCW_national_socialism_party:0 "AOdNSDAP"
+MCW_national_socialism_party_long:0 "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei"
+MCW_paternalism_party:0 "Unbekannte Verräter"
+MCW_paternalism_party_long:0 "Unbekannte Verräter"
+MCW_despotism_party:0 "Unbekannte Verräter"
+MCW_despotism_party_long:0 "Unbekannte Verräter"
+MCW_ultranationalism_party:0 "Unbekannte Verräter"
+MCW_ultranationalism_party_long:0 "Unbekannte Verräter"
+MCW_progressivism_party:0 "Unbekannte Verräter"
+MCW_progressivism_party_long:0 "Unbekannte Verräter"
+MCW_communist_party:0 "Unbekannte Verräter"
+MCW_communist_party_long:0 "Unbekannte Verräter"

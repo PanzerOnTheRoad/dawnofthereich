@@ -1,0 +1,23 @@
+﻿l_english:
+
+ #country names 
+ UKR: "Reichskommissariat Ukraine"
+ UKR_DEF: "Reichskommissariat Ukraine"
+ UKR_ADJ: "Ukrainian"
+
+
+ #Parties
+
+ UKR_despotism_party: "UNA-S"
+ UKR_despotism_party_long: "Ukrayins'ka Natsional'na Armiya - Shandrukistiv"
+ UKR_fascism_party: "UNK-M"
+ UKR_fascism_party_long: "Ukrayins'kyy Natsional'nyy Komitet - Mel'nykovtsi"
+ UKR_national_socialism_party: "AOdNSDAP"
+ UKR_national_socialism_party_long: "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei"
+
+
+ # Leaders
+
+
+ UKR_erich_koch: "Erich Koch"
+

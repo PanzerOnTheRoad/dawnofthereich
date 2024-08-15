@@ -1,0 +1,15 @@
+﻿l_english:
+
+ ### Country Names ###
+ OST:0 "Reichskommissariat Ostland"
+ OST_DEF:0 "Reichskommissariat Ostland"
+ OST_ADJ:0 "Ostländisch"
+
+## Party Names ### 
+
+ OST_national_socialism_party:0 "AOdNSDAP"
+ OST_national_socialism_party_long:0 "Arbeitsbereich Osten der Nationalsozialistischen Deutschen Arbeiterpartei"
+
+
+ ###Characters###
+ OST_hinrich_lohse:0 "Hinrich Lohse"
