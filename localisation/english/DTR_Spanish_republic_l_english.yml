@@ -1,0 +1,93 @@
+﻿l_english:
+ ### COUNTRY NAMES ###
+ SPR_liberalism:0 "Spanish Republic"
+ SPR_progressivism:0 "Spanish Republic"
+ SPR_liberalism_DEF:0 "the Spanish Republic"
+ SPR_progressivism_DEF:0 "the Spanish Republic"
+ SPR_ADJ:0 "Spanish"
+
+ ### PARTIES ###
+ SPR_communism_party:0 "Frente Popular - PCE"
+ SPR_communism_party_long:0 "Frente Popular - Partido Comunista de España"
+ SPR_communism_1_party:0 "Frente Popular - POUM"
+ SPR_communism_1_party_long:0 "Frente Popular - Partido Obrero de Unificación Marxista"
+ SPR_socialism_party:0 "Frente Popular - PSOE"
+ SPR_socialism_party_long:0 "Frente Popular - Partido Socialista Obrero Español"
+ SPR_socialism_1_party:0 "Frente Popular - CNT-FAI"
+ SPR_socialism_1_party_long:0 "Frente Popular - Confederación Nacional del Trabajo"
+ SPR_progressivism_party:0 "Frente Popular - IR"
+ SPR_progressivism_party_long:0 "Frente Popular - Izquierda Republicana" 
+ SPR_progressivism_1_party:0 "Frente Popular - UR"
+ SPR_progressivism_1_party_long:0 "Frente Popular - Unión Republicana"
+ SPR_progressivism_2_party:0 "Frente Popular - ANV"
+ SPR_progressivism_2_party_long:0 "Frente Popular - Acción Nacionalista Vasca"
+ SPR_liberalism_party:0 "CEDA - PRLD"
+ SPR_liberalism_party_long:0 "CEDA - Partido Republicano Liberal Demócrata"
+ SPR_liberal_conservatism_party:0 "CEDA - PRR"
+ SPR_liberal_conservatism_party_long:0 "CEDA - Partido Republicano Radical"
+ SPR_conservatism_party:0 "CEDA - RE"
+ SPR_conservatism_party_long:0 "CEDA - Derecha"
+ SPR_conservatism_1_party:0 "CEDA - PCNR"
+ SPR_conservatism_1_party_long:0 "CEDA - PCNR" 
+ SPR_conservatism_2_party:0 "CEDA - LR"
+ SPR_conservatism_2_party_long:0 "CEDA - Lliga Catalana"
+ SPR_paternalism_party:0 "CEDA - PRP"
+ SPR_paternalism_party_long:0 "CEDA - Derecha Liberal Republicana"
+ SPR_paternalism_1_party:0 "PCD"
+ SPR_paternalism_1_party_long:0 "Partido del Centro Democrático" 
+ SPR_fascism_party:0 "FE de las JONS"
+ SPR_fascism_party_long:0 "Falange Española de las Juntas de Ofensiva Nacional Sindicalista"
+
+ ### CHARACTERS ###
+
+ #LEADER DESCRIPTIONS#
+ 
+
+ #Ministers
+
+ ### IDEAS ###
+ 
+ #|---FOCUS NAMES ---|#
+ SPR_a_crumbling_republic:0 "A Crumbling Republic"
+ SPR_the_1936_campaigns:0 "The 1936 Campaigns"
+ SPR_secure_lines_of_communication:0 "Secure Lines of Communication"
+ SPR_assessing_the_political_landscape:0 "Assessing the Political Landscape"
+ SPR_holding_the_line_on_order:0 "Holding the Line on Order"
+ SPR_chaos_over_the_ballot:0 "Chaos Over the Ballot"
+ SPR_fleeting_triumph:0 "Fleeting Triumph"
+ SPR_preparing_the_inevitable:0 "Preparing the Inevitable"
+ SPR_gathering_of_the_generals:0 "Gathering of The Generals"
+ SPR_take_to_the_streets:0 "Take to the Streets"
+ SPR_a_network_of_dissenters:0 "A Network of Dissenters"
+ SPR_the_final_fragment:0 "The Final Fragment" 
+ 
+ #|---TOOLTIPS ---|#
+
+ #|---FOCUS DESCRIPTIONS---|# 
+ 
+ 
+ #|---EVENTS---|# 
+ spain_flavour.1.t:0 "A Glimmer of Hope?"
+ spain_flavour.1.desc:0 "Clara stood on the makeshift stage in a small town square, her voice ringing out over the heads of the gathered workers. The crowd wasn’t large—only a handful of men and women, most with weary faces from long hours in the fields or factories. But their eyes were on her, and in those eyes, Clara saw hope. Each pair seemed to echo the same unspoken question: "Can we really change our future?" She felt the weight of that expectation and the gravity of the moment pressing down on her, but she welcomed it. It fueled her determination, igniting a fire within her that she was desperate to share.\n\n“We can win this election,” she declared, the passion in her voice swelling as she spoke. “We can build a new Spain, one where the workers have a voice, where the rich no longer control the fate of us all. It’s within our grasp! We’ve come so far, and we can’t stop now. The Republic is our chance to take control of our own destiny.” With each word, she could sense the energy in the crowd shifting, as if her conviction were a spark igniting dormant aspirations. She knew they had suffered too long under the weight of inequality and oppression, and she wanted them to feel that the tides were turning, that the power of change rested in their hands.\n\nShe paused for a moment, watching their faces, hoping to spark something inside them. Clara had seen too many of her friends and comrades beaten down by despair, their dreams eroded by the relentless grind of daily survival. The tension in Spain was growing every day, but Clara still believed in the power of the people. She had to. If she didn’t, then what was all this for?" 
+ spain_flavour.1.a:0 "The People will rise."    
+
+ spain_flavour.2.t:0 "The Silent Strategist"
+ spain_flavour.2.desc:0 "Francisco Franco sat in his office, the soft glow of the evening sun casting long shadows on the map of Spain sprawled across his desk. Reports had been flooding in from every corner of the country—rumors of unrest, whispers of plots, and the growing unease within the military ranks. His hand rested on a telegram, an invitation from General Mola to join the conspiracy. In these uncertain times, he preferred to observe from a distance, measuring the unfolding political storm without revealing his hand. "Patience is key, Franco. Wait for the right opportunity." He told himself. The weight of the moment pressed upon him; he knew that the choices made now would shape the future of Spain for generations.\n\nTo many, Franco appeared overly cautious—perhaps even indecisive—but those close to him understood that his meticulous demeanor concealed a relentless ambition. He was acutely aware of the disarray within the Republic, where leftist factions grew bolder by the day, threatening to unravel the very fabric of Spanish society. Franco was clear in his resolve: Spain needed a return to order that would unify the nation under traditional values.\n\nAs he contemplated the invitation from Mola, he envisioned a Spain rooted in strength and stability, a nation free from the turmoil that plagued it. "I will reclaim what is rightfully ours," he mused. Franco understood that every decision he made was a calculated step toward his ultimate goal, laying the groundwork for a future that would restore Spain’s glory."
+ spain_flavour.2.a:0 ""When the time comes, I will be ready—and that time is soon, my friend.""
+
+ spain_flavour.3.t:0 "The Monarchist"
+ spain_flavour.3.desc:0 "Tomás Domínguez Arévalo sat at his polished mahogany desk, fingers tracing the intricate family crest engraved on his paperweight. A scion of an ancient lineage, he embodied the essence of the Spanish nobility, steeped in tradition and pride. Outside his window, the lush gardens of his estate flourished under a bright sky, diverting attention from the turmoil gripping his beloved country beyond the high walls. Spain was not what it once was; the republic, in his eyes, was a fleeting experiment.\n\nAs he gazed out at the vibrant blossoms, his thoughts turned to the imminent storm. The monarchy, he believed, was the only beacon of hope that could restore order and stability to a nation spiraling into chaos. Tomás often found solace among the like-minded—traditionalists, Requetés, and loyalists who still clung to the good old ways. Whispers from military circles and Franco’s camp had reached him, yet he remained convinced that without the unifying force of a monarchy, Spain would remain lost, drifting aimlessly amid political strife.\n\n “If the monarchy is to be restored, we must act now,”"
+ spain_flavour.3.a:0 "For Spain and the Crown."
+ 
+ SPR_republic.1.t:0 "The Republic Holds its Breath"
+ SPR_republic.1.desc:0 "With the 1936 elections over, Spain holds its breath as the final decision on the next Prime Minister draws near. The results have been shockingly close, with only a few thousand votes separating the political factions. Tensions across the nation have escalated, as both left and right-wing supporters claim victory for their respective sides.n\nIn the coming days, President Manuel Azaña will meet with political leaders to confirm the nomination, a decision that could either stabilize the nation or deepen the divisions. Both supporters and opponents of the Popular Front know that the future of Spain rests on this fragile appointment, with uncertainty hanging over the country like a gathering storm.\n\nWith the nomination imminent, all eyes are on the Spanish Cortes. Whatever the outcome, the fragile state of the Republic is poised for yet another challenge."
+ SPR_republic.1.a:0 "The Nation awaits..."
+
+ SPR_republic.2.t:0 "Azaña's Narrow Victory"
+ SPR_republic.2.desc:0 "The election results are in, and Manuel Azaña has emerged as the new Prime Minister of the Spanish Republic, though by the slimmest of margins. With only a few thousand votes separating him from his closest rivals, the victory is anything but decisive. As news of Azaña’s triumph spreads, reactions are mixed across the country—celebrations erupt in some quarters, while anger and disbelief dominate others. Many on the right feel robbed, convinced that the outcome was rigged by the leftist coalition.\n\nIn Madrid, Azaña’s supporters flood the streets, chanting slogans in favor of the Republic’s future under his leadership. Yet, just blocks away, tensions are rising as right-wing groups organize protests, denouncing the election as fraudulent. The razor-thin margin has only deepened the divides within the country, with fears that this fragile result will lead to further unrest."
+ SPR_republic.2.a:0 "A New Era or a Darker Night?"
+ 
+ SPR_republic.3.t:0 "The Conspiracy Finalised"
+ SPR_republic.3.desc:0 "Around a large wooden table in a private, secluded estate in Madrid sat the military leaders who had assembled together to defy the crumbling Spanish Republic. Each man was a key figure, each a veteran who had watched the country fall further into chaos. This was no mere gathering of men; this was the assembly of Spain’s future.\n\nGeneral Francisco Franco, his face set in its characteristic, implacable expression, was the last to arrive. Flanked by his aides, he took his place at the head of the table, silently scanning the familiar faces of the conspirators: General Emilio Mola, the architect of the uprising, sharp and calculating; Tomás Domínguez Arévalo, the nobleman and leader of the Carlist Requetés; José Calvo Sotelo, the Monarchist firebrand; and Manuel Hedilla, youthful and charismatic leader of the Falange who had stepped into the void left by Rivera's imprisonment.\n\nFranco’s voice was quiet, measured, yet it carried the weight of the entire movement. “Gentlemen, you all know why we are here,” he began, looking at each man in turn. “Spain is bleeding. We can either watch it die, or we can take up the sword.” Mola leaned forward, spreading a map of the peninsula across the table. “The government is weak, divided. If we strike now, in unison, we can crush the Popular Front before they even realize what has happened. Our plans are in place—troops, arms, supplies. The question is, are we all committed?”\n\nArévalo, tapping the table lightly, spoke first. “My militiamen are ready. We have waited years for this. But I must ask—how far are we prepared to go? Will the monarchy be restored, or is this just another old military dictatorship? Franco met his gaze, unblinking. “This is about saving Spain, not settling old scores, Domínguez. The monarchy you speak of can be dealt with once order is restored.”\n\nHedilla smirked, leaning back in his chair. “And the Falangists? We won’t be mere puppets for any government, military or otherwise. Our movement will see to it that Spain does not return to the old ways. We are building a new order, are we not?” Before tension could rise further, Sotelo interrupted, his voice firm. “We have no time for divisions. The Republic must fall first. Spain needs strong leadership. That is our immediate task.”\n\nMola tapped the map. “However, we must have assurances from our allies in Africa, and several key military units are ready to join us. Franco, the army needs you to command. If you lead, the others will fall into line.” Franco stood, looking at the faces of his fellow conspirators. “We must act together on this, or we shall surely fall apart. This rebellion is our last chance. Prepare your forces. The time is near...""
+ SPR_republic.3.a:0 ""...Spain will rise again.""
+ 

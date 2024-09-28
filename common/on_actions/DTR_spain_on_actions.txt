@@ -1,0 +1,10 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            SPR = {
+                country_event = { id = spain_flavour.2 days = 15 }
+				country_event = { id = spain_flavour.1 days = 40 }
+            }
+        }
+    }
+}   

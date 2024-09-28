@@ -3,7 +3,7 @@ bookmarks = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.1
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1939"
 		default_country = "GER"
 		default = yes
 		
@@ -34,8 +34,8 @@ bookmarks = {
 			}
 			focuses = {
 				GER_occupy_the_rhine
-				GER_danzig_or_war
-				GER_revive_the_kaiserreich
+				GER_the_die_is_cast
+				GER_heim_ins_reich
 			}
 		}
 		"GER"={
@@ -48,13 +48,11 @@ bookmarks = {
 				GER_mefo_bills_1
 			}
 			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_ussr_war_goal
+				GER_occupy_the_rhine
+				GER_the_die_is_cast
+				GER_heim_ins_reich
 			}
 		}
-		"---"={history = ""}
-		"---"={history = ""}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
@@ -162,8 +160,6 @@ bookmarks = {
 		}
 
 
-		"---"={history = ""}
-		"---"={history = ""}
 		
 		"MON"={
 			history = "MAN_GATHERING_STORM_DESC"
@@ -233,8 +229,6 @@ bookmarks = {
 			}
 		}
 
-		"---"={history = ""}
-		"---"={history = ""}
 		
 		"TAN"={
 			history = ""

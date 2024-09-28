@@ -1,0 +1,68 @@
+add_namespace = spain_flavour
+add_namespace = SPR_republic
+
+country_event = {
+	id = spain_flavour.1
+	title = spain_flavour.1.t
+	desc = spain_flavour.1.desc
+	is_triggered_only = yes
+
+	option = {
+		name = spain_flavour.1.a
+		}
+}
+country_event = {
+	id = spain_flavour.2
+	title = spain_flavour.2.t
+	desc = spain_flavour.2.desc
+	is_triggered_only = yes
+
+	option = {
+		name = spain_flavour.2.a
+		hidden_effect = { country_event = { id = spain_flavour.3 days = 5 } }
+		}
+}
+country_event = {
+	id = spain_flavour.3
+	title = spain_flavour.3.t
+	desc = spain_flavour.3.desc
+	is_triggered_only = yes
+
+	option = {
+		name = spain_flavour.3.a
+		}
+}
+country_event = {
+	id = SPR_republic.1
+	title = SPR_republic.1.t
+	desc = SPR_republic.1.desc
+	is_triggered_only = yes
+
+	option = {
+		name = SPR_republic.1.a
+		hidden_effect = { country_event = { id = SPR_republic.2 days = 7 } }		
+		}
+}
+country_event = {
+	id = SPR_republic.2
+	title = SPR_republic.2.t
+	desc = SPR_republic.2.desc
+	is_triggered_only = yes
+
+	option = {
+		name = SPR_republic.2.a
+			set_politics = {
+				ruling_party = progressivism
+			}
+		}
+}
+country_event = {
+	id = SPR_republic.3
+	title = SPR_republic.3.t
+	desc = SPR_republic.3.desc
+	is_triggered_only = yes
+
+	option = {
+		name = SPR_republic.3.a
+		}
+}

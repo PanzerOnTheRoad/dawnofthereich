@@ -1,0 +1,219 @@
+focus_tree = {
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = SPR
+        }
+    }
+initial_show_position = {
+    x = 17
+    y = 0
+    offset = {
+        x = -4
+        y = 1
+        trigger = {
+            tag = SPR
+        }
+    }
+}
+    focus = {
+        id = SPR_a_crumbling_republic
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 0
+        cost = 2
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_the_1936_campaigns
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+        cost = 3
+
+		prerequisite = { focus = SPR_a_crumbling_republic }
+		relative_position_id = SPR_a_crumbling_republic
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_secure_lines_of_communication
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 2
+        cost = 1
+
+		prerequisite = { focus = SPR_the_1936_campaigns }
+		relative_position_id = SPR_a_crumbling_republic
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_assessing_the_political_landscape
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2
+        cost = 1
+
+		prerequisite = { focus = SPR_the_1936_campaigns }
+		relative_position_id = SPR_a_crumbling_republic
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_holding_the_line_on_order
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 2
+        cost = 1
+
+		prerequisite = { focus = SPR_the_1936_campaigns }
+		relative_position_id = SPR_a_crumbling_republic
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_chaos_over_the_ballot
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 3
+		prerequisite = { focus = SPR_assessing_the_political_landscape }
+		prerequisite = { focus = SPR_secure_lines_of_communication }
+		prerequisite = {focus = SPR_holding_the_line_on_order}
+        cost = 1
+
+		relative_position_id = SPR_a_crumbling_republic
+
+		completion_reward = {
+			country_event = {
+				id = SPR_republic.1
+				days = 2
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_fleeting_triumph
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+		prerequisite = { focus = SPR_chaos_over_the_ballot }
+		relative_position_id = SPR_a_crumbling_republic
+        cost = 4
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+
+    }
+    focus = {
+        id = SPR_preparing_the_inevitable
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 5
+        cost = 3
+		prerequisite = { focus = SPR_fleeting_triumph }
+		relative_position_id = SPR_a_crumbling_republic
+        cost
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_gathering_of_the_generals
+		icon = GFX_goal_generic_major_war
+		x = -2
+		y = 6
+		prerequisite = { focus = SPR_preparing_the_inevitable }
+		relative_position_id = SPR_a_crumbling_republic
+        cost = 2
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+		completion_reward = {
+			country_event = {
+				id = SPR_republic.3
+				days = 2
+			}
+		}
+    }
+    focus = {
+        id = SPR_take_to_the_streets
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 6
+		prerequisite = { focus = SPR_preparing_the_inevitable }
+		relative_position_id = SPR_a_crumbling_republic
+        cost = 2
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_a_network_of_dissenters
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 6
+		prerequisite = { focus = SPR_preparing_the_inevitable }
+		relative_position_id = SPR_a_crumbling_republic
+        cost = 2
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+    focus = {
+        id = SPR_the_final_fragment
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 7
+		prerequisite = { focus = SPR_a_network_of_dissenters }
+		prerequisite = { focus = SPR_gathering_of_the_generals }
+		prerequisite = { focus = SPR_take_to_the_streets }
+        cost = 4
+		relative_position_id = SPR_a_crumbling_republic
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+			}
+		}
+    }
+}

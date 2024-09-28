@@ -24,6 +24,63 @@ guiTypes = {
 			maxHeight = 20
 		}
 	}
+	containerWindowType = {
+		name = "DTR_politics_laws"
+		position = { x = 2 y = 520 }
+		size = { width = 100%% height = 100%% }
+		verticalScrollbar = "right_vertical_slider_dtr_laws_3"
+		margin = { top = 13 bottom = 10 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_thin_border2"
+		}
 
+		gridBoxType = {
+			name = "DTR_Politics_Law_Grid"
+			slotsize = { width = 515 height = 75 }
+			position = { x = 280 y = 0 }
+			max_slots_horizontal = 1
+		}
+	}
+	extendedScrollbarType = {
+		name = "right_vertical_slider_dtr_laws_3"
+		position = { x = -10 y = 0 }
+		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		smooth_scrolling = 0.25
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_scrollbar_vertical_bg"
+		}
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "yearslider_slider2"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_blank"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_up"
+			position = { x = 1 y = 3 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_down"
+			position = { x = -17 y = -19 }
+		}
+	}
 }
 

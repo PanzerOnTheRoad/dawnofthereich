@@ -1,0 +1,19 @@
+﻿add_namespace = reich_flavour
+
+country_event = {
+	id = reich_flavour.1
+	title = reich_flavour.1.t
+	desc = reich_flavour.1.desc
+	is_triggered_only = yes
+
+	option = {
+		name = reich_flavour.1.a
+		add_political_power = 30
+		}
+
+	option = {
+		name = reich_flavour.1.b
+		army_experience = 15
+		add_war_support	= 0.03
+		}
+}

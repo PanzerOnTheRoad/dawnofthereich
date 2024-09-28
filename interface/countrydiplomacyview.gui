@@ -102,6 +102,12 @@ guiTypes = {
 			spriteType ="GFX_tiled_bg"
 		}
 
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_header_crt_bg"
+			position = { x= 6 y = 3 }
+			Orientation = "UPPER_LEFT"
+		}
 		containerWindowType = {
 			name = "country_info"
 			position = { x = 0 y = 50}
@@ -109,7 +115,7 @@ guiTypes = {
 
 			iconType = {
 				name = "diplo_upper_win_bg"
-				position = { x = 139 y = -4 }
+				position = { x = 139 y = 28 }
 				spriteType = "GFX_diplo_upper_win_bg"
 			}
 
@@ -170,8 +176,6 @@ guiTypes = {
 				fixedsize = yes
 				alwaystransparent = no
 			}
-
-
 
 			#iconType =
 			#{
@@ -400,15 +404,14 @@ guiTypes = {
 						fixedsize = yes
 					}
 
-					#instantTextboxType = {
-					#	name = "ideology_name"
-					#	position = { x = 5 y = 24 }
-					#	#position = { x = -5000 y = 27 }
-					#	font = "hoi_16mbs"
-					#	text = [?country_leader.GetIdeologyGroup]
-					#	maxWidth = 245
-					#	maxHeight = 26
-					#}
+					instantTextboxType = {
+						name = "ideology_name"
+						position = { x = -5000 y = 27 }
+						font = "hoi_16mbs"
+						text = [?country_leader.GetIdeologyGroup]
+						maxWidth = 245
+						maxHeight = 26
+					}
 
 					instantTextboxType = {
 						name = "elections"
@@ -494,11 +497,10 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "diplomatic_actions"
-				position = { x = 272 y = 355 }
-				size = { width = 265 height = -50 }
+				position = { x = 270 y = 372 }
+				size = { width = 265 height = -15 }
 				verticalScrollbar = "right_vertical_slider"
-				scroll_wheel_factor = 40
-				smooth_scrolling = yes
+				margin = { top = 8 bottom = 18 }
 
 				background = {
 					name = "Background"
@@ -817,35 +819,36 @@ guiTypes = {
 			spriteType = "GFX_header_bg"
 			position = { x= 6 y = 3 }
 			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
 		}
 
 		containerWindowType = {
 			name = "player_info_box"
-			position = { x = 280 y = 11 }
-			size = { width = 270 height = 40 }
+			position = { x = 220 y = 10 }
+			size = { width = 270 height = 40 }z
 
-			iconType ={
-				name ="player_name_bg"
-				spriteType = "GFX_generic_text_bg_203"
-				position = { x= 10 y = 0 }
-				Orientation = "UPPER_LEFT"
-			}
+			#iconType ={
+			#	name ="player_name_bg"
+			#	spriteType = "GFX_generic_text_bg_203"
+			#	position = { x= 10 y = 0 }
+			#	Orientation = "UPPER_LEFT"
+			#}
 
-			iconType ={
+			iconType = {
 				name ="player_icon"
 				spriteType = "GFX_players_icon"
-				position = { x= 15 y = 4 }
+				position = { x = 53 y = 4 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextboxType = {
+				position = { x = 73 y = 5z }
 				name = "player_name"
-				position = { x = 35 y = 4 }
 				textureFile = ""
 				font = "hoi_18mbs"
 				borderSize = {x = 0 y = 0}
 				text = "Player"
-				maxWidth = 175
+				maxWidth = 75
 				maxHeight = 40
 				fixedsize = yes
 				format = left
@@ -887,12 +890,12 @@ guiTypes = {
 				iconType ={
 					name ="diplo_filter_area_bg"
 					spriteType = "GFX_diplo_filter_area_bg"
-					position = { x= 15 y = 0 }
+					position = { x= 15 y = -1 }
 				}
 
 				gridboxtype = {
 					name = "filters_grid"
-					position = { x = 105 y = 1 }
+					position = { x = 101 y = 1 }
 					size = { width = 100%% height = 100%% }
 					slotsize = { width = 105 height = 35 }
 					max_slots_horizontal = 4
@@ -902,7 +905,8 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "filters"
-				position = { x = 3 y = 125 }
+				#position = { x = 3 y = 125 }
+				position = { x = -10000 y = -10000 }
 				size = { width = 542 height = 35 }
 				clipping = no
 
@@ -913,34 +917,34 @@ guiTypes = {
 
 				buttonType = {
 					name = "sort_alphabetical"
-					quadTextureSprite ="GFX_sort_button_202x29"
-					font = "hoi_18mbs"
+					quadTextureSprite ="GFX_button_221x34"
+					font = "Bomb_16"
 					text = "COUNTRYLIST_LABEL"
-					position = { x= 10 y = 2 }
+					position = { x= 9 y = -3 }
 				}
 
 				buttonType = {
 					name = "opinion_flag1"
 					quadTextureSprite ="GFX_flag_small"
-					position = { x= 245 y = 4 }
+					position = { x = 270 y = 4 }
 				}
 
 				buttonType = {
 					name = "opinion_flag2"
 					quadTextureSprite ="GFX_flag_small"
-					position = { x= 307 y = 4 }
+					position = { x = 335 y = 4 }
 				}
 
 				iconType ={
 					name ="our_opinion_icon"
 					spriteType = "GFX_opinion_arrow_right"
-					position = { x= 271 y = 8 }
+					position = { x = 300 y = 7 }
 				}
 
 				iconType ={
 					name ="their_opinion_icon"
 					spriteType = "GFX_opinion_arrow_left"
-					position = { x= 332 y = 8 }
+					position = { x = 365 y = 7 }
 				}
 			}
 
@@ -1067,7 +1071,7 @@ guiTypes = {
 		iconType = {
 			name = "diplo_relations_bg"
 			spriteType = "GFX_diplo_relations_bg"
-			position = { x = -1 y = 3 }
+			position = { x = 4 y = 3 }
 		}
 
 		iconType = {
@@ -1093,13 +1097,13 @@ guiTypes = {
 		iconType = {
 			name = "diplo_relations_bg"
 			spriteType = "GFX_diplo_relations_bg"
-			position = { x = -1 y = 3 }
+			position = { x = 4 y = 3 }
 		}
 
 		iconType = {
 			name = "relation_icon"
 			spriteType = "GFX_relation_truce"
-			position = { x = 3 y = 8 }
+			position = { x = 4 y = 8 }
 		}
 
 		OverlappingElementsBoxType = {
@@ -1149,24 +1153,24 @@ guiTypes = {
 		background = {
 			name = "Background"
 			spriteType = "GFX_diplo_details_header"
-			position = { x = 4 y = 6 }
+			position = { x = 8 y = 8}
 		}
 
 		iconType = {
 			name = "idea_categories"
 			spriteType = "GFX_idea_categories"
-			position = { x = 23 y = 12 }
+			position = { x = 15 y = 13 }
 			frame = 1
 		}
 
 		instantTextboxType = {
 			name = "title"
-			position = { x = 70 y = 15 }
+			position = { x = 10 y = 18 }
 			font = "hoi_18mbs"
 			text = "category"
-			maxWidth = 160
-			maxHeight = 20
-			format = left
+			maxWidth = 240
+			maxHeight = 24
+			format = center
 			fixedsize = yes
 		}
 
@@ -1179,8 +1183,8 @@ guiTypes = {
 			gridBoxType = {
 				name = "ideas_grid"
 				position = { x = 0 y = 0 }
-				size = { width = 255 height = 106 }
-				slotsize = { width = 70 height = 64 }
+				size = { width = 255 height = 250 }
+				slotsize = { width = 70 height = 65 }
 				max_slots_horizontal = 3
 				format = "UPPER_LEFT"
 			}

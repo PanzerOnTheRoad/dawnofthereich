@@ -4,6 +4,15 @@ spriteTypes = {
 		name = "GFX_current_wars_entry"
 		textureFile = "gfx//interface//current_wars_entry.dds"		
 	}
+	spriteType = {
+		name = "GFX_header_crt_bg"
+		textureFile = "gfx//interface//header_crt_bg.dds"		
+	}	
+	spriteType = {
+		name = "GFX_tiled_window_plain_grey"
+		textureFile = "gfx//interface//tiles//tiled_window_plain_grey.dds"	
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
+	}
 
 	spriteType = {
 		name = "GFX_world_tension_entry"

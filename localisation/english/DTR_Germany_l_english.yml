@@ -17,18 +17,23 @@
  GER_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_national_socialism_1_party:0 "NSDAP - S"
  GER_national_socialism_1_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Strasseristisch"
- GER_national_socialism_2_party:0 "NSDAP - N"
- GER_national_socialism_2_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Nationalistisch"
- 
+ GER_despotism_party:0 "NSDAP - N"
+ GER_despotism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei - Nationalistisch"
+
  ### CHARACTERS ###
  
  GER_wilhelm_frick:0 "Wilhelm Frick"
 
+ #LEADER DESCRIPTIONS#
+ 
+ GER_adolf_hitler_desc:0 "Adolf Hitler, a figure whose very name has become synonymous with tyranny and ambition, rose from the shadows of a defeated nation to become its undisputed leader. Born in the aftermath of empire and raised in a world shaped by conflict, Hitler’s life has been marked by a relentless drive to reshape Germany—and the world—according to his vision. Unlike the political leaders who preceded him, Hitler’s appeal did not come from political skill or intellectual prowess but from his ability to channel the anger and desperation of a nation in decline into a single, radical ideology.\n\nHitler’s journey to power began not with statesmanship, but with oratory. His speeches, charged with fury and a twisted sense of destiny, electrified a populace yearning for a return to greatness. To his followers, he offered a simple yet stark message: Germany had been betrayed, but under his leadership, it would rise again. His talent for manipulation and his unyielding will propelled him from the fringes of politics to the heart of the German state, where he swiftly dismantled the democratic institutions that stood in his way.\n\nHitler had consolidated his power, transforming Germany into a totalitarian state under his iron fist. His vision for the Reich was grand and terrifying—an empire built on racial purity and unyielding strength, stretching across Europe and beyond. Every decision, every policy was driven by his obsession with creating a new world order, one in which his ideas of racial hierarchy and national dominance would reign supreme. To achieve this, he was willing to sacrifice anything and anyone, viewing human life as merely another tool to be used in service of his cause.\n\nYet beneath the veneer of strength lay a man whose paranoia and cruelty knew no bounds. Hitler’s absolute power isolated him, surrounding him with sycophants and enablers who fed his delusions and reinforced his most dangerous instincts. As he stood on the precipice of war, Hitler believed himself to be a man of destiny, chosen to reshape history itself. But his vision, built on hatred and destruction, threatened not just Germany, but the entire world. His future, and that of countless millions, was now bound to the monstrous path he had set in motion."
+
+
  #Ministers
- GER_rudolf_hess_desc:0 "§YStellvertreter des Führers§!\n--------------\n"
- GER_wilhelm_frick_sec_desc:0 "§YReichsministerium des Innern§!\n--------------\n"
- GER_hjalmar_schacht_eco_desc:0 "§YReichswirtschaftsminister§!\n--------------\n" 
- GER_konstantin_von_neurath_for_desc:0 "§YReichsminister des Auswärtigen§!\n--------------\n" 
+ GER_rudolf_hess_desc:0 "§YStellvertreter des Führers\nNational Socialism§!\n--------------\nRudolf Hess, a figure both revered and reviled, was never one for the spotlight.Unlike his contemporaries, whose thirst for recognition often bordered on the pathological, Hess preferred the shadows—working quietly, but diligently, behind the scenes. Born into privilege, Hess's early life was marked by a relentless search for purpose. That purpose was found in 1920 when he encountered the man who would become the Führer. Mesmerized by Hitler's vision, Hess was among the earliest to pledge unwavering loyalty, becoming a devout disciple of the movement.\n\nHess's reserved nature belied a fierce intellect and a dedication to Nazi ideology that bordered on the obsessive. His role in the Party was less about ambition and more about the realization of Hitler's grand vision. It was Hess who drafted the Führer’s dictations into the infamous Mein Kampf, a task that solidified his position as Hitler's most trusted confidant. His faithfulness earned him the title of Deputy Führer, a position that placed him second only to Hitler himself.\n\nDespite his high rank, Hess's journey was one of internal conflict—a man caught between the ideals he held dear and the reality of the regime he helped build. As the storm clouds of war gathered over Europe, Hess faced the daunting task of maintaining the purity of the Nazi vision while navigating the treacherous waters of political intrigue. His future, much like the Reich's, hung in a delicate balance."
+ GER_wilhelm_frick_sec_desc:0 "§YReichsministerium des Innern\nNational Socialism§!\n--------------\nWilhelm Frick, a man of unwavering discipline and cold efficiency, is one of the chief architects behind the Nazi state’s apparatus of control. From his early days in the Weimar police force to his rise as the Reich Minister of the Interior, Frick's career has been defined by his relentless pursuit of order and ideological purity. Unlike many in the Nazi hierarchy, his ascent to power was not driven by personal charisma or military valor, but by his unyielding commitment to the principles of the Party and his meticulous attention to detail.\n\nFrick was not drawn to the Nazi cause by the bombast of its rallies or the fervor of its speeches. Instead, he saw in Hitler’s vision a chance to mold a fractured Germany into a disciplined, united state—a nation purged of what he saw as its internal weaknesses. As the Reich’s chief legislator, he played a crucial role in crafting the laws that would dismantle the remnants of democracy and establish the framework for totalitarian rule. His hand can be seen in every decree that marginalized the opposition, restricted civil liberties, and laid the groundwork for the racial policies that would define the regime.\n\nHis role as the overseer of the nation’s internal affairs made him a powerful figure within the Nazi hierarchy. Yet, as the Party’s more radical elements began to assert themselves, Frick found his own vision increasingly at odds with the unchecked aggression of his peers. He believed in a strong, authoritarian state but feared that the excesses of the regime would eventually lead to its downfall."
+ GER_hjalmar_schacht_eco_desc:0 "§YReichswirtschaftsminister\nCorporatocracy§!\n--------------\n A man of numbers and fiscal strategy, Schacht was never a soldier, nor a politician by heart; his battlefield was the economy, his weapon, the Reichsmark. Recruited in the throes of Germany's economic collapse, Schacht's keen financial mind quickly caught the attention of the Nazi Party, despite his initial reservations about their radical politics.\n\nSchacht did not pledge allegiance to Hitler out of ideological fervor but out of a calculated belief in his capacity to resurrect a nation plagued by war reparations and hyperinflation. As the President of the Reichsbank, he maneuvered deftly, enacting policies that reined in inflation and restored a semblance of stability to the German economy. It was his strategic acumen that turned the faltering economy into one poised for rapid militarization, feeding the ambitions of a nation eager for its place in the sun.\n\nSchacht had risen to the pinnacle of Nazi economic policy, appointed Minister of Economics by Hitler himself. Yet, his position was a double-edged sword. Schacht was deeply conflicted between his desire to rebuild Germany into an economic powerhouse and the increasingly aggressive demands of the regime. As the drums of war began to beat louder, he found himself in a perilous position—balancing his economic principles against the inexorable drive towards conflict that he could neither fully endorse nor completely oppose.\n\nDespite his indispensable role in Germany’s economic resurgence, Schacht knew well that his influence was fragile, his position precarious. A man of reason amidst a sea of fanaticism, he walked a narrow line between cooperation and dissent, aware that his pragmatic approach could both make and unmake him in a regime that valued loyalty over logic. In a Germany on the brink of war, Schacht's future, like the economy he built, hung in a delicate and dangerous balance." 
+ GER_konstantin_von_neurath_for_desc:0 "§YReichsminister des Auswärtigen\nCorporatocracy§!\n--------------\nA diplomat of the old school, Konstantin von Neurath finds himself increasingly out of place in a regime driven by fanaticism and fervor. Born into a world of aristocratic privilege and bound by a sense of duty to the German state, von Neurath's career was shaped by his belief in diplomacy and the balance of power. As Germany's Foreign Minister, he sought to navigate the turbulent waters of interwar Europe with caution and restraint, a stark contrast to the aggressive ambitions of his Nazi peers.\n\nVon Neurath did not join the Nazi government out of ideological alignment but out of a sense of duty to serve his country. He believed that, despite its radicalism, the Nazi regime could be steered towards a more rational foreign policy—one that would restore Germany's rightful place on the world stage without plunging it into another catastrophic conflict. His measured approach earned him the respect of the international community, even as it made him a figure of suspicion within the Party's more radical circles.\n\n Von Neurath is acutely aware that the diplomatic path he envisioned was narrowing. The Nazis' aggressive rhetoric and actions increasingly sidelined his attempts to maintain a façade of diplomatic decorum. He was often caught between the demands of his position and his unease with the direction in which Hitler and his closest allies were steering the nation. His tenure became a tightrope walk, balancing his duty to the Reich with his personal reservations about its growing belligerence.\n\nDespite his efforts, von Neurath could feel the ground shifting beneath him as the regime's aggressive policies accelerated toward confrontation. A relic of a bygone era, he stood as one of the last vestiges of traditional diplomacy in a government rapidly shedding its respect for international norms. His influence waning, von Neurath faced the unsettling reality that his vision for Germany's future was slipping beyond his grasp, overshadowed by the rising tide of extremism that threatened to engulf the world." 
  
  ### IDEAS ###
  
@@ -36,32 +41,145 @@
  GER_a_man_desc:0 "Adolf Hitler, our Führer, has emerged as the savior of Germany, hellbent to restoring our nation's former glory and dominance on the global stage. With his leadership and the ambitious ideals of National Socialism, a new era of strength and unity is on the cusp of our reach, as he vows to eradicate the remnants of the Versailles Treaty and lead Germany to unprecedented heights."
  
  GER_a_problem:0 "...A Crippling Problem..."
- 
+ GER_a_problem_desc:0 "The German nation is gripped by a severe crisis, a consequence of years of economic hardship, political instability, and social unrest. The wounds of the Great War are still fresh, and the scars left by the Treaty of Versailles continue to bleed the country dry. Hyperinflation, unemployment, and poverty have created a breeding ground for radical ideologies and social discord. The Weimar Republic, plagued by weak governance and lack of direction, struggles to maintain order. As factions vie for power, the fabric of German society is fraying, and a sense of desperation permeates the air. The people cry out for a solution, any solution, that can restore their dignity and bring back stability to their once-proud nation."
+
  GER_a_solution:0 "...And a Radical Solution"
- 
- GER_wirtschaftwunder:0 "Wirtschaftwunder"
- 
- GER_an_autarkic_industry:0 "An Autarkic Industry"
- 
- GER_reaching_out_to_corporate_giants:0 "Reaching Out to the Corporate Giants"
- 
- GER_transitioning_to_a_state_owned_market:0 "Transitioning to a State-Owned market" #unused idea
+ GER_a_solution_desc:0 "In these desperate times, extreme measures have been put forth as the only viable answer to Germany's uncountable problems. The allure of radical ideologies promising swift and decisive action to restore the nation's former glory has captured the imagination of a German population weary of suffering and uncertainty. The promise of a New Order, one built on militarism, nationalism, and total obedience, has led many to believe that such drastic steps are the only way to overcome the current crisis. However, these radical solutions come at a great cost, demanding unquestioning loyalty and sacrifices from the German people, while threatening to upend the social order and plunge the country into even darker times."
  
  GER_volksgemeinschaft:0 "Volksgemeinschaft"
- 
- GER_collaboration_with_ig_farben:0 "Collaboration with IG Farben"
- 
- GER_the_mittelstand:0 "The Mittelstand"
- 
- GER_develop_reichswerker_hermann_goering_infrastructure:0 "Develop RW Hermann Goering Infrastructure"
- 
- GER_the_industry_in_the_rhine:0 "The Industry in the Rhine"
+
 
  GER_peenmunde_army_research_center:0 "Peenemünde Army Research Center"
  
  GER_a_revitalised_reich:0 "A Revitalised Reich"
 
- ### TOOLTIPS ###
+ #|---FOCUS NAMES ---|#
+ GER_a_new_spark_of_resolve:0 "A New Spark of Resolve"
+ GER_a_new_spark_of_resolve_desc:0 "When the dust of the Great War subsided, Germany found itself shackled by the exploitative clauses of the Treaty of Versailles, ridden with the vengeful desires of the triumphant west. Our once formidable nation was forced to grapple with crippling reparations, severe territorial losses, and a humiliated military stripped of its might."
+ GER_occupy_the_rhine:0 "Occupy the Rhine!"
+ GER_occupy_the_rhine_desc:0 "Ever since 1919, the Treaty of Versailles has been a burden heavy upon the Fatherland, a symbol of humiliation and shame. But no more! With the renewed resolve under the leadership of our beloved Fuhrer, we cast off the shackles of oppression and stand defiant once more as an independent, and perhaps even greater, Germany.\n\nOur first bold step towards this goal is the reclamation of the Rhineland, a region that has long been under the influence of western powers. Tolerated too long by the error-laden, decadent Weimar Republic, this abomination of Versailles must be confronted by force. The world may doubt our strength, especially after the dishonorable loss in the Weltkrieg, but every soldier, every worker, and every citizen, stands united in our resolve to restore Germany's rightful place among the great nations of the world."
+ GER_wirtschaftswunder:0 "Wirtschaftswunder"
+ GER_wirtschaftswunder_desc:0 "Gotta do it"
+ GER_vierjahresplan:0 "The Reichsmarschall's Vierjahresplan"
+ GER_pursuit_of_economic_autarky:0 "Pursuit of Economic Autarky"
+ GER_reach_out_to_the_corporate_giants:0 "Reach Out to the Corporate Giants"
+ GER_unshackling_the_economy:0 "Unshackling the Economy"
+ GER_investments_in_farben:0 "Continue Investments in IG Farben"
+ GER_lifeblood_of_the_reich:0 "Lifeblood of the Reich"
+ GER_modernize_siemens_industries:0 "Modernise Siemens Industries"
+ GER_fund_krupp_military_manufacturing:0 "Fund Krupp's Military Manufacturing"
+ GER_strengthen_the_mittelstand:0 "Strengthen the Mittelstand"
+ GER_the_steel_of_war:0 "The Steel of War"
+ GER_die_deutsche_belegschaft:0 "Die Deutsche Belegschaft"
+ GER_the_birth_of_the_reichswerke:0 "The Birth of the Reichswerke"
+ GER_wirtschaftwunder:0 "Wirtschaftwunder"
+ GER_an_autarkic_industry:0 "An Autarkic Industry"
+ GER_reaching_out_to_corporate_giants:0 "Reaching Out to the Corporate Giants"
+ GER_collaboration_with_ig_farben:0 "Collaboration with IG Farben"
+ GER_the_mittelstand:0 "The Mittelstand"
+ GER_develop_reichswerker_hermann_goering_infrastructure:0 "Develop RW Hermann Goering Infrastructure"
+ GER_the_industry_in_the_rhine:0 "The Industry in the Rhine"
+ GER_anti_komintern_pakt:0 "Against the Red Threat"
+ GER_the_rome_berlin_axis:0 "The Rome-Berlin Axis"
+ GER_the_power_within:0 "The Power Within"
+ GER_heim_ins_reich:0 "Heim Ins Reich"
+ GER_the_influence_beyond:0 "The Influence Beyond"
+ GER_foundations_of_control:0 "Foundations of Control"
+ GER_himmlers_black_order:0 "Himmler's Black Order"
+ GER_the_eyes_and_ears_of_the_fuhrer:0 "The Eyes and Ears of the Fuhrer"
+ GER_silencing_the_dissidents_in_the_ranks:0 "Silencing the Dissidents in the Ranks"
+ GER_reinforce_the_nuremburg_edicts:0 "Reinforce the Nuremburg Edicts"
+ GER_tighten_the_grip_on_the_unwanted:0 "Tighten the Grip on the Unwanted"
+ GER_aryanise_the_economy:0 "Aryanise the Economy"
+ GER_the_partys_dominion_above_all:0 "The Party’s Dominion over All"
+ GER_deutsche_arbeitsfront:0 "Deutsche Arbeitsfront"
+ GER_the_beauty_of_labour:0 "The Beauty of Labour..."
+ GER_and_strength_through_joy:0 "...And Strength through Joy"
+ GER_reichsarbeitsdienst:0 "Reichsarbeitsdienst"
+ GER_reichsautobahn:0 "Reichsautobahn"
+ GER_mobilisation_of_the_masses:0 "Mobilisation of the Masses"
+ GER_the_voice_of_the_reich:0 "The Voice of the Reich"
+ GER_servitude_of_the_state:0 "The Servitude of the State"
+ GER_unite_the_vaterland:0 "Unite the Vaterland"
+ GER_shadows_over_bohemia:0 "Shadows Over Bohemia"
+ GER_ein_volk_ein_reich:0 "Ein Volk, Ein Reich"
+ GER_a_gesture_of_goodwill:0 "A Gesture of Goodwill"
+ GER_negotiating_with_the_bear:0 "Negotiating with the Bear"
+ GER_the_die_is_cast:0 "The Die is Cast"
+ GER_the_iberian_gamble:0 "The Iberian Gamble"
+ GER_send_our_wings:0 "Send Our Wings"
+ GER_the_spanish_skybridge:0 "The Spanish Skybridge"
+ GER_iron_fist_over_iberia:0 "Iron Fist over Iberia"
+ GER_aid_for_destruction:0 "Aid for Destruction"
+ GER_pitiless_in_combat:0 "Pitiless in Combat"
+ GER_leave_them_in_ash_and_ruin:0 "Leave Them in Ash and Ruin"
+ GER_cautious_hand_of_aid:0 "Cautious Hand of Aid"
+ GER_aid_for_sympathy:0 "Aid for Sympathy"
+ GER_precision_in_strategy:0 "Precision in Strategy"
+ GER_victory_through_discipline:0 "Victory through Discipline"
+ GER_trial_by_fire:0 "Trial by Fire"
+ GER_lessons_from_the_battlefield:0 "Lessons from the Battlefield"
+ GER_an_ally_on_the_horizon:0 "An Ally on the Horizon"
+ GER_the_reichs_lost_glory:0 "The Reich's Lost Glory"
+ GER_rebuilding_the_iron_fist:0 "Rebuilding the Iron Fist"
+ GER_aufrustung:0 "Aufustrung"
+ GER_envisioning_the_german_war_machine:0 "Envisioning the German War Machine"
+ GER_the_backbone_of_the_heer:0 "The Backbone of the Heer"
+ GER_elite_infantry_units:0 "Elite Infantry Units"
+ GER_betting_on_the_steel_behemoths:0 "Betting on the Steel Behemoths"
+ GER_a_legion_of_iron_and_steel:0 "A Legion of Iron and Steel"
+ GER_aufstellungswelle:0 "Aufstellungswelle"
+ GER_a_new_age_of_warfare:0 "A New Age of Warfare..."
+ GER_calls_for_new_doctrines:0 "...Calls for New Doctrines"
+ GER_the_new_reichs_ideals:0 "The New Reich's Ideals"
+ GER_mechanising_the_army:0 "Mechanising the Army"
+ GER_our_prussian_heritage:0 "Our Prussian Heritage"
+ GER_the_war_won_from_afar:0 "The War won From Afar"
+ GER_ahead_of_the_curve:0 "Ahead of the Curve"
+ GER_the_shield_of_the_fatherland:0 "The Shield of the Fatherland"
+ GER_the_grounded_eagle:0 "The Grounded Eagle"
+ GER_dominance_in_our_skies:0 "Dominance in Our Skies"
+ GER_a_new_generation_of_aerial_knights:0 "A New Generation of Aerial Knights"
+ GER_defender_of_the_reichs_skies:0 "Defender of the Reich's Skies"
+ GER_the_falcons_talon:0 "The Falcon's Talon"
+ GER_legacy_of_the_red_baron:0 "Legacy of The Red Baron"
+ GER_striking_from_the_shadows:0 "Striking From the Night"
+ GER_the_hammer_to_fall:0 "The Hammer to Fall"
+ GER_the_eagles_wrath:0 "The Eagle's Wrath"
+ GER_wings_beyond_the_horizon:0 "Wings Beyond the Horizon"
+ GER_like_a_thief_in_the_night:0 "Like a Thief in the Night"
+ GER_germanys_guardian_angel:0 "Germany's Guardian Angel"
+ GER_the_rising_tide:0 "The Rising Tide"
+ GER_unterseeflotte:0 "Unterseeflotte"
+ GER_wolves_of_the_atlantic:0 "Wolves of the Atlantic"
+ GER_no_mercy_at_sea:0 "No Mercy at Sea"
+ GER_silent_hunters:0 "Silent Hunters"
+ GER_terrors_of_the_deep:0 "Terrors of the Deep"
+ GER_the_pride_of_kriegsmarine:0 "The Pride of the Kriegsmarine"
+ GER_fortresses_of_the_sea:0 "Fortresses of the Sea"
+ GER_the_carrier_doctrine:0 "The Carrier Doctrine"
+ GER_panzerschiffe:0 "Panzerschiffe"
+ GER_the_fleet_of_a_thousand_year_reich:0 "The Fleet of a Thousand Year Reich"
+ GER_brittanias_nightmare:0 "Brittania's Nightmare"
+ GER_formation_of_the_OKW:0 "Formation of the OKW"
+ 
+ 
+ 
+ #|---TOOLTIPS ---|#
  rhineland_remilitarisation_tt:0 "The Rhineland, long restricted by the Treaty of Versailles, will soon be §Cliberated§! and rendered §Gremilitarized§!."
  rome_berlin_axis_tt:0 "The Rome Berlin shall be formed with our §Rnation§! and with §GItaly§!"
  anschluss_decision_tt:0 "The time has come to unite all German-speaking peoples under one Reich. We shall execute the Anschluss and bring Austria into the fold."
+
+ #|---FOCUS DESCRIPTIONS---|# 
+ 
+ GER_the_hammer_to_fall_desc:0 "As the Reich's air command refines its strategic vision, the moment approaches when all will feel the weight of their miscalculation. With every bomber that takes to the skies, the enemy's fate is sealed. Their forces are no longer just combatants—they are the ill-fated victims of inevitable destruction. Each target is chosen with care, every strike planned with the precision of a craftsman wielding his hammer.\n\nIn these dark times, Lady Mercy no longer walks among us. There is no room for mercy as the hammer must fall. The enemy can flee, but they cannot escape. We will soon bring the heavens down upon the Untermenschen, leaving only ashes in our wake."
+ 
+ #|---EVENTS---|# 
+ 
+ reich_flavour.1.t:0 "The Fulfillment of a Struggle"
+ reich_flavour.1.desc:0 "I stood there, shoulder to shoulder with the men of the SA, eyes fixed on the stage. My heart pounded in my chest as the Führer took his place before us. At 19, I had seen only glimpses of the old Germany—the Germany of chaos and shame—but in that moment, I felt like I was part of something eternal. The Führer’s voice, steady and powerful, filled the hall.\n\n“Men of the SA!” He started. “National Socialists! Party Comrades! When we take a retrospective look today, it does not end in the year 1933, but must go back further. What was a moment of surprise back then for many who did not know our Movement, was for us and for you, my Old Fighters, but the hour of fulfilment..."\n\nThe older men beside me—veterans of the long struggle—stood tall. I could see the pride in their eyes. They had lived through the dark times, but I… I was the product of this new Germany, this resurgence, this strength. I hadn't known the hunger or the despair that came before, but standing there, listening to the Führer, I understood what we fought for.\n\n"I conducted the fight for fourteen years; I also founded this SA and, in its ranks and at its fore, led the Movement onward. I have come to know you. And I know, everything you are, you are through me, and everything I am, I am through you alone."His words gripped me, as though he spoke directly to me. I wasn’t just a soldier. I was a part of history—a link in the chain of a thousand year reich, soon to be achieved. The struggle wasn’t over, but we had risen from the ashes. And now, we were building something greater, something that would last a thousand years. I believed in it, felt it in my bones.\n\n"Our fight has required constant sacrifice. But you did not go through that. Perhaps you imagine Germany has become what it is today because you did not make any sacrifices. No! It is because we were able to make sacrifices and wanted to do so that this Germany came to be!"\n\nThe hall erupted in chants of “Sieg Heil,” and I found myself joining in, shouting until my voice was hoarse. This was my purpose. I was young, but I was ready to sacrifice whatever it took. I felt invincible, like nothing could stop us.\n\nAs the Führer’s final words echoed in the hall, I knew then that my life had meaning. Germany was rising, and I would give everything to see it triumph."
+ reich_flavour.1.a:0 "For Germany, for the Reich!"
+ reich_flavour.1.b:0 "We are the guardians of this future!"
+ 
+
+

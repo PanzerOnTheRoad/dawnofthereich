@@ -1,0 +1,22 @@
+	focus = {
+		id = YOUR_TAG_focus_generic_name
+		x = -1
+		y = 1
+		relative_position_id = YOUR_TAG_other_focus_generic_name # Adjust the total position as needed
+		icon = GFX_generic_focus_icon_name
+		prerequisite = { focus = YOUR_TAG_other_focus_generic_name }
+		mutually_exclusive = { focus = YOUR_TAG_another_focus_generic_name }
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}

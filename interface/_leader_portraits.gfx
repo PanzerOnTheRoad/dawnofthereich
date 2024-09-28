@@ -18,6 +18,13 @@ spriteTypes = {
 	}
 
 
+
+	### DNZ
+	spriteType = {
+		name = "GFX_portrait_Albert_Forster"
+		texturefile = "gfx/leaders/DNZ/Portrait_DNZ_albert_forster.dds"
+	}
+	
 	### GER
 
 	spriteType = {

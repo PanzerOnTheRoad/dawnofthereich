@@ -3,7 +3,7 @@ bookmarks = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.1
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1939"
 		default_country = "GER"
 		default = yes
 		
@@ -34,8 +34,8 @@ bookmarks = {
 			}
 			focuses = {
 				GER_occupy_the_rhine
-				GER_danzig_or_war
-				GER_revive_the_kaiserreich
+				GER_the_die_is_cast
+				GER_heim_ins_reich
 			}
 		}
 		"GER"={
@@ -48,13 +48,11 @@ bookmarks = {
 				GER_mefo_bills_1
 			}
 			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_ussr_war_goal
+				GER_occupy_the_rhine
+				GER_the_die_is_cast
+				GER_heim_ins_reich
 			}
 		}
-		"---"={history = ""}
-		"---"={history = ""}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
@@ -162,8 +160,6 @@ bookmarks = {
 		}
 
 
-		"---"={history = ""}
-		"---"={history = ""}
 		
 		"MON"={
 			history = "MAN_GATHERING_STORM_DESC"
@@ -233,8 +229,6 @@ bookmarks = {
 			}
 		}
 
-		"---"={history = ""}
-		"---"={history = ""}
 		
 		"TAN"={
 			history = ""
@@ -256,11 +250,11 @@ bookmarks = {
 		}	
 		
 		# minors from DLC ####
-		"---"={history = ""}
+		"---"={minor = yes history = ""}
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = liberalism
 			ideas = {
 				CAN_great_depression_1
 				CAN_conscription_crisis
@@ -274,7 +268,7 @@ bookmarks = {
 		"AST"={
 			minor = yes
 			history = "AST_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = progressivism
 			ideas = {
 				AST_great_depression_1
 			}
@@ -287,7 +281,7 @@ bookmarks = {
 		"NZL"={
 			minor = yes
 			history = "NZL_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = progressivism
 			ideas = {
 				
 			}
@@ -301,7 +295,7 @@ bookmarks = {
 		"TUR"={
 			minor = yes
 			history = "TUR_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = paternalism
 			ideas = {
 				TUR_sectarian_woes
 				TUR_disorganised_armed_forces
@@ -316,7 +310,7 @@ bookmarks = {
 		"ROM"={
 			minor = yes
 			history = "ROM_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = liberalism
 			ideas = {
 				ROM_king_carol_ii_hedonist
 				neutrality_idea
@@ -330,7 +324,7 @@ bookmarks = {
 		"BUL"={
 			minor = yes
 			history = "BUL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = despotism
 			ideas = {
 				BUL_second_national_catastrophe
 				BUL_army_restrictions

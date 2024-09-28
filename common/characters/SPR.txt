@@ -12,7 +12,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=liberal_conservatism_market_liberalism_subtype
+				ideology=liberalism_classical_liberalism_subtype
 				traits={ indecisive }
 				expire="1965.1.1.1"
 				id=-1
@@ -29,7 +29,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=liberal_conservatism_market_liberalism_subtype
+				ideology=liberalism_classical_liberalism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -48,7 +48,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=communism_marxism_leninism_subideology
+				ideology=communism_marxism_leninism_subtype
 				traits={ veteran_communist }
 				expire="1965.1.1.1"
 				id=-1
@@ -65,7 +65,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=marxism_leninism
+				ideology=communism_marxism_leninism_subtype
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -93,37 +93,20 @@ characters={
 				small="GFX_idea_SPA_jose_antonio_primo_de_rivera"
 			}
 			civilian={
-				large="GFX_portrait_SPA_jose_antonio_primo_de_rivera"
+				large="gfx/leaders/SPA/Portrait_SPA_jose_antonio_primo_de_rivera.dds"
 			}
 		}
 		advisor={
 			slot = political_advisor
 			idea_token = SPR_SPA_jose_antonio_primo_de_rivera
 			name = SPA_jose_antonio_primo_de_rivera 
-			allowed = {
-				has_dlc = "La Resistance"
-				original_tag = SPR
-			}
-			visible = {
-				NOT = {
-					tag = SPD
-					tag = SPC
-				}
-			}
-			available = {
-				has_completed_focus = SPA_primo_de_rivera_prisoner_exchange
-				custom_trigger_tooltip = {
-					tooltip = SPA_not_republican_spain_tt
-					NOT = { tag = SPD }
-				}
-			}
 			traits = {
 				falangist_figurehead 
 			}
 		}
 
 		country_leader={
-			ideology=falangism
+			ideology=fascism_falangism_subtype
 			traits={ sins_of_the_father }
 			expire="1965.1.1.1"
 			id=-1
@@ -146,10 +129,6 @@ characters={
 	}
 
 	SPR_manuel_azana = {
-		instance = {
-			allowed = {
-				has_dlc = "La Resistance"
-			}
 
 			name = SPR_manuel_azana
 
@@ -158,31 +137,12 @@ characters={
 					large = "GFX_portrait_Manuel_Azana"
 				}
 			}
-			#country_leader = {
-			#	ideology = conservatism
-			#	traits = { figurehead_president }
-			#	expire = "1965.1.1.1"
-			#	id = -1
-			#}
-		}
-		instance = {
-			allowed = {
-				NOT = { has_dlc = "La Resistance" }
+			country_leader = {
+				ideology = progressivism_social_democracy_subtype
+				traits = { figurehead_president }
+				expire = "1965.1.1.1"
+				id = -1
 			}
-
-			name = SPR_manuel_azana
-
-			portraits = {
-				civilian = {
-					large = "GFX_portrait_Manuel_Azana"
-				}
-			}
-			#country_leader = {
-			#	ideology = conservatism
-			#	expire = "1965.1.1.1"
-			#	id = -1
-			#}
-		}
 	}
 
 	# Unit Leaders
@@ -539,10 +499,6 @@ characters={
 	}
 
 	SPA_francisco_franco={
-		instance = {
-			allowed = {
-				has_dlc = "La Resistance"
-			}
 			name=SPA_francisco_franco
 			portraits={
 				army={
@@ -550,7 +506,11 @@ characters={
 					small=GFX_portrait_SPA_francisco_franco_small
 				}
 			}
-
+			country_leader={
+				ideology=despotism_military_junta_subtype
+				expire="1965.1.1.1"
+				id=-1
+			}
 			field_marshal={
 				traits={ logistics_wizard organisational_leader expert_delegator }
 				skill=3
@@ -576,67 +536,6 @@ characters={
 					}
 				}
 			}
-		}
-		instance = {
-			allowed = {
-				NOT = { has_dlc = "La Resistance" }
-			}
-			name=SPA_francisco_franco
-			portraits={
-				civilian={
-					large="GFX_portrait_spain_francisco_franco"
-				}
-				army={
-					small="GFX_idea_francisco_franco"
-				}
-			}
-			advisor={
-				slot = army_chief
-				idea_token = SPA_francisco_franco
-				name = SPR_fransisco_franco
-				allowed = {
-					NOT = {
-						has_dlc = "La Resistance"
-					}
-					original_tag = SPR
-				}
-				available = {
-					custom_trigger_tooltip = {
-						tooltip = spr_franco_unavailable_tooltip
-						OR = {
-							has_government = fascism
-							AND = {
-								NOT = {
-									has_government = communism
-								}
-								NOT = {
-									any_country_with_original_tag = {
-										original_tag_to_check = SPR
-										NOT = {
-											tag = root
-										}
-										has_government = fascism
-									}
-								}
-							}
-						}
-					}
-				}
-				traits = {
-					army_chief_offensive_3
-				}
-				cost = 200
-				ai_will_do = {
-					factor = 1.000
-				}
-			}
-	
-			country_leader={
-				ideology=fascism_falangism_subtype
-				expire="1965.1.1.1"
-				id=-1
-			}
-		}
 	}
 
 	SPR_mohamed_meziane={
@@ -677,11 +576,7 @@ characters={
 		}
 	}
 
-	SPA_emilio_mola={ # Falangist/Francoist
-		instance = {
-			allowed = {
-				has_dlc = "La Resistance"
-			}
+	SPA_emilio_mola={
 			name=SPA_emilio_mola
 			portraits={
 				army={
@@ -696,24 +591,6 @@ characters={
 				allowed = {
 					has_dlc = "La Resistance"
 					original_tag = SPR
-				}
-	
-				visible = {
-					NOT = {
-						tag = SPD
-						tag = SPC
-					}
-				}
-	
-				available = {
-					NOT = {
-						has_completed_focus = SPR_masters_of_our_own_fate
-						has_completed_focus = SPA_no_compromise_on_carlist_ideals
-					}
-					custom_trigger_tooltip = {
-						tooltip = SPA_not_republican_spain_tt
-						NOT = { tag = SPD }
-					}
 				}
 				traits = {
 					army_infantry_2
@@ -739,42 +616,6 @@ characters={
 					}
 				}
 			}
-		}
-		instance = {
-			allowed = {
-				NOT = { has_dlc = "La Resistance" }
-			}
-			name=SPA_emilio_mola_vidal
-			portraits={
-				army={
-					small="GFX_idea_generic_army_europe_5"
-				}
-			}
-			advisor={
-				slot = army_chief
-				idea_token = SPA_emilio_mola_vidal
-				name = SPA_emilio_mola_vidal
-				allowed = {
-					NOT = {
-						has_dlc = "La Resistance"
-					}
-					original_tag = SPR
-				}
-				visible = {
-					has_government = fascism
-				}
-				available = {
-					has_government = fascism
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-			}
-		}
 	}
 
 	SPA_juan_yague={ # Falangist

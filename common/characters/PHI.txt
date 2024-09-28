@@ -52,6 +52,24 @@ characters={
 			id=-1
 		}
 	}
+	
+    PHI_Vicente_Lim = {
+        name = "Vincente Lim"
+        portraits = {
+            army = {
+                small = "GFX_idea_georgy_zhukov"
+                large = "GFX_portrait_SOV_georgy_zhukov"
+            }
+        }
+        corps_commander = {
+            traits = { inflexible_strategist adaptable defensive_doctrine}
+            skill = 4
+            attack_skill = 3
+            defense_skill = 5
+            planning_skill = 3
+            logistics_skill = 4
+        }
+    }
 	PHI_pelagio_cruz={
 		advisor={
 			

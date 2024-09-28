@@ -58,15 +58,27 @@ if = {
 	recruit_character = SPR_augusto_barcia_trelles
 	recruit_character = SPR_francisco_largo_caballero
 	recruit_character = SPR_manuel_azana
+	recruit_character = SPA_jose_antonio_primo_de_rivera
 
 	set_popularities = {
-		fascism = 27
-		conservatism = 17
-		liberal_conservatism = 10
-		liberalism = 6
-		progressivism = 15
-		socialism = 20
-		communism = 5
+		communism = 4 #Communist Party of Spain 
+		communism_1 = 3 #Workers Party of Marxist Unification
+		socialism = 11 #PSOE
+		socialism_1 = 2 #CNT-FAI
+		progressivism = 18 #Republican left
+		progressivism_1 = 8 #Republican Union
+		progressivism_2 = 2 #Basque Nationalist Action
+		liberalism = 3 #CEDA and Liberal Democrat Republican Party
+		liberal_conservatism = 9 #CEDA and Radical Republican Party
+		conservatism = 17 #CEDA and Right
+		conservatism_1 = 7 #CEDA and Center
+		conservatism_2 = 6 #Català d'Ordre - Lliga Catalana
+		paternalism = 5 #CEDA and Progressive Republican Party
+		paternalism_1 = 4 #	Party of the Democratic Centre
+		despotism = 0
+		ultranationalism = 0
+		fascism = 1 #FE de las JONS
+		national_socialism = 0
 	}
 }
 
@@ -313,10 +325,10 @@ if = {
 }
 
 set_politics = {
-	ruling_party = liberal_conservatism
+	ruling_party = liberalism
 	last_election = "1933.2.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 150

@@ -15,7 +15,7 @@
 	focus = {
 		id = GER_a_new_spark_of_resolve
 		icon = GFX_goal_generic_major_war
-		x = 10	
+		x = 16
 		y = 5
 		cost = 5
 
@@ -34,7 +34,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 40
+			country_event = reich_flavour.1
 		}
 	}
 
@@ -54,7 +54,7 @@
 			}
 		}
 
-bypass = {
+		bypass = {
 			42 = { is_demilitarized_zone = no }
 			51 = { is_demilitarized_zone = no }
 			971 = { is_demilitarized_zone = no }
@@ -93,9 +93,11 @@ bypass = {
 		id = GER_the_influence_beyond
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = GER_occupy_the_rhine }
-		x = 12
-		y = 7
+		x = 4
+		y = 2
 		cost = 5
+		relative_position_id = GER_a_new_spark_of_resolve
+
 
 		ai_will_do = {
 			factor = 10
@@ -120,9 +122,10 @@ bypass = {
 		id = GER_heim_ins_reich
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = GER_the_influence_beyond }
-		x = 12
-		y = 8
+		x = 0
+		y = 1
 		cost = 5
+		relative_position_id = GER_the_influence_beyond
 
 		ai_will_do = {
 			factor = 10
@@ -147,15 +150,81 @@ bypass = {
 
 		}
 	}
+	focus = {
+		id = GER_unite_the_vaterland
+		x = 0
+		y = 2
+		relative_position_id = GER_the_influence_beyond
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_heim_ins_reich }
+		mutually_exclusive = { focus = }
+		cancel = {}
+		cost = 8
 
-	
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_shadows_over_bohemia
+		x = 0
+		y = 3
+		relative_position_id = GER_the_influence_beyond
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_unite_the_vaterland }
+		mutually_exclusive = { focus = }
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}	
+	focus = {
+		id = GER_ein_volk_ein_reich
+		x = 0
+		y = 4
+		relative_position_id = GER_the_influence_beyond
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_shadows_over_bohemia }
+		prerequisite = { focus = GER_negotiating_with_the_bear  }
+		mutually_exclusive = { focus = }
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}	
 	focus = {
 		id = GER_anti_komintern_pakt
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = GER_the_influence_beyond }
-		x = 16
-		y = 8
+		x = 2
+		y = 1
 		cost = 5
+		relative_position_id = GER_the_influence_beyond
 
 		ai_will_do = {
 			factor = 10
@@ -165,7 +234,7 @@ bypass = {
 
 		available = {
 			NOT = { has_government = communism }
-			NOT = { is_in_faction_with = SOU }
+			NOT = { is_in_faction_with = SOV }
 			}
 
 		cancel_if_invalid = yes
@@ -176,14 +245,58 @@ bypass = {
 
 		}
 	}		
-	
+	focus = {
+		id = GER_a_gesture_of_goodwill
+		x = 2
+		y = 2
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_anti_komintern_pakt }
+		mutually_exclusive = { focus = YOUR_TAG_another_focus_generic_name }
+		cancel = {}
+		cost = 8
+		relative_position_id = GER_the_influence_beyond
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}	
+	focus = {
+		id = GER_negotiating_with_the_bear
+		x = 2
+		y = 3
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_a_gesture_of_goodwill }
+		mutually_exclusive = { focus = YOUR_TAG_another_focus_generic_name }
+		cancel = {}
+		cost = 8
+		relative_position_id = GER_the_influence_beyond
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}	
 	focus = {
 		id = GER_the_rome_berlin_axis
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = GER_the_influence_beyond }
-		x = 14
-		y = 8
+		x = 4
+		y = 2
 		cost = 5
+		relative_position_id = GER_the_influence_beyond
 
 		ai_will_do = {
 			factor = 10
@@ -212,9 +325,10 @@ bypass = {
 		id = GER_the_power_within
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = GER_occupy_the_rhine }
-		x = 10
-		y = 7
+		x = -4
+		y = 2
 		cost = 5
+		relative_position_id = GER_a_new_spark_of_resolve
 
 		ai_will_do = {
 			factor = 10
@@ -234,7 +348,185 @@ bypass = {
 
 		}
 	}		
+	focus = {
+		id = GER_foundations_of_control
+		x = -2
+		y = 1
+		relative_position_id = GER_the_power_within
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_power_within }
+		mutually_exclusive = {}
+		cancel = {}
+		cost = 8
 
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_himmlers_black_order
+		x = -2
+		y = 2
+		relative_position_id = GER_the_power_within
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_foundations_of_control }
+		mutually_exclusive = {}
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_eyes_and_ears_of_the_fuhrer
+		x = -4
+		y = 2
+		relative_position_id = GER_the_power_within
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_foundations_of_control }
+		mutually_exclusive = {}
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_silencing_the_dissidents_in_the_ranks
+		x = -2
+		y = 3
+		relative_position_id = GER_the_power_within
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_eyes_and_ears_of_the_fuhrer }
+		prerequisite = { focus = GER_himmlers_black_order }
+		mutually_exclusive = {}
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_reinforce_the_nuremburg_edicts
+		x = 0
+		y = 1
+		relative_position_id = GER_the_power_within
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_power_within }
+		mutually_exclusive = {}
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_tighten_the_grip_on_the_unwanted
+		x = 0
+		y = 2
+		relative_position_id = GER_the_power_within
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_reinforce_the_nuremburg_edicts }
+		mutually_exclusive = {}
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_aryanise_the_economy
+		x = 0
+		y = 3
+		relative_position_id = GER_the_power_within
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_tighten_the_grip_on_the_unwanted }
+		mutually_exclusive = {}
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_partys_dominion_above_all
+		x = 0
+		y = 4
+		relative_position_id = GER_the_power_within
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_aryanise_the_economy }
+		prerequisite = { focus = GER_silencing_the_dissidents_in_the_ranks }
+
+		mutually_exclusive = {}
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
 	focus = {
 		id = GER_wirtschaftswunder
 		icon = GFX_goal_generic_construction
@@ -364,7 +656,7 @@ bypass = {
 	}
 	
 	focus = {
-    id = GER_mass_privatization
+    id = GER_unshackling_the_economy
     icon = GFX_goal_generic_construction
     prerequisite = { focus = GER_vierjahresplan }
     x = 4
@@ -441,68 +733,249 @@ bypass = {
 		}	
 	}
 	
-			focus = {
-    id = GER_volksgemeinschaft
-    icon = GFX_goal_generic_construction
-    prerequisite = { focus = GER_wirtschaftswunder }
-    x = -7
-    y = 1
-	relative_position_id = GER_wirtschaftswunder
-    cost = 5
-    ai_will_do = {
-        factor = 4
-    }
-    
-    available = {
+	focus = {
+		id = GER_volksgemeinschaft
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_occupy_the_rhine }
+		x = 0
+		y = 1
+		relative_position_id = GER_occupy_the_rhine
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
 
-    }
-    completion_reward = {
-  		add_ideas = { GER_volksgemeinschaft 
-			}
-		}	
+		}
+		completion_reward = {
+			add_ideas = { GER_volksgemeinschaft 
+				}
+			}	
 	}
 	
-			focus = {
-    id = GER_black_gold
-    icon = GFX_goal_generic_construction
-    prerequisite = { focus = GER_investments_in_farben focus = GER_develop_reichswerker_hermann_goering_infrastructure }
-    x = -4
-    y = 5
-	relative_position_id = GER_wirtschaftswunder
-    cost = 5
-    ai_will_do = {
-        factor = 4
-    }
-    
-    available = {
+	focus = {
+		id = GER_deutsche_arbeitsfront
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_volksgemeinschaft }
+		x = -1
+		y = 1
+		relative_position_id = GER_volksgemeinschaft
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
 
-    }
-    completion_reward = {
-  				random_owned_controlled_state = {
-				prioritize = { 67 }
-				limit = {
-					free_building_slots = {
-						building = synthetic_refinery
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = GER_industrial_effort_2IC
-			}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1 
-				category = synth_resources
-			
-			}
+		}
+		completion_reward = {
 
+			}	
+	}
+	focus = {
+		id = GER_the_beauty_of_labour	
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_deutsche_arbeitsfront }
+		x = -2
+		y = 2
+		relative_position_id = GER_volksgemeinschaft
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
+
+		}
+		completion_reward = {
+
+			}	
+	}
+	focus = {
+		id = GER_and_strength_through_joy
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_deutsche_arbeitsfront }
+		x = 0
+		y = 2
+		relative_position_id = GER_volksgemeinschaft
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
+
+		}
+		completion_reward = {
+
+			}	
+	}
+	focus = {
+		id = GER_reichsarbeitsdienst 
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_volksgemeinschaft }
+		x = 1
+		y = 1
+		relative_position_id = GER_volksgemeinschaft
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
+
+		}
+		completion_reward = {
+
+			}	
+	}
+	focus = {
+		id = GER_reichsautobahn
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_reichsarbeitsdienst }
+		x = 2
+		y = 2
+		relative_position_id = GER_volksgemeinschaft
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
+		}
+		completion_reward = {
 		}	
+	}	
+	focus = {
+		id = GER_mobilisation_of_the_masses
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_reichsautobahn focus = GER_and_strength_through_joy }
+		x = 1
+		y = 3
+		relative_position_id = GER_volksgemeinschaft
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
+		}
+		completion_reward = {
+		}	
+	}	
+
+	focus = {
+		id = GER_the_voice_of_the_reich
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_the_beauty_of_labour }
+		prerequisite = { focus = GER_and_strength_through_joy }
+		x = -1
+		y = 3
+		relative_position_id = GER_volksgemeinschaft
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
+		}
+		completion_reward = {
+		}	
+	}	
+	focus = {
+		id = GER_servitude_of_the_state
+		x = 0
+		y = 4
+		relative_position_id = GER_volksgemeinschaft 
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_the_voice_of_the_reich }
+		prerequisite = { focus = GER_mobilisation_of_the_masses }
+		cancel = {}
+		cost = 8
+
+		available = { }
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_die_is_cast
+		x = 0
+		y = 5
+		relative_position_id = GER_volksgemeinschaft 
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_servitude_of_the_state }
+		prerequisite = { focus = GER_ein_volk_ein_reich}
+		prerequisite = { focus = GER_the_partys_dominion_above_all}
+		cancel = {}
+		will_lead_to_war_with = POL
+		cost = 8
+
+		available = {
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+			declare_war_on = {
+			target = POL
+			type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GER_lifeblood_of_the_reich
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GER_investments_in_farben focus = GER_develop_reichswerker_hermann_goering_infrastructure }
+		x = -4
+		y = 5
+		relative_position_id = GER_wirtschaftswunder
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		
+		available = {
+
+		}
+		completion_reward = {
+					random_owned_controlled_state = {
+					prioritize = { 67 }
+					limit = {
+						free_building_slots = {
+							building = synthetic_refinery
+							size > 1
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = GER_industrial_effort_2IC
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1 
+					category = synth_resources
+				
+				}
+
+			}	
 	}
 	
 	focus = {
@@ -584,7 +1057,7 @@ bypass = {
 focus = {
     id = GER_strengthen_the_mittelstand
     icon = GFX_goal_generic_construction
-    prerequisite = { focus = GER_mass_privatization }
+    prerequisite = { focus = GER_unshackling_the_economy }
 	relative_position_id = GER_wirtschaftswunder
     x = 4
     y = 4
@@ -602,13 +1075,14 @@ focus = {
 }
 
 focus = {
-    id = GER_expand_military_sector
+    id = GER_the_steel_of_war
     icon = GFX_goal_generic_construction
 	prerequisite = { focus = GER_strengthen_the_mittelstand focus = GER_fund_krupp_military_manufacturing}
 	relative_position_id = GER_wirtschaftswunder
     x = 4
     y = 5
     cost = 10
+	mutually_exclusive = { focus = GER_die_deutsche_belegschaft }
     ai_will_do = {
         factor = 5
     }
@@ -654,10 +1128,11 @@ focus = {
 	}
 
 	focus = {
-		id = GER_strengthening_the_domestic_industry
+		id = GER_die_deutsche_belegschaft
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = GER_strengthen_the_mittelstand}
 		relative_position_id = GER_wirtschaftswunder
+		mutually_exclusive = { focus = GER_the_steel_of_war }
 		x = 6
 		y = 5
 		cost = 10
@@ -782,8 +1257,8 @@ focus = {
 	focus = {
 		id = GER_a_revitalised_reich
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = GER_the_industry_in_the_rhine focus = GER_black_gold }
-		prerequisite = { focus = GER_expand_military_sector focus = GER_strengthening_the_domestic_industry }
+		prerequisite = { focus = GER_the_industry_in_the_rhine focus = GER_lifeblood_of_the_reich }
+		prerequisite = { focus = GER_the_steel_of_war focus = GER_die_deutsche_belegschaft }
 		prerequisite = { focus = GER_peenmunde_army_research_center }
 		relative_position_id = GER_wirtschaftswunder
 		x = 0
@@ -791,12 +1266,1201 @@ focus = {
 		cost = 10
 		ai_will_do = {
 			factor = 5
-    }
-    completion_reward = {
+		}
+		completion_reward = {
+			remove_ideas = GER_a_problem
+		}
+	}
 
-					
-					}
-				}
+	focus = {
+		id = GER_the_iberian_gamble
+		x = 30
+		y = 5
+		icon = GFX_goal_generic_major_war
+		prerequisite = { }
+		cancel = {}
+		cost = 8
+		allow_branch = {
+			has_global_flag = { 
+				flag = spanish_civil_war
 			}
+		}
+		available = { 
+
+			}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+			set_rule = { 
+				can_send_volunteers = yes
+			}
+		}
+	}
+	focus = {
+		id = GER_send_our_wings
+		x = -1
+		y = 1
+		relative_position_id = GER_the_iberian_gamble 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_iberian_gamble }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_spanish_skybridge
+		x = 1
+		y = 1
+		relative_position_id = GER_the_iberian_gamble 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_iberian_gamble }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_iron_fist_over_iberia
+		x = -1
+		y = 2
+		relative_position_id = GER_the_iberian_gamble 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_spanish_skybridge  }
+		prerequisite = { focus = GER_send_our_wings  }
+		mutually_exclusive = { focus = GER_cautious_hand_of_aid }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_aid_for_destruction
+		x = -1
+		y = 1
+		relative_position_id = GER_iron_fist_over_iberia 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_iron_fist_over_iberia }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_pitiless_in_combat
+		x = -1
+		y = 2
+		relative_position_id = GER_iron_fist_over_iberia 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_aid_for_destruction }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+		}
+	}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_leave_them_in_ash_and_ruin
+		x = -1
+		y = 3
+		relative_position_id = GER_iron_fist_over_iberia 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_pitiless_in_combat }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+		}
+	}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_cautious_hand_of_aid
+		x = 1
+		y = 2
+		relative_position_id = GER_the_iberian_gamble 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_spanish_skybridge  }
+		prerequisite = { focus = GER_send_our_wings  }
+		mutually_exclusive = { focus = GER_iron_fist_over_iberia }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_aid_for_sympathy
+		x = 1
+		y = 1
+		relative_position_id = GER_cautious_hand_of_aid 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_cautious_hand_of_aid }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_precision_in_strategy
+		x = 1
+		y = 2
+		relative_position_id = GER_cautious_hand_of_aid 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_aid_for_sympathy }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_victory_through_discipline
+		x = 1
+		y = 3
+		relative_position_id = GER_cautious_hand_of_aid 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_precision_in_strategy }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_trial_by_fire
+		x = 0
+		y = 4
+		relative_position_id = GER_the_iberian_gamble 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_iron_fist_over_iberia focus = GER_cautious_hand_of_aid }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_lessons_from_the_battlefield
+		x = 0
+		y = 6
+		relative_position_id = GER_the_iberian_gamble 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_leave_them_in_ash_and_ruin focus = GER_victory_through_discipline }
+		prerequisite = { focus = GER_trial_by_fire }
+		cancel = {}
+		cost = 8
+
+		available = { 	}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_an_ally_on_the_horizon
+		x = 0
+		y = 7
+		relative_position_id = GER_the_iberian_gamble 
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_lessons_from_the_battlefield }
+		cancel = {}
+		cost = 8
+		available = { 	}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = GER_the_reichs_lost_glory
+		x = -21
+		y = 5
+		icon = GFX_goal_generic_major_war
+		prerequisite = { }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GER_rebuilding_the_iron_fist
+		x = 0
+		y = 1
+		relative_position_id = GER_the_reichs_lost_glory
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_reichs_lost_glory }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_aufrustung
+		x = -1
+		y = 1
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_rebuilding_the_iron_fist }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_envisioning_the_german_war_machine
+		x = -1
+		y = 2
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_aufrustung }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_backbone_of_the_heer
+		x = -2
+		y = 3
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_envisioning_the_german_war_machine }
+		mutually_exclusive = { focus = GER_betting_on_the_steel_behemoths }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_elite_infantry_units
+		x = -1
+		y = 4
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_backbone_of_the_heer }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_betting_on_the_steel_behemoths
+		x = -4
+		y = 3
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_envisioning_the_german_war_machine }
+		mutually_exclusive = { focus = GER_the_backbone_of_the_heer }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_a_legion_of_iron_and_steel
+		x = -5
+		y = 4
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_betting_on_the_steel_behemoths }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_aufstellungswelle
+		x = -3
+		y = 4
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_betting_on_the_steel_behemoths focus = GER_the_backbone_of_the_heer}
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_a_new_age_of_warfare
+		x = 1
+		y = 1
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_rebuilding_the_iron_fist }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_calls_for_new_doctrines
+		x = 0
+		y = 1
+		relative_position_id = GER_a_new_age_of_warfare
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_a_new_age_of_warfare }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_new_reichs_ideals
+		x = 1
+		y = 2
+		relative_position_id = GER_a_new_age_of_warfare
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_calls_for_new_doctrines }
+		cancel = {}
+		cost = 8
+		mutually_exclusive = { focus = GER_our_prussian_heritage }
+
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_mechanising_the_army
+		x = 0
+		y = 3
+		relative_position_id = GER_a_new_age_of_warfare
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_new_reichs_ideals }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_our_prussian_heritage
+		x = 3
+		y = 2
+		relative_position_id = GER_a_new_age_of_warfare
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_calls_for_new_doctrines }
+		cancel = {}
+		cost = 8
+		mutually_exclusive = { focus = GER_the_new_reichs_ideals }
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_war_won_from_afar
+		x = 4
+		y = 3
+		relative_position_id = GER_a_new_age_of_warfare
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_our_prussian_heritage }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_ahead_of_the_curve
+		x = 2
+		y = 3
+		relative_position_id = GER_a_new_age_of_warfare
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_our_prussian_heritage focus = GER_the_new_reichs_ideals }
+		cancel = {}
+		cost = 8
+		mutually_exclusive = { focus = GER_the_new_reichs_ideals }
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_shield_of_the_fatherland
+		x = 0
+		y = 5
+		relative_position_id = GER_rebuilding_the_iron_fist
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_aufstellungswelle }
+		prerequisite = { focus = GER_ahead_of_the_curve }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_grounded_eagle
+		x = -10
+		y = 1
+		relative_position_id = GER_the_reichs_lost_glory
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_reichs_lost_glory }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_dominance_in_our_skies
+		x = -1
+		y = 1
+		relative_position_id = GER_the_grounded_eagle
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_grounded_eagle }
+		cancel = {}
+		cost = 8
+		mutually_exclusive = { focus = GER_striking_from_the_shadows }
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_a_new_generation_of_aerial_knights
+		x = 0
+		y = 1
+		relative_position_id = GER_dominance_in_our_skies
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_dominance_in_our_skies }
+		cancel = {}
+		cost = 8
+		available = { 
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_defender_of_the_reichs_skies
+		x = -2
+		y = 2
+		relative_position_id = GER_dominance_in_our_skies
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_a_new_generation_of_aerial_knights }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_falcons_talon
+		x = 0
+		y = 2
+		relative_position_id = GER_dominance_in_our_skies
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_a_new_generation_of_aerial_knights }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_legacy_of_the_red_baron
+		x = -1
+		y = 3
+		relative_position_id = GER_dominance_in_our_skies
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_falcons_talon }
+		prerequisite = { focus = GER_defender_of_the_reichs_skies }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_striking_from_the_shadows
+		x = 1
+		y = 1
+		relative_position_id = GER_the_grounded_eagle
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_grounded_eagle }
+		cancel = {}
+		cost = 8
+		mutually_exclusive = { focus = GER_dominance_in_our_skies }
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_hammer_to_fall
+		x = 0
+		y = 1
+		relative_position_id = GER_striking_from_the_shadows
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_striking_from_the_shadows }
+		cancel = {}
+		cost = 8
+		available = { 
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_eagles_wrath
+		x = 2
+		y = 2
+		relative_position_id = GER_striking_from_the_shadows
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_hammer_to_fall }
+		cancel = {}
+		cost = 8
+		available = { 
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_wings_beyond_the_horizon
+		x = 0
+		y = 2
+		relative_position_id = GER_striking_from_the_shadows
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_hammer_to_fall }
+		cancel = {}
+		cost = 8
+		available = { 
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_like_a_thief_in_the_night
+		x = 1
+		y = 3
+		relative_position_id = GER_striking_from_the_shadows
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_eagles_wrath }
+		prerequisite = { focus = GER_wings_beyond_the_horizon }
+		cancel = {}
+		cost = 8
+		available = { 
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_germanys_guardian_angel
+		x = 0
+		y = 5
+		relative_position_id = GER_the_grounded_eagle
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_legacy_of_the_red_baron  focus = GER_like_a_thief_in_the_night  }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_rising_tide
+		x = 10
+		y = 1
+		relative_position_id = GER_the_reichs_lost_glory
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_reichs_lost_glory }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_unterseeflotte
+		x = -1
+		y = 1
+		relative_position_id = GER_the_rising_tide
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_rising_tide }
+		mutually_exclusive = { focus = GER_the_pride_of_kriegsmarine }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_wolves_of_the_atlantic
+		x = 0
+		y = 1
+		relative_position_id = GER_unterseeflotte
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_unterseeflotte }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_no_mercy_at_sea
+		x = -2
+		y = 1
+		relative_position_id = GER_wolves_of_the_atlantic
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_wolves_of_the_atlantic }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_silent_hunters
+		x = 0
+		y = 1
+		relative_position_id = GER_wolves_of_the_atlantic
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_wolves_of_the_atlantic }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_terrors_of_the_deep
+		x = -1
+		y = 2
+		relative_position_id = GER_wolves_of_the_atlantic
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_silent_hunters }
+		prerequisite = { focus = GER_no_mercy_at_sea }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_pride_of_kriegsmarine
+		x = 1
+		y = 1
+		relative_position_id = GER_the_rising_tide
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_rising_tide }
+		cancel = {}
+		cost = 8
+		mutually_exclusive = { focus = GER_unterseeflotte }
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_fortresses_of_the_sea
+		x = 0
+		y = 1
+		relative_position_id = GER_the_pride_of_kriegsmarine
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_the_pride_of_kriegsmarine }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_carrier_doctrine
+		x = 0
+		y = 2
+		relative_position_id = GER_the_pride_of_kriegsmarine
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_fortresses_of_the_sea }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_panzerschiffe
+		x = 2
+		y = 2
+		relative_position_id = GER_the_pride_of_kriegsmarine
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_fortresses_of_the_sea }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_fleet_of_a_thousand_year_reich
+		x = 1
+		y = 3
+		relative_position_id = GER_the_pride_of_kriegsmarine
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_panzerschiffe }
+		prerequisite = { focus = GER_the_carrier_doctrine }
+		cancel = {}
+		cost = 8
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_brittanias_nightmare
+		x = 0
+		y = 5
+		relative_position_id = GER_the_rising_tide
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_terrors_of_the_deep  focus = GER_the_fleet_of_a_thousand_year_reich  }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_formation_of_the_OKW
+		x = 0
+		y = 7
+		relative_position_id = GER_the_reichs_lost_glory
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_brittanias_nightmare }
+		prerequisite = { focus = GER_the_shield_of_the_fatherland }
+		prerequisite = { focus = GER_germanys_guardian_angel }
+		cancel = {}
+		cost = 8
+
+		available = { 
+
+		}
+		ai_will_do = {
+			base = 5
+			modifier = {
+			}
+		}
+		completion_reward = {
+		}
+	}
+}
 			
 	

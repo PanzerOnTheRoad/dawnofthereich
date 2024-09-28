@@ -33,6 +33,18 @@ HOL = {	color = rgb { 168 133 104}
 CZE = {	color = rgb { 80 128 121 }
 		color_ui = rgb { 80 128 121 }
 }
+MCW = {
+	color = rgb { 118 124 94 }
+	color_ui = rgb { 118 124 94 }
+}
+OST = {
+	color = rgb { 102 100 86 }
+	color_ui = rgb { 102 100 86 }
+}
+UKR = {
+	color = rgb { 88 94 101 }
+	color_ui = rgb { 88 94 101 }
+}
 POL = {
 	color = rgb {180 105 140}
 	color_ui = rgb {180 105 140}
@@ -61,14 +73,7 @@ ITA = {
 	color = rgb { 109 142 96 }
 	color_ui = rgb { 109 142 96 }
 }
-MCW = {
-	color = rgb { 118 124 94 }
-	color_ui = rgb { 118 124 94 }
-}
-OST = {
-	color = rgb { 102 100 86 }
-	color_ui = rgb { 102 100 86 }
-}
+
 ROM = {
 	color = rgb { 231 223 162 }
 	color_ui = rgb { 231 223 162 }
