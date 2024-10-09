@@ -4,6 +4,10 @@ spriteTypes = {
 		name = "GFX_report_event_GER_adolf_hitler_intro"
 		texturefile = "gfx/event_pictures/report_event_GER_adolf_hitler_intro.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_SPA_franco_clique"
+		texturefile = "gfx/event_pictures/Europe/Spain/report_event_SPA_franco_clique.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_news_event_rhineland_remilitarisation"

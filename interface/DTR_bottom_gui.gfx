@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_SPR_elections_crt_icon"
+		texturefile = "gfx/interface/bottom_gui/SPR_elections_crt_icon.dds"
+		noOfFrames = 2
+	}
+}

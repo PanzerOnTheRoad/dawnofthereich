@@ -1,0 +1,17 @@
+scripted_gui = { 
+
+	DTR_Spain_SPR_elections_open = {
+		context_type = player_context
+		parent_window_token = DTR_Spain_elections_GUIs_open
+		window_name = "DTR_SPR_elections_GUI"
+		
+		visible = {
+			has_country_flag = SPR_elections_GUI_open_flag
+		}
+		effects = {
+			close_button2_click = {
+			clr_country_flag = SPR_elections_GUI_open_flag
+			}
+		}
+	}
+}

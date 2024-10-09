@@ -1,4 +1,5 @@
 focus_tree = {
+id = SPR_elections
     country = {
         factor = 0
         modifier = {
@@ -22,7 +23,7 @@ initial_show_position = {
 		icon = GFX_goal_generic_major_war
 		x = 8
 		y = 0
-        cost = 2
+        cost = 1
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -34,7 +35,7 @@ initial_show_position = {
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1
-        cost = 3
+        cost = 1
 
 		prerequisite = { focus = SPR_a_crumbling_republic }
 		relative_position_id = SPR_a_crumbling_republic
@@ -44,13 +45,16 @@ initial_show_position = {
 			modifier = {
 			}
 		}
+		completion_reward = {
+			set_country_flag = SPR_elections_active
+		}
     }
     focus = {
         id = SPR_secure_lines_of_communication
 		icon = GFX_goal_generic_major_war
 		x = -2
 		y = 2
-        cost = 1
+        cost = 2
 
 		prerequisite = { focus = SPR_the_1936_campaigns }
 		relative_position_id = SPR_a_crumbling_republic
@@ -66,7 +70,7 @@ initial_show_position = {
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 2
-        cost = 1
+        cost = 2
 
 		prerequisite = { focus = SPR_the_1936_campaigns }
 		relative_position_id = SPR_a_crumbling_republic
@@ -82,7 +86,7 @@ initial_show_position = {
 		icon = GFX_goal_generic_major_war
 		x = 2
 		y = 2
-        cost = 1
+        cost = 2
 
 		prerequisite = { focus = SPR_the_1936_campaigns }
 		relative_position_id = SPR_a_crumbling_republic
@@ -117,13 +121,21 @@ initial_show_position = {
 			}
 		}
     }
+}
+focus_tree = {
+id = SPR_nationalist_plot
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = SPR
+        }
+    }
     focus = {
         id = SPR_fleeting_triumph
 		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 4
-		prerequisite = { focus = SPR_chaos_over_the_ballot }
-		relative_position_id = SPR_a_crumbling_republic
+		x = 5
+		y = 0
         cost = 4
 		ai_will_do = {
 			factor = 10
@@ -136,10 +148,10 @@ initial_show_position = {
         id = SPR_preparing_the_inevitable
 		icon = GFX_goal_generic_major_war
 		x = 0
-		y = 5
+		y = 1
         cost = 3
 		prerequisite = { focus = SPR_fleeting_triumph }
-		relative_position_id = SPR_a_crumbling_republic
+		relative_position_id = SPR_fleeting_triumph
         cost
 
 		ai_will_do = {
@@ -152,9 +164,9 @@ initial_show_position = {
         id = SPR_gathering_of_the_generals
 		icon = GFX_goal_generic_major_war
 		x = -2
-		y = 6
+		y = 2
 		prerequisite = { focus = SPR_preparing_the_inevitable }
-		relative_position_id = SPR_a_crumbling_republic
+		relative_position_id = SPR_fleeting_triumph
         cost = 2
 
 		ai_will_do = {
@@ -173,9 +185,9 @@ initial_show_position = {
         id = SPR_take_to_the_streets
 		icon = GFX_goal_generic_major_war
 		x = 0
-		y = 6
+		y = 2
 		prerequisite = { focus = SPR_preparing_the_inevitable }
-		relative_position_id = SPR_a_crumbling_republic
+		relative_position_id = SPR_fleeting_triumph
         cost = 2
 
 		ai_will_do = {
@@ -188,9 +200,9 @@ initial_show_position = {
         id = SPR_a_network_of_dissenters
 		icon = GFX_goal_generic_major_war
 		x = 2
-		y = 6
+		y = 2
 		prerequisite = { focus = SPR_preparing_the_inevitable }
-		relative_position_id = SPR_a_crumbling_republic
+		relative_position_id = SPR_fleeting_triumph
         cost = 2
 
 		ai_will_do = {
@@ -203,7 +215,7 @@ initial_show_position = {
         id = SPR_the_final_fragment
 		icon = GFX_goal_generic_major_war
 		x = 0
-		y = 7
+		y = 3
 		prerequisite = { focus = SPR_a_network_of_dissenters }
 		prerequisite = { focus = SPR_gathering_of_the_generals }
 		prerequisite = { focus = SPR_take_to_the_streets }

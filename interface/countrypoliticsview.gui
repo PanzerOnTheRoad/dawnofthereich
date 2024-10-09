@@ -180,7 +180,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 357 y = 305= }	
+			position = { x = 357 y = 305 }	
 			size = { width=400 height=400 }
 			clipping = no
 
@@ -597,7 +597,7 @@ guiTypes = {
 		iconType = {
 			name = "rules"
 			spriteType = "GFX_rules_sum_icon"
-			position = position = { x = -100 y = 5 }
+			position = { x = -100 y = 5 }
 		}
 
 		buttonType = {
@@ -790,15 +790,6 @@ guiTypes = {
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
 					slotsize = { width = 462 height = 148 }
-					add_horizontal = no
-					format = "UPPER_LEFT"
-				}
-
-				gridBoxType = {
-					name = "box_list"
-					position = { x = 10 y = 10 }
-					size = { width = 500 height = 1 }
-					slotsize = { width = 462 height = 74 }
 					add_horizontal = no
 					format = "UPPER_LEFT"
 				}

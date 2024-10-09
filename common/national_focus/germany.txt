@@ -1281,9 +1281,7 @@ focus = {
 		cancel = {}
 		cost = 8
 		allow_branch = {
-			has_global_flag = { 
-				flag = spanish_civil_war
-			}
+			has_global_flag = flag = spanish_civil_war
 		}
 		available = { 
 

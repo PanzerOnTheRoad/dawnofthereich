@@ -1,0 +1,33 @@
+scripted_gui = {
+
+	bottom_gui = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "bottom_gui"
+		
+		visible = {
+				OR = {
+					limit = { tag = SPR }
+					has_country_flag = SPR_elections_active
+				}
+		}	
+		triggers = {
+			SPR_elections_crt_icon_visible = {
+				original_tag = SPR
+				has_country_flag = SPR_elections_active
+			}
+		}
+		
+		effects = { 
+			SPR_elections_crt_icon_click = {
+				if = {
+					limit = { NOT = { has_country_flag = SPR_elections_GUI_open_flag } }
+					set_country_flag = SPR_elections_GUI_open_flag
+				}
+				else_if = {
+					limit = { has_country_flag = SPR_elections_GUI_open_flag }
+				}
+			}		
+		}
+	}
+}

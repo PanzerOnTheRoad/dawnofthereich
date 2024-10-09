@@ -54,6 +54,10 @@ country_event = {
 			set_politics = {
 				ruling_party = progressivism
 			}
+			hidden_effect = {
+				load_focus_tree = SPR_nationalist_plot
+				complete_national_focus	= SPR_fleeting_triumph	
+			}
 		}
 }
 country_event = {
@@ -61,6 +65,7 @@ country_event = {
 	title = SPR_republic.3.t
 	desc = SPR_republic.3.desc
 	is_triggered_only = yes
+	picture = GFX_report_event_SPA_franco_clique
 
 	option = {
 		name = SPR_republic.3.a

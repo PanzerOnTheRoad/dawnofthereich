@@ -1,0 +1,29 @@
+guiTypes = {
+	containerWindowType = {
+		name = "DTR_SPR_elections_GUI"
+		size = { width = 1000 height = 850 }
+		position = { x = 538 y = 77 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_no_border"
+		}		
+		buttonType = {
+			name = "close_button2"
+			position = { x = -31 y = 16 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}		
+		iconType = {
+			name = "SPR_election_countdown_bar"
+			spriteType = "GFX_loadingstatus_progress"
+			position = { x = 32 y = 80 }
+		}
+	}
+
+}
