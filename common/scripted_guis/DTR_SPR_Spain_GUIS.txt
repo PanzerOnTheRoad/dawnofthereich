@@ -13,5 +13,10 @@ scripted_gui = {
 			clr_country_flag = SPR_elections_GUI_open_flag
 			}
 		}
+		properties = {
+			SPR_election_countdown_bar = {
+				frame = SPR_election_countdown_var
+			}
+		}
 	}
 }

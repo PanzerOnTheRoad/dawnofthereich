@@ -8,7 +8,10 @@ spriteTypes = {
 		name = "GFX_report_event_SPA_franco_clique"
 		texturefile = "gfx/event_pictures/Europe/Spain/report_event_SPA_franco_clique.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_report_event_SPR_riot"
+		texturefile = "gfx/event_pictures/Europe/Spain/report_event_SPR_riot.dds"
+	}	
 	spriteType = {
 		name = "GFX_news_event_rhineland_remilitarisation"
 		texturefile = "gfx/event_pictures/news_event_rhineland_remilitarisation.dds"

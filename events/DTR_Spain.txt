@@ -71,3 +71,16 @@ country_event = {
 		name = SPR_republic.3.a
 		}
 }
+
+country_event = {
+	id = SPR_republic.4
+	title = SPR_republic.4.t
+	desc = SPR_republic.4.desc
+	is_triggered_only = yes
+	picture = GFX_report_event_SPR_riot
+
+	option = {
+		name = SPR_republic.4.a
+		add_stability = -0.05
+		}
+}

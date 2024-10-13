@@ -7,4 +7,31 @@ on_actions = {
             }
         }
     }
+    on_daily_SPR = { 
+        effect = {
+            if = {
+                limit = {
+                    has_country_flag = SPR_elections_active
+                }
+                add_to_variable = { 
+                    var = SPR.SPR_election_countdown_var
+                    value = 1
+                }
+            }
+			if = {
+				limit = {
+					check_variable = {
+						var = SPR_election_countdown_var
+						value = 35
+						compare = greater_than_or_equals
+					}
+                    has_variable = SPR_election_countdown_var
+				}
+				set_country_flag = SPR_elections_ended
+				clr_country_flag = SPR_elections_active
+				clear_variable	= SPR_election_countdown_var
+			}
+        }
+    }
 }   
+

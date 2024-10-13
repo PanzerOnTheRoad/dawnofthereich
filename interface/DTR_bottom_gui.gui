@@ -16,6 +16,7 @@ guiTypes = {
 			position = { x = 48 y = 48 }
 			centerposition = yes
 		}	
+
 	}
 	
 }

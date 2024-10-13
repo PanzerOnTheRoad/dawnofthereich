@@ -1,0 +1,15 @@
+bitmapfonts = {
+
+    bitmapfont = {
+        name = "Oswald_36"
+        fontfiles = {
+            "gfx/fonts/Oswald_32"
+        }
+        color = 0xffffffff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+
+}

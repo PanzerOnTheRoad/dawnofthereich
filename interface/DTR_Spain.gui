@@ -21,7 +21,7 @@ guiTypes = {
 		}		
 		iconType = {
 			name = "SPR_election_countdown_bar"
-			spriteType = "GFX_loadingstatus_progress"
+			spriteType = "GFX_progressbar_grey1"
 			position = { x = 32 y = 80 }
 		}
 	}

@@ -17,7 +17,6 @@ ideologies = {
 		types = {
 			national_socialism_subtype = {}
 			national_socialism_burgundian_system_subtype = {can_be_randomly_selected = no }
-			national_socialism_burgundian_system_subtype = {can_be_randomly_selected = no }
 			national_socialism_clerical_fascism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
@@ -27,16 +26,6 @@ ideologies = {
 		rules = {}
 		can_collaborate = yes
 		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_cost_factor = 1
-			lend_lease_tension = 0.50
-			fascism_acceptance = 75
-			#disabled_ideas = 1
 		}
 		ai_neutral = yes
 		ai_ideology_wanted_units_factor = 1.65
