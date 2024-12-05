@@ -44,7 +44,11 @@ characters={
 			name=SPR_jose_diaz
 			portraits={
 				civilian={
+<<<<<<< Updated upstream
 					large=GFX_portrait_SPR_jose_diaz
+=======
+					large="gfx/leaders/PCE/portrait_PCE_jose_diaz.dds"
+>>>>>>> Stashed changes
 				}
 			}
 			country_leader={
@@ -61,7 +65,11 @@ characters={
 			name=SPR_jose_diaz
 			portraits={
 				civilian={
+<<<<<<< Updated upstream
 					large=GFX_portrait_SPR_jose_diaz
+=======
+					large="gfx/leaders/PCE/portrait_PCE_jose_diaz.dds"
+>>>>>>> Stashed changes
 				}
 			}
 			country_leader={
@@ -85,6 +93,22 @@ characters={
 			id=1100
 		}
 	}
+<<<<<<< Updated upstream
+=======
+	SPP_andreu_nin={
+		name=SPR_andreu_nin
+		portraits={
+			civilian={
+				large="gfx/leaders/SPP/Portrait_SPP_Andreu_Nin.dds"
+			}
+		}
+		country_leader={
+			ideology=communism_1
+			expire="1965.1.1.1"
+			id=1100
+		}
+	}
+>>>>>>> Stashed changes
 
 	SPA_jose_antonio_primo_de_rivera={
 		name=SPA_jose_antonio_primo_de_rivera
@@ -117,7 +141,11 @@ characters={
 		name=SPR_manuel_fal_conde
 		portraits={
 			civilian={
+<<<<<<< Updated upstream
 				large="GFX_portrait_SPA_manuel_fal_conde"
+=======
+				large="GFX/leaders/SPT/Portrait_SPT_manuel_fal_conde.dds"
+>>>>>>> Stashed changes
 			}
 		}
 		country_leader={
@@ -127,6 +155,50 @@ characters={
 			id=-1
 		}
 	}
+<<<<<<< Updated upstream
+=======
+	CNT_buenaventura_durruti={
+		name=SPR_buenaventura_durruti
+		portraits={
+			civilian={
+				large="GFX/leaders/CNT/Portrait_CNT_buenaventura_durruti.dds"
+			}
+		}
+		country_leader={
+			ideology=socialist_1_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	BSQ_jose_antonio_aguirre={
+		name=SPR_jose_antonio_aguirre
+		portraits={
+			civilian={
+				large="GFX/leaders/BSQ/Portrait_BSQ_jose_antonio_aguirre.dds"
+			}
+		}
+		country_leader={
+			ideology=liberal_conservatism_christian_democracy_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ALF_antonio_goicoechea={
+		name=SPR_antonio_goicoechea
+		portraits={
+			civilian={
+				large="GFX/leaders/ALF/Portrait_Spain_Antonio_Goicoechea.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalism_semi_constitutional_monarchy_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+>>>>>>> Stashed changes
 
 	SPR_manuel_azana = {
 

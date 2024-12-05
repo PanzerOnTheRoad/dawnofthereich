@@ -1,9 +1,7 @@
 ideas = {
 
 country = {
-    GER_wirtschaftwunder = {
-        picture =
-        
+    GER_wirtschaftwunder = {        
         allowed = { 
             tag = GER
         }
@@ -33,7 +31,6 @@ country = {
 
 country = {
     GER_an_autarkic_industry = {
-        picture = 
         
         allowed = {
             tag = GER
@@ -62,7 +59,6 @@ country = {
 
 country = {
  GER_reaching_out_to_corporate_giants = {
-        picture = 
         allowed = { 
             tag = GER
         }
@@ -113,7 +109,6 @@ country = {
 
 country = {
     GER_volksgemeinschaft = {
-        picture = 
         
         allowed = {
             tag = GER
@@ -141,7 +136,6 @@ country = {
 	
 country = {
     GER_collaboration_with_ig_farben = {
-        picture = 
         
         allowed = {
             tag = GER
@@ -169,7 +163,6 @@ country = {
 	
 country = {
     GER_the_mittelstand = {
-        picture = 
         
         allowed = {
             tag = GER
@@ -222,7 +215,6 @@ country = {
 }
 country = {
     GER_a_problem = {
-        picture =
         allowed = { 
             tag = GER
         }
@@ -245,7 +237,6 @@ country = {
 }
 country = {	
     GER_a_solution = {
-        picture = 
         allowed = { 
             tag = GER
         }
